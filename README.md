@@ -14,7 +14,7 @@
 
 - [Security](#security)
 - [Background](#background)
-- [Prerequisites](#deployment-prerequisites)
+- [Prerequisites](#prerequisites)
 - [Install](#install)
 - [Deploy](#deploy)
 - [Add Translations](#add-translations)
@@ -37,7 +37,9 @@ With this update, we're also now condensed back into a single repo (no more need
 
 **App Flow:** In short, Express receives a request, parses any incoming query strings, and renders the React app. Once the React app is rendered client-side, the browser takes over handling queries, navigation, etc (except stuff that explicitly requires a new server response).
 
-## Deploy Prerequisites
+## Prerequisites
+
+**FontAwesome 5:** We use FontAwesome 5 Pro for many of our standard icons (social media, forms, etc). You may encounter build & npm/yarn issues if you don't have FontAwesome 5 Pro. If you have FA5 Pro, you should ensure @fortawesome's scope is configured to use the FA5 Pro NPM registry (either via .npmrc or global npm config). Full details and docs on the [FontAwesome Website](https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers#installing-pro).
 
 **EB CLI:** You will need to have the AWS EB CLI installed in order to deploy. The EB CLI requires Python and `pip`. If you already have `pip` and Python is added to your path, installing the CLI is as simple as:
 ```shell
