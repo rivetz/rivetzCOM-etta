@@ -17,6 +17,7 @@
 - [Prerequisites](#prerequisites)
 - [Install](#install)
 - [Deploy](#deploy)
+- [Community](#community)
 - [Maintainers](#maintainers)
 - [Contributing](#contributing)
 - [License](#license)
@@ -73,12 +74,12 @@ eb deploy
 ```
 This zips core project files, uploads to S3, then attempts to deploy onto the live EB application. After upload, you can access this and previous deploys via the AWS Web Portal > EB > Applications > rivetzCOM > Application Versions or via the AWS CLI.
 
-## Contributing
-Tracking is handled internally via Zenhub, but community members are welcome to submit PR's to this repo for consideration.
-
+## Community
 **Discord**: [https://discord.gg/VNrDBUV](https://discord.gg/VNrDBUV)
 
 **Telegram**: [https://t.me/rivetz_official](https://t.me/rivetz_official)
+
+You can also learn more about how to get involved at [rivetz.com/community](https://rivetz.com/community)
 
 ## Maintainers
 
@@ -88,7 +89,7 @@ Tracking is handled internally via Zenhub, but community members are welcome to 
 
 See [package.json](package.json)!
 
-PRs accepted.
+**PRs accepted.** Tracking is handled internally via Zenhub, but community members are welcome to submit PR's to this repo for consideration.
 
 Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
