@@ -1,0 +1,17 @@
+{
+  "hero": {
+    "announce": "Rivetz",
+    "header": "Contact Us",
+    "details": "Our team is always happy to answer your questions! Get in touch and let us know how we can help!",
+    "general": "General Communication",
+    "general-details": "For any general inquiries, including partnership opportunities, please email ",
+    "technical": "Technical or Product Support",
+    "technical-details": "Running into issues? Let us help! Email "
+  },
+  "types": [
+    "Product",
+    "Engineering",
+    "Business Development",
+    "Board & Advisors"
+  ]
+}

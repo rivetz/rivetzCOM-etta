@@ -1,0 +1,194 @@
+[
+  {
+    "firstName": "Steven",
+    "lastName": "Sprague",
+    "title": "CEO, Cofounder",
+    "bio": "Steven is one of the principal industry evangelists for the application of trusted computing technology. Steven served as President and CEO of Wave Systems Corp. for 14 years before transitioning to the board of directors. A popular speaker on cybersecurity and trusted computing, Steven has a strong technical foundation in the principles, capabilities, and business models of incorporating trusted hardware into everyday computing – and is skilled at translating these concepts into layman’s terms.",
+    "tags": [
+      "leadership",
+      "advisor"
+    ],
+    "social": [
+      {
+        "n": "twitter",
+        "url": "https://twitter.com/skswave"
+      },
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/stevensprague/"
+      }
+    ]
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Sprague",
+    "title": "CTO, Cofounder",
+    "bio": "Michael is an original web veteran. He developed and directed products spanning digital micro-transactions and trusted execution networks in the nineties, interactive TV and network video distribution in the aughts, and device identity and social media privacy more recently. Michael’s career began as a developer and architect for a small but prestigious consulting firm that was contracted to redefine the global banking system for such clients as JP Morgan, Citibank, and Fidelity.",
+    "tags": [
+      "leadership",
+      "advisor"
+    ],
+    "social": [
+      {
+        "n": "twitter",
+        "url": "https://twitter.com/emsper"
+      },
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/msprague/"
+      }
+    ]
+  },
+  {
+    "firstName": "Bradley",
+    "lastName": "Rotter",
+    "title": "Vice Chair",
+    "bio": "Bradley is a visionary investor who has pioneered investment in many new alternative investments classes, beginning with hedge funds in 1982 while speculating on the Chicago Mercantile Exchange. He traded government bonds for EF Hutton on Wall Street before returning to Chicago to the Board of Trade.",
+    "tags": [
+      "leadership",
+      "advisor"
+    ],
+    "social": [
+      {
+        "n": "twitter",
+        "url": "https://twitter.com/brotter"
+      },
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/brotter/"
+      }
+    ]
+  },
+  {
+    "firstName": "George",
+    "lastName": "Gilder",
+    "title": "Board Member",
+    "bio": "George is the author of 15 books: <em>Knowledge & Power: The Information Theory of Capitalism</em> (Regnery 2013); <em>Men & Marriage; Wealth & Poverty</em> (new edition Regnery 2012); <em>The Spirit of Enterprise and Recapturing the Spirit of Enterprise</em> (Micron Technology history). Most recent are technology histories and prophecies: <em>Life After Television</em>, <em>Microcosm, Telecosm</em>, <em>The Silicon Eye</em>, and <em>The Israel Test</em> (reissued with foreword by Joe Lieberman, Encounter, 2012). Microcosm and Telecosm were both listed among the era’s top 10 technology books by VentureBeat in 2012 and Microcosm was ranked among the top two technology books by Wired. <em>Knowledge and Power</em> was honored as the libertarian \"book of the year\" by FreedomFest 2013.",
+    "social": [
+      {
+        "n": "twitter",
+        "url": "https://twitter.com/ScandalOfMoney"
+      },
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/george-gilder-5832b27/"
+      }
+    ],
+    "tags": [
+      "leadership",
+      "advisor"
+    ]
+  },
+  {
+    "firstName": "Joe",
+    "lastName": "Trippi",
+    "title": "Board Member",
+    "bio": "Heralded on the cover of The New Republic as the man who \"reinvented campaigning,\" Joe has been at the forefront of movement politics for nearly 30 years. Joe began his political career working on Edward M. Kennedy’s presidential campaign in 1980 and has worked on numerous presidential, gubernatorial, senate, and congressional campaigns ever since.",
+    "social": [
+      {
+        "n": "twitter",
+        "url": "https://twitter.com/JoeTrippi"
+      },
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/joe-trippi-097a571/"
+      }
+    ],
+    "tags": [
+      "leadership",
+      "advisor"
+    ]
+  },
+  {
+    "firstName": "Matthew",
+    "lastName": "Roszak",
+    "title": "Advisor",
+    "bio": "Matthew is co-founder and chairman of Bloq, a blockchain enterprise software company. He’s also a founding partner of Tally Capital, a private investment ﬁrm focused on blockchain-enabled technology with a portfolio of more than 20 investments, including BitFury, Blockstream and Factom. He spent more than 20 years in private equity and venture capital with Advent International, Keystone Capital Partners, Platinum Venture Partners, and SilkRoad Equity, and has invested more than $1 billion of capital (from start-up to IPO) in a broad range of industries. Matthew is a director and beneﬁcial owner of Eboost, MissionMode, Neu Entity, Onramp, SolidSpace, and TrueLook.",
+    "social": [
+      {
+        "n": "twitter",
+        "url": "https://twitter.com/MatthewRoszak"
+      },
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/matthewroszak/"
+      }
+    ],
+    "tags": [
+      "advisor"
+    ]
+  },
+  {
+    "firstName": "David A.",
+    "lastName": "Johnston",
+    "title": "Advisor",
+    "bio": "Chairman of Factom Inc., David is an early blockchain adopter, advocate for decentralized applications and technologist.<br /><br />",
+    "social": [
+      {
+        "n": "twitter",
+        "url": "https://twitter.com/DJohnstonEC"
+      },
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/davidajohnston/"
+      }
+    ],
+    "tags": [
+      "advisor"
+    ]
+  },
+  {
+    "firstName": "Ari",
+    "lastName": "Singer",
+    "title": "Advisor",
+    "bio": "Ari is co-founder and CTO of TrustiPhi LLC, where he leads technical strategy and solution delivery for enabling hardware-based security in next-generation devices. He is a former VP of Trusted Computing at Digital Management Inc. and at NTRU Cryptosystems, where he was integral to helping to define the U.S. Department of Defense’s Trusted Computing technical strategy and enabling industry leaders to deploy Trusted Computing technologies. Ari has frequently served in leadership roles in standards organization, including as chairman of the Trusted Computing Group (TCG) Trusted Platform Module (TPM) and TPM Software Stack (TSS) working groups; as chairman of the IEEE P1363 working group for public key cryptography; and as security editor for IEEE 802.15.3, IEEE 802.15.4 and Efficient Embedded Security Standard (EESS) #1. Ari holds five U.S. issued patents.",
+    "social": [
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/ari-singer-bb21206/"
+      }
+    ],
+    "tags": [
+      "advisor"
+    ]
+  },
+  {
+    "firstName": "Greg",
+    "lastName": "Kazmierczak",
+    "title": "Advisor",
+    "bio": "Greg participated heavily in standards organizations for more than 20 years. He was a member of the Board of Directors and the technical oversight committee in the Trusted Computing Group (TCG) and directly participated as an author, editor or contributor to more than 60 publications and specifications by TCG, IETF, OASIS, IEEE, and NIST. His primary contributions have been on standards relating to platform trust services, attestation, and key management with a special focus on hardware-enforced isolated execution environments such as Trusted Platform Modules, Trusted Execution Environments, and Self-Encrypting Drives. Greg also has contributed to numerous government-industry initiatives and committees, has been a spokesman for the Trusted Computing industry, and serves as a frequent speaker and expert panel member at conferences and industry events such as RSA, Cybersecurity Information Forum, and Trusted Computing Conference.",
+    "social": [
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/gkazmierczak/"
+      }
+    ],
+    "tags": [
+      "advisor"
+    ]
+  },
+  {
+    "firstName": "Andy",
+    "lastName": "Tarbox",
+    "title": "Advisor",
+    "bio": "Andrew is CEO of Thornebrook, LLC and brings more than 30 years of experience in the identity and smart card industry working with financial services, telecommunications, and government sectors. His cross-sector expertise and experience is particularly valuable to pragmatic approaches to large identity and payment deployments to consumers, business and government users. Currently he is leading the transformation of Identity and Access Control systems of a major hospital network with over 12,000 employees and over 1 million patients. He has supported the efforts of a number of companies including IDW, Wave, PRIVO, and TSCP as they worked with the NSTIC program office, a White House initiative to improve Internet privacy and security.",
+    "social": [
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/andrewtarbox/"
+      }
+    ],
+    "tags": [
+      "advisor"
+    ]
+  },
+  {
+    "firstName": "Parity",
+    "lastName": "Technologies",
+    "title": "Advisor",
+    "bio": "Founded by Gavin Wood, founder and former CTO of Ethereum, Parity Technologies is a VC-funded enterprise dedicated to trust-free technology. Its flagship product, Parity Ethereum, is the world’s fastest Ethereum client that integrates directly into your browser.",
+    "tags": [
+      "advisor"
+    ]
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "firstName": "Steven",
+    "lastName": "Sprague",
+    "title": "CEO, Cofounder",
+    "bio": "Steven is one of the principal industry evangelists for the application of trusted computing technology. Steven served as President and CEO of Wave Systems Corp. for 14 years before transitioning to the board of directors. A popular speaker on cybersecurity and trusted computing, Steven has a strong technical foundation in the principles, capabilities, and business models of incorporating trusted hardware into everyday computing – and is skilled at translating these concepts into layman’s terms.",
+    "tags": [
+      "leadership",
+      "advisor"
+    ],
+    "social": [
+      {
+        "n": "twitter",
+        "url": "https://twitter.com/skswave"
+      },
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/stevensprague/"
+      }
+    ]
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Sprague",
+    "title": "CTO, Cofounder",
+    "bio": "Michael is an original web veteran. He developed and directed products spanning digital micro-transactions and trusted execution networks in the nineties, interactive TV and network video distribution in the aughts, and device identity and social media privacy more recently. Michael’s career began as a developer and architect for a small but prestigious consulting firm that was contracted to redefine the global banking system for such clients as JP Morgan, Citibank, and Fidelity.",
+    "tags": [
+      "leadership",
+      "advisor"
+    ],
+    "social": [
+      {
+        "n": "twitter",
+        "url": "https://twitter.com/emsper"
+      },
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/msprague/"
+      }
+    ]
+  },
+  {
+    "firstName": "Gerard T.",
+    "lastName": "Feeney",
+    "title": "CFO & EVP",
+    "bio": "Jerry brings extensive experience in financial management, executive leadership and multi-national acquisitions and has raised more than $500 million in capital. Prior to Rivetz, Jerry served as CFO, SVP & Corporate Secretary of Wave Systems Corp., a publicly traded cybersecurity software company. Previously, he led Xionics through a successful IPO as CFO and VP of Finance & Operations. He began his career with Analog Devices, and earned a bachelor’s degree from Boston College with a triple major in Accounting, Computer Science and Operations Management.",
+    "tags": [
+      "leadership"
+    ]
+  },
+  {
+    "firstName": "Len",
+    "lastName": "Veil",
+    "title": "EVP, Technology & Alliances",
+    "bio": "Len is an entrepreneur in the fintech and trusted computing markets. After nearly a decade designing supercomputers, Len managed complex system development at Microsoft, and mixed signal chip design at Fujitsu. In 1996, emboldened with a passion for consumer cybersecurity, Len co-founded N*Able Technologies, and deployed embedded security systems with PC OEMs. After his company was acquired by Wave Systems Corp., Len led the effort to develop the Embassy Trust System and developed one of the industry’s first implementations of the Trusted Platform Module. A technical contributor to the Trusted Computing Group set of specifications, Len enjoys applying his systems architecture and business development skills in growing companies.",
+    "tags": [
+      "busdev",
+      "leadership"
+    ],
+    "social": [
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/lenveil/"
+      }
+    ]
+  },
+  {
+    "firstName": "Diana",
+    "lastName": "Meacham",
+    "title": "VP of Sales & Business Development",
+    "bio": "Diana brings to Rivetz more than 30 years of experience in Global Sales, Sales Management, Strategic Alliances & Channel Management and Business Development. Diana has a strong foundation to develop the sales strategy, associated business plans and deliver results enabling relationships and revenue from enterprise markets through small to medium business markets. Her background includes expertise in unified communications & collaboration, cyber security, enterprise IT services, SaaS and cloud delivery models. Diana has served in top sales and executive leadership roles with ROLM, IBM, Siemens Enterprise Communications, and CompuCom.",
+    "tags": [
+      "busdev"
+    ]
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Ticse",
+    "title": "Director of Business Development",
+    "bio": "Michael is a sales and business development leader of complex solutions & technologies across multiple industries. He has a deep knowledge in real-time systems, development tools, networking, embedded software, open source and cybersecurity, and applies his engineering mindset and strategic selling skills in markets such as telecom, media, consumer electronics, device/equipment manufacturers and financial services. Entrepreneurial at heart, Michael is cultured in startup environments, has embraced disruptive technologies and is results-driven, forging many large commercial agreements with Fortune 500 companies.",
+    "tags": [
+      "busdev",
+      "leadership"
+    ],
+    "social": [
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/mticse"
+      }
+    ]
+  },
+  {
+    "firstName": "Jerry",
+    "lastName": "Burke",
+    "title": "Director of Product Management",
+    "bio": "Jerry has more than 35 years experience in the industry, beginning as an operating Systems Developer at Los Alamos National Laboratory. Following that, he led a team of OS and system software developers on one of the most ambitious supercomputer development projects attempted to that point. From there he spent time at IBM working on Linux, Java and IBM WebSphere performance measurement and evaluation as well as competitive analysis of enterprise server hardware and software. He joined Wave Systems in 2010, supporting the implementation, verification and deployment of Trusted Platform Module (TPM) and Self Encrypting Drive technology. He also worked with the CTO to investigate the integration of Wave products and new technologies, specifically bringing Trusted Computing technology to the mobile space, with particular emphasis on the realization of a software TPM using ARM TrustZone supporting a Trusted Execution Environment (TEE).",
+    "tags": [
+      "engineering",
+      "leadership",
+      "busdev",
+      "product"
+    ],
+    "social": [
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/jerryburke1"
+      }
+    ]
+  },
+  {
+    "firstName": "Karl J.",
+    "lastName": "Weaver",
+    "title": "OEM Business Development Director, China/Asia-Pacific Region",
+    "bio": "Karl is a wireless and mobile device ecosystem specialist in the smart card sector of the wireless industry. He recently worked in business development at ARM /Simulity Labs for design-in of eSIM and iSIM for On-Demand Connectivity solutions for IoT, M2M and wearables smart and connected device manufacturers. Simulity was bought by ARM in July 2017. Karl also spent 5 years working in China for Gemalto (and Trustonic) as Rainmaker for design-in of embedded mobile NFC payments & TEE security technologies to the OEM smartphone/tablet PC ecosystem. He is a globally trained, bilingual Mandarin Chinese-speaking senior mobility executive with vast experience selling wireless & mobile device technologies from both sides of the Pacific Rim to the global OEM/ODM handset/tablet PC ecosystem supply chain.",
+    "tags": [
+      "busdev",
+      "leadership"
+    ]
+  },
+  {
+    "firstName": "Katie",
+    "lastName": "Fitzner",
+    "title": "Director of People",
+    "bio": "Katie works with organizations to harness their strengths in order to help them grow and thrive. Katie believes that staffing is about being a matchmaker and connecting the right people to the right company and the right career. She strongly believes that people are the most important asset of any company.<br />Throughout her 20-year career Katie has worked at both small and large companies including Sun Microsystems, Brocade and Microsoft. She holds a SHRM-CP certification and works every day to keep learning.",
+    "tags": [
+      "busdev"
+    ],
+    "social": [
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/katiefitzner/"
+      }
+    ]
+  },
+  {
+    "firstName": "Stevana",
+    "lastName": "Hanna",
+    "title": "Business Support & Marketing Manager, Rivetz Intl.",
+    "bio": "Stevana brings more than a decade of business management and marketing experience in a range of industries. Stevana manages the organization of the Rivetz presence at conferences and trade shows around the world and coordinates with the Business Development, Marketing, and Product teams at parent company, Rivetz Corp. Stevana has built successful subscription-model businesses, managed projects for Fortune 500 companies, fronted the marketing team of the largest special events production company in the Caribbean, and led business development initiatives internationally.",
+    "tags": [
+      "busdev"
+    ]
+  },
+  {
+    "firstName": "Karl",
+    "lastName": "Kuehberger",
+    "title": "Software Architect",
+    "bio": "Karl is a veteran developer and architect with more than 30 years of industry experience. He has a strong background in reverse engineering and debugging and loves solving challenging performance and scalability issues. In the past, Karl designed network messaging protocols and built communication frameworks and pre-boot software for companies such as Dow Jones, Bridge Information Systems and Wave Systems.",
+    "tags": [
+      "engineering"
+    ],
+    "social": [
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/karlkuehberger/"
+      }
+    ]
+  },
+  {
+    "firstName": "Darshan",
+    "lastName": "Chaudhari",
+    "title": "Staff Engineer",
+    "bio": "Darshan brings in-depth working knowledge in SIM/eSIM domain to Rivetz. Before joining us he worked for Verizon Wireless designing various solutions for SIM and eSIM deployment. Darshan has also worked with IDEMIA(Morpho) for SIM Card OS development and contributed to ETSI standards for enhancing features. Prior to that he has worked with Avionics and Industrial automation industry solving real work problems.",
+    "tags": [
+      "engineering"
+    ],
+    "social": [
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/darshchaudhari/"
+      },
+      {
+        "n": "twitter",
+        "url": "https://twitter.com/DarshChaudhari"
+      }
+    ]
+  },
+  {
+    "firstName": "Paul",
+    "lastName": "Imthurn",
+    "title": "Staff Engineer",
+    "bio": "Paul worked until recently as a chip designer for Certicom, where he was involved in designing and implementing multiple versions of public key accelerators, a true random number generator, and several other cryptographic hardware modules. He joined Rivetz to learn software development and to help write code that runs in the Trusted Execution Environment.",
+    "tags": [
+      "engineering"
+    ]
+  },
+  {
+    "firstName": "Andrew",
+    "lastName": "Finch-Craver",
+    "title": "Project Manager",
+    "bio": "Andrew is a strategic critical thinker, consultant, and entrepreneur with a background in social science, education, and technology. After delving into the mobile payments world, he joined Schoology to help enhance their innovative learning management system. Andrew has consulted with educational, non-profit, and government institutions from the Ellen Frank Illumination Arts Foundation to the New York MTA, teaching stakeholders to leverage emerging technologies and media platforms. He views technology as a key tool to solve real-world problems, rather than an end in itself.",
+    "tags": [
+      "product"
+    ],
+    "social": [
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/andrewfinchcraver/"
+      }
+    ]
+  },
+  {
+    "firstName": "Lexi",
+    "lastName": "Sprague",
+    "title": "Product Design, Marketing, Community",
+    "bio": "With 5 years of experience launching products both in the corporate and consumer markets Lexi brings valuable hands on experience to the Rivetz team. She focuses on merging user experience, customer support, and cutting-edge features to deliver modern products to the market.",
+    "tags": [
+      "product",
+      "community",
+      "marketing"
+    ],
+    "social": [
+      {
+        "n": "twitter",
+        "url": "https://twitter.com/Dyslxion"
+      },
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/lexisprague/"
+      }
+    ]
+  },
+  {
+    "firstName": "Andrew",
+    "lastName": "Defee",
+    "title": "Web & UX, Marketing, Community",
+    "bio": "Andrew has spent the last 10 years building creative and intuitive user experiences across a host of innovative projects. He's played pivotal roles in variety of ventures – from preserving consumer privacy in mobile and web apps, to supplanting on-campus college advertising institutions; from fetal heart rate monitoring, to minor presidential campaigns. Andrew is a staunch advocate of consumers' reasonable right to privacy and control over their own information.",
+    "tags": [
+      "product",
+      "engineering",
+      "marketing"
+    ],
+    "social": [
+      {
+        "n": "twitter",
+        "url": "https://twitter.com/adefee"
+      },
+      {
+        "n": "linkedin",
+        "url": "https://www.linkedin.com/in/adefee/"
+      }
+    ]
+  }
+]

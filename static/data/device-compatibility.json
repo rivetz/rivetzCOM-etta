@@ -1,0 +1,1089 @@
+[
+  {
+    "oem" : "LG",
+    "model" : [
+      "LGMS210"
+    ],
+    "name" : "Aristo",
+    "carrier" : [
+      "Metro PCS"
+    ],
+    "android" : 7,
+    "kinibi" : "310D",
+    "silicon" : "QC",
+    "tam" : [
+      "v1",
+      "v2"
+    ],
+    "tui" : "na",
+    "working" : "yes",
+    "versions" : [
+      "1.0"
+    ]
+  },
+  {
+    "oem" : "LG",
+    "model" : [
+      "LGH918"
+    ],
+    "name" : "V20",
+    "carrier" : [
+      "Verizon"
+    ],
+    "android" : 7,
+    "kinibi" : "310C",
+    "silicon" : "QC",
+    "tam" : [
+      "v1",
+      "v2"
+    ],
+    "tui" : "na",
+    "working" : "yes",
+    "versions" : [
+      "1.0"
+    ]
+  },
+   {
+    "oem" : "LG",
+    "model" : [
+      "VS996"
+    ],
+    "name" : "V30",
+    "carrier" : [
+      "Verizon"
+    ],
+    "android" : 7,
+    "kinibi" : "400A",
+    "silicon" : "QC",
+    "tam" : [
+      "v1",
+      "v2"
+    ],
+    "tui" : "na",
+    "working" : "yes",
+    "versions" : [
+      "1.0"
+    ]
+  },
+  {
+    "oem" : "LG",
+    "model" : [
+      "LG-TP450"
+    ],
+    "name" : "G Stylo 3",
+    "carrier" : [
+      "T-Mobile"
+    ],
+    "android" : 7,
+    "kinibi" : "310D",
+    "silicon" : "QC",
+    "tam" : [
+      "v1",
+      "v2"
+    ],
+    "tui" : "na",
+    "working" : "yes",
+    "versions" : [
+      "1.0"
+    ]
+  },
+  {
+    "oem" : "LG",
+    "model" : [
+      "LGVS988",
+      "LGVS988T"
+    ],
+    "name" : "G6",
+    "carrier" : [
+      "Verizon"
+    ],
+    "android" : 7,
+    "kinibi" : "310D",
+    "silicon" : "QC",
+    "tam" : [
+      "v1",
+      "v2"
+    ],
+    "tui" : "na",
+    "working" : "yes",
+    "versions" : [
+      "1.0"
+    ]
+  },
+  {
+    "oem" : "Samsung",
+    "model" : [
+      "SM-A600FN",
+      "SM-A600F"
+    ],
+    "name" : "Galaxy A6",
+    "android" : 8,
+    "kinibi" : "400",
+    "silicon" : "QC",
+    "tam" : [
+      "v1",
+      "v2"
+    ],
+    "working" : "yes",
+    "tui" : "no",
+    "versions" : [
+      "1.0"
+    ]
+  },
+  {
+    "oem" : "Samsung",
+    "model" : [
+      "SM-A730F"
+    ],
+    "name" : "Galaxy A8 Plus",
+    "android" : "7.1.1",
+    "kinibi" : "400A",
+    "silicon" : "Exynos",
+    "tam" : [
+      "v1",
+      "v2"
+    ],
+    "tui" : "yes",
+    "working" : "yes",
+    "versions" : [
+      "1.0"
+    ]
+  },
+  {
+    "oem" : "Samsung",
+    "model" : [
+      "SM-J337T",
+      "SM-J337A"
+    ],
+    "name" : "Galaxy J3 2018",
+    "android" : 8,
+    "kinibi" : "310B",
+    "silicon" : "Exynos",
+    "tam" : [
+      "v1",
+      "v2"
+    ],
+    "tui" : "na",
+    "working" : "no",
+    "versions" : [
+      "1.0"
+    ]
+  },
+  {
+    "oem" : "Samsung",
+    "model" : [
+      "SM-J701F"
+    ],
+    "name" : "Galaxy J7 VE",
+    "android" : 8,
+    "kinibi" : "310B",
+    "silicon" : "Exynos",
+    "tam" : [
+      "v1",
+      "v2"
+    ],
+    "tui" : "no",
+    "working" : "no",
+    "versions" : [
+      "1.0"
+    ]
+  },
+  {
+    "oem" : "Samsung",
+    "model" : [
+      "SM-G955"
+    ],
+    "name" : "Galaxy S8+",
+    "android" : 7,
+    "kinibi" : "400A",
+    "silicon" : "QC",
+    "tam" : [
+      "v1",
+      "v2"
+    ],
+    "tui" : "yes",
+    "working" : "yes",
+    "versions" : [
+      "1.0"
+    ]
+  },
+  {
+    "oem" : "Samsung",
+    "model" : [
+      "SM-G930F"
+    ],
+    "name" : "Galaxy Xcover4",
+    "android" : 7,
+    "kinibi" : "310B",
+    "silicon" : "Exynos",
+    "tam" : [
+      "v1",
+      "v2"
+    ],
+    "tui" : "no",
+    "working" : "no",
+    "versions" : [
+      "1.0"
+    ]
+  },
+  {
+    "oem" : "Samsung",
+    "model" : [
+      "SM-N950F"
+    ],
+    "name" : "Galaxy Note 8",
+    "android" : 7.1,
+    "kinibi" : "400A",
+    "silicon" : "QC",
+    "tam" : [
+      "v1",
+      "v2"
+    ],
+    "tui" : "no",
+    "working" : "yes",
+    "versions" : [
+      "1.0"
+    ]
+  },
+  {
+    "oem" : "HTC",
+    "model" : [
+      "2PZC100",
+      "2PZC5",
+      "HTC_U-3u"
+    ],
+    "name" : "U11",
+    "android" : 8,
+    "kinibi" : "400A",
+    "silicon" : "QC",
+    "tam" : [
+      "v1",
+      "v2"
+    ],
+    "tui" : "na",
+    "working" : "no",
+    "versions" : [
+      "1.0"
+    ]
+  },
+  {
+    "oem" : "Motorola",
+    "model" : [
+      "Moto E 5 Plus"
+    ],
+    "name" : "Moto E5 Plus",
+    "carrier" : [
+      "T-Mobile"
+    ],
+    "android" : 8,
+    "kinibi" : "400A",
+    "silicon" : "QC",
+    "tam" : [
+      "v1",
+      "v2"
+    ],
+    "tui" : "na",
+    "working" : "yes",
+    "versions" : [
+      "1.0"
+    ]
+  },
+  {
+    "oem" : "ZTE",
+    "model" : [
+      "Z982"
+    ],
+    "name" : "Blade Zmax",
+    "carrier" : [
+      "T-Mobile"
+    ],
+    "android" : "7.1.1",
+    "tui" : "na",
+    "working" : "no",
+    "versions" : [
+      "1.0"
+    ]
+  },
+  {
+    "oem": "LG",
+    "model": ["LG-M210"],
+   "name": "Aristo",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "LG",
+    "model": ["LGM210SV"],
+   "name": "Aristo",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"T-Mobile",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "LG",
+    "model": ["LMX210MA"],
+   "name": "Aristo 2",
+    "android": "7.1",
+    "kinibi": "400A",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"MetroPCS",
+    "working" :"likely",
+    "versions" : ["1.0"]   
+},
+{
+    "oem": "LG",
+    "model": ["LGMP450"],
+   "name": "G Stylo 3 Plus ",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"MetroPCS",
+    "working" :"likely",
+    "versions" : ["1.0"]   
+
+},
+{
+    "oem": "LG",
+    "model": ["LG-TP450"],
+   "name": "G Stylo 3 Plus",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"T-Mobile",
+    "working" :"likely",
+    "versions" : ["1.0"]   
+
+},
+{
+    "oem": "LG",
+    "model": ["LGTP450TN"],
+   "name": "G Stylo 3 Plus",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"T-Mobile",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "LG",
+    "model": ["LGMG600K", "LGMG600KP", "LGMG600KR", "LGMG600L", "LGMG600LP", "LGMG600LR", "LGMG600S", "LGMG600SP", "LGMG600SR"],
+   "name": "G6 Korea",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "LG",
+    "model": ["LGH872BK,LGH872TN"],
+   "name": "G6 T-Mobile",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "LG",
+    "model": ["LGVS988,LGVS988T"],
+   "name": "G6",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"Verizon",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "LG",
+    "model": ["LM-G710 /N/NP/NO/NOP"],
+   "name": "G7",
+    "android": "8",
+    "kinibi": "400",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "LG",
+    "model": ["LGMP260"],
+   "name": "K20 Plus",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"MetroPCS",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "LG",
+    "model": ["LGTP260BK"],
+   "name": "K20 Plus",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"T-Mobile",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "LG",
+    "model": ["LGF800K,LGF800L,LGF800S"],
+   "name": "V20 Korea",
+    "android": "7",
+    "kinibi": "310C",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "LG",
+    "model": ["LGH918TN"],
+   "name": "V20",
+    "android": "7",
+    "kinibi": "310C",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"T-Mobile",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "LG",
+    "model": ["LGMV300K", "KP", "KS", "L", "S", "LW", "SW", "KW", "KR"],
+   "name": "V30 Korea",
+    "android": "7.1",
+    "kinibi": "400A",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "LG",
+    "model": ["LGH932SV"],
+   "name": "V30",
+    "android": "7.x",
+    "kinibi": "400A",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"T-Mobile",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "LG",
+    "model": ["LM-X410 FG"],
+   "name": "Y Series",
+    "android": "7.1.2",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "LG",
+    "model": ["LM-X510L/K/S"],
+   "name": "X5",
+    "android": "8",
+    "kinibi": "311C",
+    "silicon": "MTK",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "LG",
+    "model": ["LMX-X510K"],
+   "name": "X5",
+    "android": "8",
+    "kinibi": "311C",
+    "silicon": "MTK",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-G1650"],
+   "name": "Folder 2",
+    "android": "7.1.1",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-A600FN/F"],
+   "name": "Galaxy A6",
+    "android": "8",
+    "kinibi": "400",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-A600F"],
+   "name": "Galaxy A6",
+    "android": "8",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "yes",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-G892A"],
+   "name": "Galaxy Active",
+    "android": "7",
+    "kinibi": "400A",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-J250G"],
+   "name": "Galaxy J2 2018",
+    "android": "7.1.1",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-J327A"],
+   "name": "Galaxy J3 Pop",
+    "android": "7",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-J337T/A"],
+   "name": "Galaxy J3 2018",
+    "android": "8",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-J530FN"],
+   "name": "Galaxy J5 (2017)",
+    "android": "7",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "yes",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-J600F/FN"],
+   "name": "Galaxy J6 2018",
+    "android": "8",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-J730F /K"],
+   "name": "Galaxy J7 (2017)",
+    "android": "7",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "yes",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-J710 /DS"],
+   "name": "Galaxy J7 Duos",
+    "android": "7",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-J710"],
+   "name": "Galaxy J7 Metal",
+    "android": "7",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-J727P"],
+   "name": "Galaxy J7 Pop",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-J727A"],
+   "name": "Galaxy J7 Pop",
+    "android": "7",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "yes",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-J727P"],
+   "name": "Galaxy J7 Pop",
+    "android": "7",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "yes",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-J727A"],
+   "name": "Galaxy J7 Pop",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-J610"],
+   "name": "Galaxy J7 Prime",
+    "android": "7",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-G611FF/MT/M"],
+   "name": "Galaxy J7 Prime 2 Duos ",
+    "android": "7",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-G701F"],
+   "name": "Galaxy J7 VE",
+    "android": "8.1",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-G727p"],
+   "name": "Galaxy J7L",
+    "android": "8",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-J720F/M"],
+   "name": "Galaxy J7 Duos",
+    "android": "8",
+    "kinibi": "400A",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-J720"],
+   "name": "Galaxy J7x",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-N935S"],
+   "name": "Galaxy Note 7 FE",
+    "android": "7",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "yes",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-N950"],
+   "name": "Galaxy Note 8",
+    "android": "7.1",
+    "kinibi": "400A",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "yes",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-G611"],
+   "name": "Galaxy On7 Prime 2018",
+    "android": "7.1",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-G930FD"],
+   "name": "Galaxy S7 Duos",
+    "android": "7.1",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "yes",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-G955D"],
+   "name": "Galaxy S8 JPN",
+    "android": "7",
+    "kinibi": "400A",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "yes",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-G960, W,XU, N"],
+   "name": "Galaxy S9",
+    "android": "8",
+    "kinibi": "400A",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "yes",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-G965F,0,W"],
+   "name": "Galaxy S9+",
+    "android": "8",
+    "kinibi": "400A",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "yes",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-G690F"],
+   "name": "",
+    "android": "7",
+    "kinibi": "302A",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "yes",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SCV39/38"],
+   "name": "KDDI S9",
+    "android": "8",
+    "kinibi": "400A",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "yes",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SC-02K"],
+   "name": "DoCoMo Galaxy S9",
+    "android": "8",
+    "kinibi": "400A",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "yes",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-T385,C,M"],
+   "name": "Tab A 8.0 2017",
+    "android": "7.1",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-T385"],
+   "name": "Tab A2",
+    "android": "7.1",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-T395"],
+   "name": "Tab Active 2",
+    "android": "7.1",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-T397"],
+   "name": "Tab Active 2 8.0",
+    "android": "7.1.1",
+    "kinibi": "310B",
+    "silicon": "Exynos",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"no",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-T720, SM-T825 EUR"],
+   "name": "Tab S3",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-T827V"],
+   "name": "Tab S3 Verizon",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-T827 R4"],
+   "name": "Tab S3 ",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Samsung",
+    "model": ["SM-T820X"],
+   "name": "Tab S3 9.7",
+    "android": "7",
+    "kinibi": "310D",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "no",
+    "carrier" :"",
+    "working" :"likely",
+    "versions" : ["1.0"]
+},
+{
+    "oem": "Motorola",
+    "model": ["Moto E (4)"],
+   "name": "Moto E4",
+    "android": "7.1.1",
+    "kinibi": "400A",
+    "silicon": "QC",
+    "tam": ["v1","v2"],
+    "tui": "na",
+    "carrier" :"T-Mobile, MetroPCS",
+    "working" :"likely",
+    "versions" : ["1.0"]
+}
+]

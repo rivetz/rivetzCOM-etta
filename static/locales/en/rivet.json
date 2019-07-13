@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "announce": "The Rivet",
+    "header": "The all-in-one dashboard for your digital life!",
+    "details": "The centerpiece of the Rivetz Network is naturally The Rivet app. This android app is the hub for hooking your apps to the secure hardware that your phone already has!",
+    "download": "Download The Rivet"
+  },
+  "safe": {
+    "header": "No More Worries",
+    "details": "The Rivet safely stores keys protected by the hardware within your networked phone!"
+  },
+  "decision": {
+    "header": "Your Rivet, Your Decision",
+    "details": "Policies for Keys stored in our measured compute environment if you want to only be able to do a transaction at the office or you only want to be able to do transactions at certain hours of the day, who are we to stop you! If we don't have a policy you want, ask for it here!"
+  },
+  "security": {
+    "header": "Peace of Mind Security",
+    "details": "Rivetz believes in Proactive Security, if you have your phone you know that your first line of defense is in place, because without your physical phone it will be very hard, near impossible for anyone to steal your keys from our Measured Compute Environment."
+  },
+  "learn": {
+    "header": "Want to Learn More?",
+    "about": "The Rivetz Network",
+    "compatibility": "Check Device Compatibility"
+  }
+}

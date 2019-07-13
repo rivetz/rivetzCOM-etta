@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "announce": "Jarz",
+    "header": "Simple & Safe Money Management",
+    "details": "Built with the modern consumer in mind, our blockchain-backed payments app makes it easy to access your funds without a traditional bank account.",
+    "partner": "Become a Partner"
+  },
+  "transfer": {
+    "header": "Simple Funds Transfer",
+    "details": "Transferring funds is as simple as selecting the contact you wish to send to or receive from and hitting send. Our app will also process salary and benefits payments!",
+    "partner": "Become a Partner"
+  },
+  "safety": {
+    "header": "Safety is Key",
+    "details": "The transfer of funds is protected by pin entry or touch ID for quick and secure access. The expansion of Rivetz’ library of policies will offer many control options that Jarz users can enable on the Rivet to protect their account. Learn more about the Rivetz Policy Engine here."
+  },
+  "organized": {
+    "header": "Jarz Keep You Organized",
+    "details": "Budget easily by locking away money for a specific purpose, such as rent or groceries. Once budgeted, Jarz double-checks your intent to use those funds, just in case, ensuring you stay organized and on plan."
+  },
+  "actionable": {
+    "header": "Currently, Jarz is in Beta",
+    "details": "The commerce technology behind Jarz is the same technology which powers the commerce system within the Rivetz Network.  Jarz is a product of DISC, a Rivetz-owned company. Contact us to learn more about the multi-asset platform, or to get a demo of the Jarz implementation.",
+    "quick-start": "Want to be notified when our payments quick-start guide goes live?",
+    "notify": "Notify Me"
+  }
+}

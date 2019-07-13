@@ -1,0 +1,82 @@
+/*
+*****************
+* RivetzCOM Primary Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 18.06.2019@04:24AM (1560846254)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Imports
+*
+*/
+/*
+*****************
+* Theme Variables
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 06.05.2019@12:36PM (1557160602)
+*
+* [Table of contents]
+* 1. Font Imports
+* 2. Font Families
+* 2. Font Colors
+* 3. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Font Imports
+*
+*/
+@import url("https://fonts.googleapis.com/css?family=Catamaran:100,300,400,500,700|Comfortaa:700&subset=latin-ext");
+/*
+*
+* 2. Font Families
+*
+*   1 (Header): "Comfortaa" (@700), via Google Fonts. Used for primary headers and occasional emphasis.
+*   2 (Subheader): "Catamaran" (@700), via Google Fonts. uses for subtitles and emphasis
+*   3 (P): "Catamaran" (@400), via Google Fonts. Paragraphs and normal text.
+*
+*   Error for testing: "Times New Roman" red bold.
+*/
+/*
+*
+*   3. Font Colors
+*
+*   1 (Primary): #d66e4a, rgb(214, 110, 74) // Orange
+*   2 (Secondary): #060613, rgb(6, 6, 19), // Dark blue
+*   GM-Blue: #1a2933, rgb(26, 41, 51) // Old GameMule Blue
+*   White: #ffffff, rgb(255,255,255)
+*   Off-White: #f1f1f1, rgb(241,241,241)
+*   Grey: #a4b1b2, rgb(164,177,178)
+*   Dark: #0f171c, rgb(15,23,28)
+* 
+*/
+/*
+*
+* 4. Global Options
+*
+*/
+/*
+*
+* DEPRECATED: Old Theme Colors
+*
+*/
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/

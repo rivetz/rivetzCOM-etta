@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Golden Chip Company",
+    "logo": "golden-chip-company.png",
+    "bio": "Golden Chip Company (GCC) is a leading manufacturer of Smart cards, RFID cards, Magnetic Stripe cards as well as complete range of Card products, Services & Solutions in the Middle East & Africa (MEA) region.",
+    "website": "https://www.goldenchip.com.sa/"
+  },
+  {
+    "name": "Opinion Economy",
+    "logo": "opinion-economy.png",
+    "bio": "The Opinion Economy (OEB) has developed proprietary SaaS infrastructure with B2B, B2B2C, and B2E facing tools to address gaps, inefficiencies, waste and fraud in the gathering, validation, storage, sharing and analysis of opinion and behavioral market research.<br /><br />The OEB team includes global thought leadership from fortune 100 Companies and Global Distribution Channels & Research Organizations. The Opinion Economy is developing important partnerships with leading Market Research Firms, Panel Companies, Contact Agencies, Academic Institutions and Field Research Workgroups.",
+    "website": "https://www.opinionblockchain.com/"
+  },
+  {
+    "name": "PeerStream",
+    "logo": "peerstream.png",
+    "bio": "PeerStream helps clients integrate blockchain solutions to advance their business objectives. As an innovator in blockchain technology and developer of PeerStream Protocol, PeerStream is uniquely suited to assist clients in identifying the most advantageous distributed technology strategies and to help them build, test and deploy public and private blockchain solutions.",
+    "website": "https://www.peerstream.com",
+    "blog": "https://blog.rivetz.com/rivetz-and-peerstream-to-demonstrate-secure-blockchain-applications-at-mobile-world-congress-4yfn-76fea5971f74"
+  },
+  {
+    "name": "Wanchain",
+    "logo": "wanchain.png",
+    "bio": "Wanchain provides industry-leading cross-chain functionality — a key component for entrepreneurs and enterprises alike to leverage the Web 3.0 economy. Enabling a safe and frictionless flow of value between blockchains, Wanchain’s core technology paves the way for mass adoption of digital currencies. Our partnership expands on Dual Roots of Trust, the built-in hardware security technology co-developed by Rivetz and ElevenPaths, enabling carrier-grade identity and e-commerce protections on potentially tens of millions of devices at Telefónica and billions of devices worldwide. Wanchain will also integrate Rivetz’s advanced hardware protections to deliver a new level of assurance that transactions and data on blockchains are recorded as intended.",
+    "website": "https://wanchain.org/",
+    "blog": "https://blog.rivetz.com/wanchain-partner-with-rivetz-and-elevenpaths-to-provide-secure-mobile-blockchain-solutions-1ae4056c8cf7"
+  },
+  {
+    "name": "Nedbits",
+    "logo": "bancnl.png",
+    "bio": "Nedbits believe cryptocurrency should be simple, transparent, and easy to use. We charge clear and fair commissions, and our price bitcoin and other currency prices are always the same, and don't change depending on how much you buy.<br /><br />We maintain very low spreads and commissions so you end up paying the best market rate. We don't have any hidden fees, and our bitcoin and cryptocurrency price is always the same, regardless if you buy a small or large amount.",
+    "website": "https://banc.nl"
+  },
+  {
+    "name": "Hercules One",
+    "logo": "herc.png",
+    "bio": "Hercules is a decentralized blockchain protocol platform that enables anyone to operate a fully functioning supply chain that utilizes Proof of Human Work to validate transactions. Developed and Advised by founders of Ethereum, Factom, Storj, Abra Wallet, Edge Security, Waves, Transform, and Blockchain Exchange, the world's leading blockchain organisations, Hercules is designed to serve 120+ million businesses a year already managing their supply chain as well as billions of aspiring entrepreneurs.",
+    "website": "https://herc.one"
+  },
+  {
+    "name": "Skyhook",
+    "logo": "skyhook.png",
+    "bio": "In 2003 we developed an innovative way to obtain location. We realized using Wi-Fi signals would be faster, more precise and battery-friendly than GPS and cell-towers alone. We foresaw the mass adoption and proliferation of mobile technology that would make our idea useful for every device on the planet. We got to work on collecting the locations of billions of Wi-Fi access points worldwide and building the infrastructure and software to deliver the information.<br /><br />Skyhook’s massive global network powers billions of location requests in all of the places that they happen. Our coverage is monumental and constantly growing. We exist to make location faster, more precise and practical and have teams dedicated to research and development, support and getting our message in the hands of everyone who can use our technology.",
+    "website": "https://www.skyhook.com",
+    "blog": "https://blog.rivetz.com/rivetz-partners-with-skyhook-mobile-device-location-services-25f10f7f47b4"
+  },
+  {
+    "name": "Simpleweb Block",
+    "logo": "simpleweb.png",
+    "bio": "Simpleweb is a purpose driven software company that specialises in new technology, product development, and human interaction. We solve difficult problems by combining strategy, engineering, and art. Simpleweb Studio Block is our software studio focusing on the productization of decentralised applications. We focus on solving some of the most complex problems relating to blockchain technology, distributed ledgers, and decentralised applications. ",
+    "website": "https://simpleweb.co.uk/"
+  },
+  {
+    "name": "AmChart",
+    "logo": "amchart.png",
+    "bio": "AMSYS AMCHART AMC aims to provide better patient outcomes through better health record maintenance, wellness program participation incentives, better population health data, and more efficient data sharing between health partners. The team wants to create a medical records system that’s completely accurate, transparent, and immutable, offering convenient access to patients and trusted health providers.",
+    "website": "https://amchart.io/"
+  },
+  {
+    "name": "SushiChain",
+    "logo": "sushichain.png",
+    "bio": "SushiChain is an open source blockchain platform developed from scratch using the Crystal programming language. The core technology takes inspiration mostly from Bitcoin and Ethereum. SushiChain aims to provide developers with a platform to build complex decentralized applications using simple and easy to use tools. The name SushiChain comes from our collective love of Sushi and a reminder of our Japanese roots. We believe we are the first blockchain platform to empower developers to create amazing decentralized apps with simplicity and ease. dApps that run in browers and on mobile phones.",
+    "website": "https://sushichain.io"
+  },
+  {
+    "name": "Sentinel Protocol",
+    "logo": "sentinel-protocol.png",
+    "bio": "Sentinel Protocol's global, blockchain-based Threat Reputation Database (TRDB) collects data from distributed sources including cryptocurrency exchanges, wallets, payment services, along with IT and security companies. The TRDB also crowdsources threat data procured from collective intelligence. In addition, its UPPward Chrome and Firefox Extension protects individual users by allowing them to verify the authenticity of wallet addresses, social media accounts and web addresses. Recently, Sentinel Protocol launched the Uppsala Security Forum, which acts as a community space to provide educational information about blockchain security, and a technical forum for an exchange of knowledge on security related insights.",
+    "website": "https://sentinelprotocol.io/",
+    "blog": "https://blog.rivetz.com/rivetz-parter-with-sentinel-protocol-to-deliver-decentralized-hardware-level-digital-asset-f7d9ad77dd46"
+  },
+  {
+    "name": "Civic",
+    "logo": "civic.png",
+    "bio": "Civic is creating a world where people decide how they share personal information. Civic allows people to control the use of their identity information. We use blockchain identity verification technology to secure and protect personal information transfer. Identity verification services should secure, accessible, and available on-demand. That’s why we are building the ecosystem that will change the way we handle identity. The Civic team currently spans 5 countries. We are working together all over the world to revolutionize identity. Civic recently conducted one of the most well respected token sales in history. This enables us to deliver a marketplace for the transaction of trusted identities. This Marketplace will change both the economics and user experience of trusted identity.",
+    "website": "https://www.civic.com",
+    "blog": "https://www.prnewswire.com/news-releases/civic-brings-innovative-identity-verification-solutions-to-the-elevenpaths-and-rivetz-cybersecurity-partnership-300740191.html"
+  },
+  {
+    "name": "AnyLog",
+    "logo": "anylog.png",
+    "bio": "AnyLog technology connects IoT Data Owners with Service Provides worldwide allowing Data Owners to manage their data in real time without the need to build and maintain expensive databases and software platforms. Today, to extract value from the IoT data, companies need to build and manage complex databases. For large data sets, these are long, tedious and expensive projects. AnyLog offers a platform that automates the treatment of the data where Data Owners only need to send their data to the network and the network offers a SQL interface to query the data. This approach results in immediate cost savings and fast go to market. As the network offers a unified, SQL based interface to IoT data, data can be offered to third parties to use. A data owner has complete control over the data but may grant access to third parties in exchange for token rewards.",
+    "website": "https://www.anylog.co"
+  },
+  {
+    "name": "Node Haven",
+    "logo": "nodehaven.png",
+    "bio": "Traditional cloud infrastructure is reaching its physical limit. Decentralized cloud infrastructure is necessary to serve the impending data boom of billions of IoT devices. The Haven Network solves this need by linking providers around the entire planet with a decentralized cloud marketplace supported with specialized hardware that is focused on security. The Haven Network thrives on competition, which leads to innovation, lower costs, geographic diversity, and higher-quality services that operate seamlessly from the core to the edge of the internet.",
+    "website": "https://www.nodehaven.com",
+    "blog": "https://blog.rivetz.com/rivetz-partners-with-node-haven-to-bring-hardware-level-cybersecurity-to-their-federated-cloud-9e6d7e2d7e29"
+  },
+  {
+    "name": "Verif-y",
+    "logo": "verify.png",
+    "bio": "Verif-y pioneered the creation of a user managed, verifiable, and secure digital identity. Our platform enables a quick and secure digital verification process, and a resulting digital identity based on various credentials such as degrees, transcripts, licenses, and employment histories among others. Verif-y empowers individuals to manage their individualized, highly-secured digital wallet of their identity and background – instantaneously accessible across all of their devices.",
+    "website": "https://verif-y.com",
+    "blog": "https://www.prnewswire.com/news-releases/rivetz-partners-with-verif-y-for-application-security-and-private-key-management-300582434.html"
+  },
+  {
+    "name": "uConekt",
+    "logo": "uconekt.png",
+    "bio": "uConekt has a vision to create advanced security for all users when exposing their online Identities with Strong Customer Authentication (SCA) built on a trusted decentralized environment. Our goal is to accelerate global frictionless transaction with uBoltTM tamper-resistant hardware implementing your biometric eIDentity token leveraging distributed ledger technologies where your privacy and control is non-negotiable. uConekt solves the eIDentity issues to external programs, applications and services such as crypto currency trading, digital wallets, online banking, payments and other types of transactions."
+  },
+  {
+    "name": "Sedicii",
+    "logo": "sedicii.png",
+    "bio": "Sedicii has developed and patented a technology based on the Zero Knowledge Proof Protocol that eliminates the transmission, storage and exposure of private user data during authentication or identity verification, which reduces identity theft, impersonation and any fraud resulting from the identity theft. Sedicii, adheres to the “Right To Be Forgotten” regulation and enables users to continue to consume digital services without sharing or exposing their private data. In essence, it means they can reclaim and control the use of their identity.",
+    "website": "https://sedicii.com"
+  },
+  {
+    "name": "RetroTrust",
+    "logo": "retrotrust.png",
+    "bio": "The RetroTrust end to end identity attribute assurance ecosystem is protected by a series of 7 interrelated pending patents. The Company has conducted 3 successful pilots which used its photo-ID and card holder age verification solution to prevent the sale of age restricted products to the minors. RetroTrust has developed a prototype app which can securely display privacy compliant mobile photo-ID credentials. The Company is focusing on perfecting its photo-ID card and card holder verification, as well as its mobile photo-ID credential solutions which provide governments with enforceability of regulations that prohibit the sale of marijuana and other age-restricted products to the underage."
+  },
+  {
+    "name": "Peer Mountain",
+    "logo": "peermountain.png",
+    "bio": "Peer Mountain goes beyond providing users with ownership and control over their cryptographically secure identities. It is an end-to-end application ecosystem that facilitates secure commerce and exchange of digital and physical services. Peer Mountain serves consumers who want self-sovereign identity, service providers who need continuous, reliable compliance, and trust providers offering validation services who need trust interoperability and portability.",
+    "website": "https://www.peermountain.com",
+    "blog": "https://www.prnewswire.com/news-releases/rivetz-and-peer-mountain-partner-to-deliver-world-class-security-for-decentralized-identity-network-300728460.html"
+  },
+  {
+    "name": "Kora",
+    "logo": "kora.png",
+    "bio": "Kora is an online cross-border payments solution that leverages cutting edge technology including Blockchain settlement to lower the cost of remittance while increasing the speed of individual and business payments into and within Africa. We believe that Africa is the new frontier of financial opportunity. Our mission is to serve all of Africa via one single API. Through doing this we aim to create a seamless connection between Africa and global the financial system.",
+    "website": "https://kora.network"
+  },
+  {
+    "name": "Ferrum",
+    "logo": "ferrum.png",
+    "bio": "Ferrum is a decentralized interoperability network enabling the management, transaction and exchange of any digital asset without taking custody of user’s assets. Built on a directed-acyclic graph (DAG) network, Ferrum is faster, less costly and more scalable than traditional blockchains. Not limited to ERC-20 tokens; users can deposit nearly any digital asset into Ferrum to create proxy token that can be transacted and exchanged peer-to-peer using the Ferrum Wallet, or over Ferrum’s user-friendly DEX. And coming soon, fiat currencies that can be exchanged over the network.",
+    "website": "https://ferrum.network",
+    "blog": "https://www.prnewswire.com/news-releases/rivetz-and-ferrum-network-partner-to-deliver-military-grade-digital-asset-protection-for-wallets-300751036.html"
+  },
+  {
+    "name": "Payger",
+    "logo": "payger.png",
+    "bio": "The Payger Wallet is a browser based wallet for your digital currencies, whichever you choose. Store, transfer and exchange your money in an extremely user-friendly interface with ease. Pay online, kill off your debts or send money to your friends; all you need is the Payger ID, your friend’s e-mail address or phone number. Act like a Payger and make your money social.",
+    "website": "https://payger.com",
+    "blog": "https://blog.rivetz.com/rivetz-payger-partner-to-bring-mobile-hardware-security-to-p2p-payments-and-messaging-82638df8b6c8"
+  },
+  {
+    "name": "Dropsearch",
+    "logo": "dropsearch.png",
+    "bio": "Dropsearch help you find information faster, save time and money, and be highly productive. Search millions of files within milliseconds. Our cognitive search lets you find your files by description, synonyms, as well as automatically classifying it. Search all your files and emails from a single interface, and boost your productivity. Access knowledge from the crowd and search millions of files that the dropsearch community shares. Search your complete Enterprise information ecosystem within milliseconds (Gsuite, Google Drive, Dropbox, Box, Sharepoint, Outlook, Onedrive, Laptops, Mobile devices, among many others) as well as your internal IT infrastrcuture.",
+    "website": "https://dropsearch.net"
+  },
+  {
+    "name": "PumaPay",
+    "logo": "pumapay.png",
+    "bio": "PumaPay offers an open source free-of-charge blockchain-based protocol that decentralizes a whole layer of transaction processing services. The comprehensive and flexible protocol allows adopters to process transactions using nearly all the familiar billing methodologies and combines the best of traditional methods (credit cards) and blockchain-based solutions.",
+    "website": "https://pumapay.io"
+  },
+  {
+    "name": "Behaviour Exchange Limited (BEX)",
+    "logo": "bex.png",
+    "bio": "The BehaviourExchange team of experts in artificial intelligence, machine learning, psychology, online content and online marketing is working hard to make the (online) world a better place. For businesses, as well as for individual users.<br /><br />After many years of developing the ContentExchange system, the team has come up with a unique solution. BehaviourExchange enables businesses to adjust their online content to each visitor in real time, at the very moment they enter the website. This means that every visitor sees the content that relates to their demographic characteristics (e.g. gender, age, education, …) and interests (e.g. cooking, fitness, beauty and fashion, technology,…).",
+    "website": "http://behaviour.exchange"
+  },
+  {
+    "name": "DataBroker DAO",
+    "logo": "dao.png",
+    "bio": "DataBroker DAO is the first marketplace to buy and sell sensor data. As a decentralized marketplace for IoT sensor data using blockchain technology, the company enables sensor owners to turn generated data into a revenue stream. Using their ERC20 token, DTX, the platform allows sensor owners to sell the data they collect while enabling entrepreneurs and organizations to buy and aggregate data or resell the enriched data.",
+    "blog": "https://blog.rivetz.com/rivetz-to-secure-databroker-daos-sensor-marketplace-6681bcf07b76",
+    "website": "https://databrokerdao.com"
+  },
+  {
+    "name": "Privus",
+    "logo": "privus.png",
+    "bio": " Privus, a leading pioneer in privacy and security technology, is partnering with Rivetz to bring hardware-level security to their solution, SecurLine. SecurLine is the most advanced, secure and transparent peer-to-peer communications encryption application for smartphones. The partnership will enable Privus to provide unmatched protection of private keys to significantly increase the app's security posture by employing Rivetz's state-of-the-art Toolkit to access the existing hardware security capabilities already built into millions of mobile devices.",
+    "blog": "https://blog.rivetz.com/rivetz-to-deliver-hardware-level-security-to-privus-securline-app-4bb6c8dbb8df",
+    "website": "https://www.privus.global"
+  },
+  {
+    "name": "Humaniq",
+    "logo": "humaniq.png",
+    "bio": "The Humaniq financial infrastructure empowers unbanked people, providing a means for financial inclusion. The platform is building the next generation of financial services with its own cryptocurrency, with the mission of eradicating poverty amongst millions of people living in emerging economies. Humaniq equipped its mobile app with a wallet, bio-ID, secure messaging, E2E encryption and live support chat functionality. The mobile app boasts over 300,000 downloads.",
+    "blog": "https://blog.rivetz.com/rivetz-partners-with-humaniq-d8206190afa6",
+    "website": "https://humaniq.com"
+  },
+  {
+    "name": "Cognida",
+    "logo": "cognida.png",
+    "bio": "Windmill Enterprise was co-founded by Michael Hathaway of Information Xchange, Inc, and Bing Byington of CareConnex. It is a Delaware C corporation and the initial developer of the Cognida Network, an open-source platform enabling enterprises to more securely manage connected devices, systems and shared information using blockchain agnostic technology. Windmill is a founding member of the Cognida Foundation.",
+    "blog": "https://blog.rivetz.com/rivetz-to-provide-endpoint-security-for-the-cognida-network-b47dc00f124c",
+    "website": "https://cognida.network"
+  },
+  {
+    "name": "On-Demand Education Alliance",
+    "logo": "odem.png",
+    "bio": "Rivetz has announced a partnership with On-Demand Education Marketplace (ODEM) to provide security solutions to ODEM users including students, educators and service providers. ODEM is creating a global marketplace where students, educators and professionals interested in continuing education can come together and access educational courses. Through this partnership, Rivetz will provide security solutions to ODEM users.",
+    "blog": "https://blog.rivetz.com/rivetz-to-provide-security-solutions-for-education-marketplace-odem-668b5d791f78"
+  },
+  {
+    "name": "ORCA Alliance",
+    "logo": "orca.png",
+    "bio": "ORCA has been known as a European cryptocurrency advocacy and best practices platform, and is planning to hold an ICO later this year. They are a dashboard for cryptocurrency users, allowing them to see and take action on all their accounts on any exchanges in one central location. Rivetz will be supporting the two-factor authentication options for ORCA's platform, combining our a hardware-based identity model with the immutable attestation offered by blockchain technology.",
+    "blog": "https://blog.rivetz.com/rivetz-partners-with-orca-for-secure-2fa-solutions-e62dc6bd0064"
+  },
+  {
+    "name": "UbiatarPlay",
+    "logo": "ubiatar.png",
+    "bio": "UbiatarPlay is a marketplace where users can connect with avatars across the globe. Avatars become that user's eyes and ears, following commands and live-streaming video directly to that person. Ubiatar has partnered with Rivetz to secure all their customer data inside the TEE (Trusted Execution Environment).",
+    "blog": "https://blog.rivetz.com/rivetz-partners-with-ubiatarplay-to-let-you-be-everywhere-272ce7ac2f1b"
+  },
+  {
+    "name": "Enrich Media Group",
+    "logo": "enrich.png",
+    "bio": "Through this partnership, Enrich will integrate Rivetz’s advanced security capabilities, including multi-factor authentication. This will allow Enrich’s clients to conduct safer and simpler transactions and to increase the security of data on the platform. Enrich Media Group has a mobile platform for iOS and Android that allows celebrities, high-profile individuals and companies to connect directly with their audience. The combined solution brings hardware-level security to the software apps.",
+    "blog": "https://blog.rivetz.com/rivetz-to-keep-your-conversations-with-celebrities-safe-6215dcbdf987",
+    "website": "https://enrichmediagroup.com"
+  },
+  {
+    "name": "Deco.Network",
+    "logo": "deconet.png",
+    "bio": "Deco.Network is creating the protocol for putting licensing and payments around open collaborative projects, specifically open source software, on the blockchain. With Deco.Network, developers can collaborate and get paid without setting up a new business entity, laying the foundation for future sustainable open source and enabling software projects to function as DAOs. Through this partnership, Rivetz's enhanced security capabilities will be used as a security and trust layer for developer projects using the Deco.Network protocol.",
+    "blog": "https://blog.rivetz.com/rivetz-to-provide-security-and-trust-layer-for-deco-network-protocol-7faf93949473",
+    "website": "https://deco.network"
+  },
+  {
+    "name": "Dogezer",
+    "logo": "dogezer.png",
+    "bio": "Dogezer is a new generation collaboration and crowdsourcing platform for entrepreneurs, software engineers, UI\\UX designers, artists, salespersons, marketing specialists and all other individuals involved in the creation, promotion, and support of software products of any kind. The platform connects these individuals allowing them to collaborate on the products they believe in, and collectively share the fruits of their labor. Dogezer enables entrepreneurs to form and manage their software development teams without the need for outside funding. It effectively helps team members to become product investors through the investment of their time and labor into the product.",
+    "blog": "https://blog.rivetz.com/rivetz-partners-with-dogezer-to-do-software-together-2930ea3bd3e2",
+    "website": "https://dogezer.com"
+  },
+  {
+    "name": "Rewards.com",
+    "logo": "rewards.png",
+    "bio": "Rewards.com offers a global loyalty solution to provide the first consumer and retail-focused rewards token platform. It leverages blockchain technology to offer a universal loyalty token, we call RWRD, that can be used to book travel, buy gift cards or receive cash all while reducing outstanding liabilities held by merchants for unredeemed rewards.",
+    "blog": "https://blog.rivetz.com/rivetz-partners-with-rewards-com-to-provide-advanced-security-solutions-89552e76252a",
+    "website": "https://www.rewards.com/"
+  },
+  {
+    "name": "Decentralized Cybersecurity Consortium",
+    "logo": "dc2.png",
+    "bio": "The mission of the Decentralized Cybersecurity Consortium is to promote blockchain-based security by developing best practices and providing the tools to build solutions from the ground up. Through partnerships and collaboration, the DC²'s goal  is to create an environment where cybersecurity is built in by design, ushering in a more secure future for consumers and the enterprise.",
+    "blog": "https://blog.rivetz.com/a-new-day-dawns-for-decentralized-security-1f0012a55b01",
+    "website": "https://dc2.tech/"
+  },
+  {
+    "name": "ElevenPaths & Telefónica",
+    "logo": "eleven-paths.png",
+    "bio": "At ElevenPaths, Telefónica Cyber Security Unit, we believe in the idea of challenging the current state of security, an attribute that must always be present in technology. We’re always redefining the relationship between security and people, with the aim of creating innovative security products which can transform the concept of security, thus keeping us one step ahead of attackers, who are increasingly present in our digital life.<br /><br />Telefónica Business Solutions, a leading provider of a wide range of integrated communication solutions for the B2B market, manages globally the Enterprise (Large Enterprise and SME), MNC (Multinational Corporations), Wholesale (fixed and mobile carriers, ISPs, and content providers) and Roaming businesses within the Telefónica Group. Business Solutions develops an integrated, innovative and competitive portfolio for the B2B segment including digital solutions (Cloud, IoT, Security) and telecommunication services (voice, data, mobile, satellite, unified and global solutions). Telefónica Business Solutions works in more than 40 countries and has service reach in more than 170 countries.",
+    "blog": "https://blog.rivetz.com/enabling-a-billion-hardware-wallets-by-2025-6f4a6e44db59",
+    "website": "https://www.elevenpaths.com/"
+  },
+  {
+    "name": "Trustonic",
+    "logo": "trustonic.png",
+    "bio": "Trustonic is a joint venture formed in 2012 by blue chip leaders in the semiconductor (ARM) and digital security (Gemalto) industries. It is Trustonic's mission to protect, enrich and simplify people's digital lives by enabling optimum security on all smart connected devices and associated services and applications. Trustonic has already pioneered the adoption of advanced Trusted Execution Environment (TEE) security technology into the world's leading mobile devices with working solutions today underpinning Samsung Knox, Samsung Pay, Alipay and Symantec VIP. Trustonic TEE technology is available from most of the leading Android smartphone manufacturers and is embedded in more than one billion devices.",
+    "blog": "https://blog.rivetz.com/rivetz-teams-with-trustonic-to-secure-mobile-bitcoin-wallets-75ff87c57d1",
+    "website": "https://www.trustonic.com/"
+  },
+  {
+    "name": "National Cybersecurity Center of Excellence",
+    "logo": "nccoe.png",
+    "bio": "The <a href=\"https://nccoe.nist.gov\" target=\"_blank\">National Cybersecurity Center of Excellence</a> (NCCoE) is part of the <a href=\"https://www.nist.gov\" target=\"_blank\">National Institute of Standards and Technology</a> (NIST), and selected Rivetz as part of its project on <a href=\"https://nccoe.nist.gov/projects/use-cases/multifactor-authentication-ecommerce\" target=\"_blank\">Multifactor Authentication for e-Commerce</a>, focusing on the Retail Sector Use Case Consortium. The project is a consortium to contribute expertise to create an example implementation guide that online retailers can implement to reduce fraudulent online purchases. The Retail Sector consortium will help to develop practical, interoperable cybersecurity approaches that address the real-world needs of complex Information Technology (IT) systems. By accelerating dissemination and use of these integrated tools and technologies for protecting IT assets, the NCCoE will enhance trust in U.S. IT communications, data, and storage systems; reduce risk for companies and individuals using IT systems; and encourage development of innovative, job-creating cybersecurity products and services.",
+    "website": "https://www.nccoe.nist.gov/"
+  },
+  {
+    "name": "Ammbr",
+    "logo": "ammbr.png",
+    "bio": "The <a href=\"http://ammbr.com/\" target=\"_blank\">Ammbr</a> Network is a multi-frequency mesh network which is being deployed globally. Ammbr utilizes an innovative mesh router that supports Wi Fi, LTE-U, and a variety of others such as Sigfox and LoRa are all supported from the one router, allowing Ammbr to scale elegantly. Ammbr is also underpinned by its own blockchain, with each router also acting as a blockchain node. The Ammbr Blockchain native cryptocurrency is AMMBR, which allows each Ammbr router owner to participate in a decentralized marketplace for broadband connectivity. Users can load the Ammbr app on their smart phones or PCs, and pay for fast Internet connectivity using Ammbr. The Ammbr Foundation Pte. Ltd. is a Singapore based not-for-profit that administers and governs the intellectual property of the Ammbr Network.",
+    "blog": "https://blog.rivetz.com/rivetz-announces-partnership-with-ammbr-8b2cf81ea56f",
+    "website": "https://ammbr.com/"
+  },
+  {
+    "name": "Abaqus",
+    "logo": "abaqus.png",
+    "bio": "Abaqus Inc. is a leading provider of cloud-hosted, carrier grade location and messaging solutions that help SMB and Enterprise businesses better manage their mobile employees by automating their field operations. Abaqus also provides custom plugins/API for data integration into vertical ERP systems to meet industry needs. Rivetz is partnering with Abaqus' <a href=\"http://www.mygeotracking.com/\" target=\"_blank\">myGeoTracking</a> platform, which hosts a suite of solutions such as Mobile GPS Time Clock, Electronic Visit Verification, Lone Worker Safety, Field Data Collection using mobile forms/pictures/QR-barcode, transportation 3PL load & logistics management, and USPS LCRS compliance etc. to help improve productivity and accountability, while reducing payroll and operations costs."
+  },
+  {
+    "name": "Parity Technologies",
+    "logo": "parity.png",
+    "bio": "Founded by Gavin Wood, founder and former CTO of Ethereum, <a href=\"https://parity.io\" target=\"_blank\">Parity Technologies</a> is a VC-funded enterprise based in the United Kingdom and dedicated to trust-free technology. Its flagship product, Parity Ethereum, is the world’s fastest Ethereum client that integrates directly into your browser. Parity is written from the ground-up for correctness-verifiability, modularisation, low-footprint and high-performance.",
+    "website": "https://parity.io"
+  },
+  {
+    "name": "Olypsis Technologies",
+    "logo": "olypsis.png",
+    "bio": "Olypsis creates state-of-the-art blockchain solutions for some of the world's largest companies, including IBM and Thomson Reuters. Dedicated to creating specialized and decentralized technology solutions, the Olypsis mission is to make the world a more fair and equitable place. This partnership will enable Olypsis to incorporate hardware-level cybersecurity and identity management into all Olypsis blockchain projects. It also allows Olypsis to incorporate Rivetz's solution that combines the immutable record-keeping of blockchain and devices' existing hardware security capabilities built into billions of devices. Ultimately, the partnership will streamline enterprise networks by building trustless computation systems and removing the need for intermediaries.",
+    "blog": "https://blog.rivetz.com/rivetz-to-deliver-world-class-enterprise-security-solutions-f60dd7c9e58d",
+    "website": "https://www.olypsis.com/"
+  },
+  {
+    "name": "LA Token",
+    "logo": "latoken.png",
+    "bio": "<a href=\"https://latoken.com\" target=\"_blank\">LAToken</a> is a blockchain platform that tokenizes and makes tradeable assets ranging from equity and debt to real estate and works of art. For asset owners: LAToken unlocks the value of assets by enabling owners to sell their tokenized fractions to crypto-investors. For investors: LAToken opens global access to real assets using cryptocurrency, with low transaction costs and maximum transparency and security. The marketplace, which was founded in 2013, processed 1,000+ deals last year with 35 banks and investors and is now adding new asset classes.",
+    "website": "https://latoken.com/"
+  },
+  {
+    "name": "Agrello",
+    "logo": "agrello.png",
+    "bio": "Rivetz is happy to announce a new partnership with the Estonia-based <a href=\"https://www.agrello.org/\" target=\"_blank\">Agrello</a> to develop a hardware-based cybersecurity solution for digital identities. Based in Tallinn, Estonia, Agrello was founded by a team of lawyers, academics and technologists who seek to create the smartest and securest smart contracts. Their Agrello ID is expected to be as good as presenting your passport in person, though it’s digital and blockchain-based.",
+    "blog": "https://blog.rivetz.com/rivetz-partners-with-agrello-on-secure-identity-solutions-2da20d9a686",
+    "website": "https://www.agrello.org/"
+  },
+  {
+    "name": "Lucyd",
+    "logo": "lucyd.png",
+    "bio": "Lucyd is developing ergonomic smartglasses and a suite of apps to power them. The Lucyd blockchain platform will make it simpler to create, share and experience the AR content. Lucyd and their app developers will be able to incorporate Rivetz' security platform to provide a safer and simpler user experience for sensitive data mangement and secure transactions. To learn more please visit <a href=\"https://lucyd.co\" target=\"_blank\">https://lucyd.co/</a>.",
+    "blog": "https://blog.rivetz.com/rivetz-partners-with-lucyd-smartglasses-to-secure-advanced-data-7386624b864c",
+    "website": "https://lucyd.co"
+  }
+]

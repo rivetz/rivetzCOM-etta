@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "announce": "Rivetz Policy Engine",
+    "header": "Policies for Accessing Your Digital Life",
+    "details": "Building custom policies into your app is hard. Rivetz allows you to store keys within the Measured Compute Environment and we take care of enabling and deploying all the policies a user sets, quickly and easily!",
+    "partner": "Become a Partner"
+  },
+  "winning": {
+    "header": "A Winning Combination",
+    "details": "Our Policy Engine operates within the Trusted Execution Environment (TEE), a secure hardware element already available on 500+ Million devices. The combination of the Rivetz Policy Engine and the TEE gives customers the confidence to trust that the policies they set will be followed every time a key is used to sign a transaction."
+  },
+  "developers": {
+    "header": "Why Should Developers Care?",
+    "details": "Devs are right to ask why this should matter to them. There are three principal reasons:",
+    "reason1": "You will be able to give your customers/users access to our entire library of policies to choose from, without spending any time building in those policies. Simply store the keys with Rivetz, and we enable the rest!",
+    "reason2": "Built-in security is the best user experience. Do you know anyone who sets a password for their SIM? We thought not.",
+    "reason3": "A portion of any revenue that comes from a user enabling a policy on your app’s keys will be shared with you."
+  },
+  "policies": {
+    "header": "Policies Under Construction",
+    "iq": "4iQ: Checking the dark web before permitting a request to be sigend and approved.",
+    "bio": "Biometric/Pin: Only signs transactions when the correct user-set biometric or pin is provided.",
+    "gps": "GPS Location: Signs the transaction when a user is within a preset geofence."
+  },
+  "partner": {
+    "header": "Ready to Enable Policies in Your App?"
+  }
+
+}

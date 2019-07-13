@@ -1,0 +1,190 @@
+/*
+*****************
+* RivetzCOM Solutions Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 28.06.2019@11:15AM (1561734959)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Imports
+*
+*/
+/*
+*****************
+* Theme Variables
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 06.05.2019@12:36PM (1557160602)
+*
+* [Table of contents]
+* 1. Font Imports
+* 2. Font Families
+* 2. Font Colors
+* 3. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Font Imports
+*
+*/
+@import url("https://fonts.googleapis.com/css?family=Catamaran:100,300,400,500,600,700|Comfortaa:700&subset=latin-ext");
+/*
+*
+* 2. Font Families
+*
+*   1 (Header): "Comfortaa" (@700), via Google Fonts. Used for primary headers and occasional emphasis.
+*   2 (Subheader): "Catamaran" (@700), via Google Fonts. uses for subtitles and emphasis
+*   3 (P): "Catamaran" (@400), via Google Fonts. Paragraphs and normal text.
+*
+*   Error for testing: "Times New Roman" red bold.
+*/
+/*
+*
+*   3. Font Colors
+*
+*   1 (Primary): #d66e4a, rgb(214, 110, 74) // Orange
+*   2 (Secondary): #060613, rgb(6, 6, 19), // Dark blue
+*   GM-Blue: #1a2933, rgb(26, 41, 51) // Old GameMule Blue
+*   White: #ffffff, rgb(255,255,255)
+*   Off-White: #f1f1f1, rgb(241,241,241)
+*   Grey: #a4b1b2, rgb(164,177,178)
+*   Dark: #0f171c, rgb(15,23,28)
+* 
+*/
+/*
+*
+* 4. Global Options
+*
+*/
+/*
+*
+* DEPRECATED: Old Theme Colors
+*
+*/
+.section-intro .illustration.app {
+  z-index: 2;
+  right: 0vw;
+  top: -10vh; }
+
+.section-controls {
+  margin-top: 40vh; }
+  .section-controls .illustration.phone {
+    left: 5vw;
+    top: 8vh; }
+  .section-controls .illustration.key {
+    top: auto;
+    bottom: -10vh;
+    left: 4vw; }
+
+.section-collections .illustration {
+  top: 10vh;
+  right: 10vw; }
+  .section-collections .illustration img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+
+.section-collections .section-head h1 {
+  font-size: 3rem; }
+
+.section-collections .section-head p {
+  font-size: 1.4rem; }
+
+.section-collections a {
+  position: relative;
+  color: #f47e3e;
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear; }
+  .section-collections a:hover {
+    color: #4f4f4f;
+    text-decoration: none; }
+
+.section-drt .illustration {
+  top: 10vh;
+  right: 8vw; }
+  .section-drt .illustration img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+
+.section-drt .section-head h1 {
+  font-size: 3rem; }
+
+.section-drt .section-head p {
+  font-size: 1.4rem; }
+
+.section-drt a {
+  position: relative;
+  color: #f47e3e;
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear; }
+  .section-drt a:hover {
+    color: #4f4f4f;
+    text-decoration: none; }
+
+.section-services {
+  text-align: center; }
+  .section-services hr {
+    margin: 6vh auto;
+    max-width: 40%;
+    opacity: 0.6; }
+  .section-services .section-details p {
+    max-width: 1100px;
+    margin: 0 auto; }
+  .section-services .illustration.key1 {
+    top: -10vh;
+    left: 0;
+    right: auto;
+    bottom: auto; }
+  .section-services .illustration.key2 {
+    top: auto;
+    left: auto;
+    right: 0;
+    bottom: -20vh; }
+
+.section-papers {
+  margin-bottom: 0 !important; }
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh; }
+    .page-section.section-form {
+      margin-bottom: 0; } }
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .page-section {
+    margin-bottom: 10vh; }
+  .section-controls .illustration.phone {
+    left: 0vw; }
+    .section-controls .illustration.phone img {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9); }
+  .section-drt .illustration {
+    right: -5vw;
+    top: 15vh; }
+    .section-drt .illustration img {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9); } }

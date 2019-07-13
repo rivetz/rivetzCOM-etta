@@ -1,0 +1,13 @@
+.ebextensions-hide/
+.ebextensions/ # Removed for public-facing repo
+node_modules/
+.next
+*.log
+.vscode/
+.npmrc
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+# !.elasticbeanstalk/config.yml # Removed for public-facing repo
+# !.elasticbeanstalk/*.cfg.yml # Removed for public-facing repo
+# !.elasticbeanstalk/*.global.yml # Removed for public-facing repo

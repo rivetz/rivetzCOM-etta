@@ -1,0 +1,7 @@
+{
+  "hero": {
+    "announce": "Device Compatibility",
+    "header": "Device Compatibility",
+    "details": "At Rivetz, we strive to ensure our applications are compatible with as many Android handsets as possible, but because we work very close to the hardware, some mobile devices may occasionally encounter compatibility challenges. Our Quality Assurance folks are dedicated to testing as many platforms as possible, but given the continuing innovation in the Android handset space, testing all platforms is not feasible. Therefore, we appreciate our community helping to identify additional devices which our solutions properly operate on, but which may be outside of our set of validated lab devices."
+  }
+}

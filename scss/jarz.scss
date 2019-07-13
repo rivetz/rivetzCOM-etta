@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/*
+*****************
+* RivetzCOM Jarz Product Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 28.06.2019@11:15AM (1561734959)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+
+
+/*
+*
+* 1. Imports
+*
+*/
+@import 'variables'; // Custom Vars
+@import 'bourbon'; // Bourbon 
+
+
+.section-intro {
+
+  .illustration.key1 {
+    z-index: 1;
+    top: auto;
+    bottom: -80vh;
+    left: 0;
+    right: auto;
+  }
+
+  .illustration.app {
+    z-index: 2;
+    right: 0vw;
+    top: 0vh;
+  }
+}
+
+.section-transfer {
+  margin-top: 40vh;
+
+  .illustration.phone {
+    left: 12vw;
+    top:12vh;
+  }
+
+  .illustration.key {
+    top: auto;
+    bottom: -10vh;
+    left: 4vw;
+  }
+
+}
+
+
+.section-safety {
+
+  .illustration {
+    top: -5vh;
+    right: 10vw;
+    
+    img {
+      transform: scale(1);
+    }
+  }
+
+  .section-head h1 {
+    font-size: 3rem;
+  }
+  .section-head p {
+    font-size: 1.4rem;
+  }
+
+  a {
+    position: relative;
+    color: c(1);
+    transition: all 0.1s linear;
+    
+    &:hover {
+      color: c(text);
+      text-decoration: none;
+    }
+  }
+}
+
+.section-organized {
+  .illustration.phone {
+    left: 5vw;
+  }
+
+  .illustration.key {
+    top: auto;
+    bottom: -10vh;
+    left: 4vw;
+  }
+}
+
+.section-beta {
+  text-align: center;
+
+  hr {
+    margin: 6vh auto;
+    max-width: 40%;
+    opacity: 0.6;
+  }
+}
+
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+@media (min-width: 640px) {
+  // #site-navigation-mobile {
+  //   top: 36px;
+  //   padding: 20px 0; 
+  // } 
+}
+
+
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh;
+    &.section-form {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+
+
+

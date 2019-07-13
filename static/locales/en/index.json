@@ -1,0 +1,89 @@
+{
+  "hero": {
+    "announce": "Rivetz Authenticator Release!",
+    "header": "Simpler & Safer Digital Life",
+    "details": "The combination of the Rivetz Policy Engine and the trusted hardware already on your device creates an environment where everyone can simply & safely manage and control their keys.",
+    "developer": "Developer Tools",
+    "partner": "Become a Partner"
+  },
+  "devs": {
+    "header": "<We Put Devs First!/>",
+    "details": "Our tools allow you to develop an application where the keys are stored within the Measured Compute Environment. Key management has never been so simple and safe to build in, not to mention any policy users apply to your keys makes you cold hard revenue!",
+    "developer": "Developer Tools",
+    "partner": "Become a Partner"
+  },
+  "network": {
+    "header": "Learn More About the Rivetz Network",
+    "details": "",
+    "developer": "Developer Tools",
+    "partner": "Become a Partner",
+    "items": [
+      {
+        "title": "Introduction",
+        "details": "Devices power chains. If you remember anything here...",
+        "url": "introduction"
+      },
+      {
+        "title": "Digital Assets",
+        "details": "Open your wallet. Your ID, your cash, your cards - credit...",
+        "url": "digital-assets"
+      },
+      {
+        "title": "The Rivetz Network",
+        "details": "Where, when, how and under what conditions are...",
+        "url": "rivetz-network"
+      },
+      {
+        "title": "Service Providers",
+        "details": "One of the great potentials of blockchain tech...",
+        "url": "service-providers"
+      },
+      {
+        "title": "Your Rivet",
+        "details": "Who owns your data? While some social media...",
+        "url": "your-rivet"
+      },
+      {
+        "title": "A Permanent Record",
+        "details": "Did I pay the eletric bill? Did I get paid?...",
+        "url": "permanent-record"
+      },
+      {
+        "title": "Collections",
+        "details": "While smartphones have increasingly become our device...",
+        "url": "collections"
+      },
+      {
+        "title": "Dual Roots of Trust",
+        "details": "Most of us have that naseuous, hyperventilating reaction...",
+        "url": "dual-roots-of-trust"
+      },
+      {
+        "title": "Give Us a Try",
+        "details": "Rivetz enables anyone to simplify and secure their users'...",
+        "url": "try-rivetz"
+      }
+    ]
+  },
+  "get": {
+    "header": "How to Get Rivetz",
+    "details": "It’s easy to get Rivetz all set up. If you have a compatible device, you can download the Rivet. Our key management dashboard onto your phone. From there you can download any application we have partnered with to protect your keys with an extra layer of security.",
+    "options": {
+      "download": {
+        "title": "Download the Rivet",
+        "details": "The Rivet is your control center for the Rivetz Network",
+        "btn": "Download Rivetz"
+      },
+      "apps": {
+        "title": "Riveted Apps",
+        "details": "Pick any app from the link below and start using Rivetz!",
+        "btn": "See Riveted App Store"
+      },
+      "devs": {
+        "title": "For Developers",
+        "details": "Provide a safer & simpler experience to your users!",
+        "btn": "Get the Tools"
+      }
+    }
+  }
+}

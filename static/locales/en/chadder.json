@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "announce": "Chadder",
+    "header": "Are You Building a Chat App?",
+    "details": "With Chadder, the Rivetz team has demonstrated that the integration of The Rivetz Network with a chat app is possible. This sample chat app is our first implementation showing a collection of devices.",
+    "partner": "Become a Partner"
+  },
+  "devices": {
+    "header": "Chat Built Around Devices, Not Passwords",
+    "details": "Chat is about your community of devices, not one super phone. In fact, your chat membership is not connected directly to a phone number or a password. We believe the bad guys are more likely to hack your eight-digit password than to physically steal your phone without you noticing.",
+    "partner": "Become a Partner"
+  },
+  "powered": {
+    "header": "Chat Powered by Rivetz",
+    "details": "We enable chat apps to offer policies surrounding account login, chat session decryption and even on an individual message basis. Chadder, the application we have developed to explore the Rivetz Toolkit’s flexibility, also demonstrates where we are headed with collection of devices."
+  },
+  "actionable": {
+    "header": "Chat is Currently in Beta",
+    "details": "Let us know if you are developing a chat app that you would like to Rivet. We are happy to help you get access to our beta tools and Quick Start Guide!"
+  }
+}

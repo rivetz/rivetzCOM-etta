@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "announce": "Assured Wallet",
+    "header": "What is a Rivetz Assured Wallet?",
+    "details": "Rivetz enables developers to store the keys for your networked wallet app within the Measured Computing Environment, a combination of the secure hardware already shipped on 500+ Million devices, and the Rivetz Policy Engine. This combines the security of a hardware wallet with the usability, experience and accessibility of a networked wallet.",
+    "start": "Quick Start Guide",
+    "partner": "Become a Partner"
+  },
+  "instruction": {
+    "header": "The Anatomy of a Secure Instruction",
+    "details": "When developing an application, you need to be able to trust the instructions that a customer is sending: “Send 1 BTC to Jamie” is an intended action. To do this, the Rivetz Network combines attestation, the Rivetz Policy Engine, and the Trusted Execution Environment, to assure that all transactions are performed within the four perameters listed below.",
+    "instruction": "Instruction: Send 1 BTC to Jamie",
+    "wysiwys": "What you see if what you sign",
+    "recorded": "Properly recorded user consent",
+    "protection": "Proper protection of the private keys",
+    "attestation": "Attestation that policies were followed",
+    "developers": "Developer Tools",
+    "partner": "Become a Partner"
+  },
+  "revenue": {
+    "header": "Generate Revenue with Policies",
+    "details": "Users can set policies within the Rivet, our dashboard application. When a user sets policies using funds from their device for one of your apps’ keys,  a percentage of the RvT that is collected will accrue in your developer account.",
+    "details2": "If you launch a Riveted app before we commercially launch policies, you will receive a larger percentage of the policy revenue generated for your app’s keys.",
+    "more": "Contact Sales to Learn More!"
+  },
+  "actionable": {
+    "header": "We Make Complexity Disappear",
+    "details": "It has never been so easy to add the combination of trusted computing and policies to a cryptocurrency wallet. Our Quick Start Guide should only take you a few minutes to get a grasp of it. If you get stuck, we are always around to help. Just send us a message!"
+  }
+}

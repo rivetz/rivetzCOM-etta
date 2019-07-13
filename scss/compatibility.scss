@@ -1,0 +1,323 @@
+@charset "UTF-8";
+
+/*
+*****************
+* RivetzCOM Compatibility Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 02.07.2019@04:30PM (1562099438)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+
+
+/*
+*
+* 1. Imports
+*
+*/
+@import 'variables'; // Custom Vars
+@import 'bourbon'; // Bourbon 
+
+.padTop2vh {
+  padding-top: 4vh;
+}
+
+ 
+.section-intro {
+  margin-bottom: 0;
+  padding-bottom: 2vh;
+
+  .illustration.key2 {
+    z-index: 2;
+    right: 5vw;
+    top: 12vh;
+
+    img {
+      transform: scale(1.4);
+    }
+  }
+
+  .section-content .section-details p {
+    font-size: 1.4rem;
+  }
+}
+
+.section-compat {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  z-index: 4;
+
+  .illustration.form-key {
+    left: 0;
+    top: -20vh;
+    right: auto;
+    bottom: auto;
+
+    img {
+      transform: scale(0.6);
+    }
+  }
+
+  .compat-filters {
+    background: c(white);
+    border-radius: $bRadius;
+    padding: 15px;
+    margin: 2vh auto;
+    margin-top: 0vh;
+    font-size: 1.4rem;
+    box-shadow: 3px 6px 19px rgba(0, 0, 0, 0.29);
+
+    .rivetz-version {
+      padding: 10px 0;
+      cursor: help;
+      display: inline-block;
+      vertical-align: top;
+
+      strong {
+        font-weight: bold;
+        color: c(1);
+      }
+    }
+
+    .searchCont {
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+      vertical-align: top;
+
+      .reset-search {
+        transition: all 0.2s linear;
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        opacity: 0;
+        z-index: -1;
+        cursor: pointer;
+
+        i, svg {
+          font-size: 1.8rem;
+          color: c(1);
+        }
+
+        &.is-visible {
+          z-index: 2;
+          opacity: 1;
+        }
+
+        &:hover {
+          opacity: 0.8;
+        }
+
+        &:focus, &:active {
+          outline: 0;
+          border: none;
+        }
+      }
+    }
+
+    .uk-search-input {
+      padding: 10px 15px;
+      transition: all 0.1s linear;
+      color: c(1);
+
+      &:active, &:focus {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .device-list{
+    position: relative;
+    margin: 2vh auto;
+    font-size: 1.1rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .device-item, ul li {
+    transition: all 0.2s linear;
+    padding: 20px 0;
+    list-style: none;
+
+    &.device-item-li {
+      position: relative;
+      display: block;
+      text-align: center;
+      @include font(p, normal);
+
+      & > div {
+        display: inline-block;
+        margin: 5px auto;
+
+        &.device-name, &.device-oem {
+          font-weight: bold;
+          font-size: 1.4rem;
+          
+        }
+
+        &.device-carrier, &.device-android, &.device-model {
+          display: block;
+          font-weight: bold;
+
+          span {
+            font-weight: normal;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+          }
+        }
+
+        &.device-compat {
+          display: block;
+        }
+      }
+    }
+
+    &:hover {
+      background: c(white, 1);
+      transform: scale(1.05); 
+    }
+
+    .other-notes {
+      position: relative;
+
+      span {
+        position: relative;
+        display: inline-block;
+        margin: 5px;
+        border-radius: $bRadius;
+        padding: 5px 8px;
+      }
+    }
+
+    span.tui {
+      display: none;
+      background: c(white);
+      padding: 5px 8px;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      border-radius: $bRadius;
+    }
+
+    span.working i, span.working svg {
+      display: none;
+    }
+
+    // Compatibility
+    &.is-working { 
+      span.working {
+        color: c(collection);
+        font-weight: bold;
+      }
+      &:hover {
+        background: c(collection, 0.4);
+      }
+    }
+    &.not-working { 
+      span.working {
+        color: c(authenticator);
+        font-weight: bold;
+      }
+      &:hover {
+        background: c(authenticator, 0.3);
+      }
+    }
+    &.maybe-working { 
+      span.working {
+        color: c(chadder);
+        font-weight: bold; 
+
+        i, svg { display: inline-block; position: relative; }
+      }
+      &:hover {
+        background: c(chadder, 0.3);
+      }
+    }
+
+    // TUI
+    &.has-tui { 
+      span.tui {
+        background: c(collection, 0.8);
+        color: c(white);
+        font-weight: bold;
+        display: inline-block;
+      }
+    }
+    &.no-tui {
+      span.tui {
+        background: c(text-light, 0.6);
+        color: c(white);
+        font-weight: bold;
+        display: inline-block;
+      }
+    }
+  }
+
+  .tabs {
+    margin-top: 4vh;
+    a { 
+      transition: all 0.2s linear; 
+      //@include font(1);
+      &:hover { border-bottom-color: c(1); color: c(1);}
+    }
+    li.uk-active a { border-bottom-color: c(1); color: c(1); font-weight: 500; }
+  }
+
+  .uk-tab::before { border-bottom: 1px solid c(text, 0.1); }
+  .uk-tab > * > a {
+    color: c(black);
+    @include font(light);
+    font-size: 1.2rem;
+  }
+}
+
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+@media (min-width: 640px) {
+  // #site-navigation-mobile {
+  //   top: 36px;
+  //   padding: 20px 0; 
+  // } 
+}
+
+
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh;
+    &.section-form {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .page-section {
+    margin-bottom: 10vh;
+  }
+  .section-intro {
+    padding-bottom: 0;
+  }
+}
+
+
+

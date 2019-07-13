@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+/*
+*****************
+* RivetzCOM Authenticator Product Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 28.06.2019@11:15AM (1561734959)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+
+
+/*
+*
+* 1. Imports
+*
+*/
+@import 'variables'; // Custom Vars
+@import 'bourbon'; // Bourbon 
+
+
+.section-intro {
+
+  .illustration.key1 {
+    z-index: 1;
+    top: auto;
+    bottom: 4vh;
+    left: 0;
+  }
+
+  .illustration.app {
+    z-index: 2;
+  }
+}
+
+.section-protect {
+
+  .section-head h1 {
+    font-size: 3rem
+  }
+  .section-details p {
+    font-size: 1.4rem;
+  }
+
+  .illustration.safe {
+    left: 15vw;
+    top: 15vh;
+    
+    img {
+      transform: scale(1.5);
+    }
+  }
+}
+
+.section-slider-cont {
+  margin-top: 5vh;
+  padding-top: 20px
+}
+
+.section-slider {
+  position: relative;
+
+  ul {
+    position: relative;
+    padding: 0;
+    width: calc(400px * 10);
+    overflow: hidden;
+    padding-bottom: 2vw $imp;
+    transition: all 0.2s ease-in-out;
+    margin-top: 12vh $imp;
+
+    li {
+      position: relative;
+      display: inline-block;
+      top: 0;
+      margin: 0 calc(40px);
+      z-index: 2;
+      background: c(white);
+      padding: 5px;
+      border-radius: 2px;
+      width: 360px;
+      transition: all 0.1s ease-in-out;
+      box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
+
+      img {
+        border-radius: 2px;
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+
+      &:hover {
+        box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.15);
+        background: c(1);
+        color: c(white);
+        cursor: pointer ;
+
+        h5, div.indice, a, p {
+          color: c(white);
+        }
+      }
+
+    }
+  }
+
+  .slider-nav {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: right;
+
+    .slider-increment {
+      position: relative;
+      border-radius: 50%;
+      width: 60px;
+      display: inline-block;
+      line-height: 1;
+      margin: 0;
+      cursor: pointer;
+      transition: all 0.1s ease-in-out;
+      top: 0;
+
+      .eclipse {
+        transition: all 0.1s ease-in-out;
+      }
+
+      &:hover {
+
+        .eclipse {
+          fill: #FFFFFF;
+          //opacity: 1;
+        }
+
+        top: -2px;
+        @include box-shadow(button);
+      }
+    }
+  }
+}
+
+.section-videos {
+  .section-head h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .section-details {
+    font-size: 1.4rem;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 4vh;
+  }
+
+  .illustration.keys {
+    top: auto;
+    bottom: -8vh;
+  }
+}
+
+.section-policies {
+  padding-top: 0;
+
+  .section-head h1 {
+    font-size: 3rem;
+  }
+  .section-details {
+    font-size: 1.4rem;
+  }
+  .illustration.phone {
+    top: -22vh;
+    right: 10vw;
+  }
+}
+
+.section-backup {
+  .section-head h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .section-details {
+    font-size: 1.4rem;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 4vh;
+  }
+
+  .illustration.keys {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: -5vh;
+  }
+
+  .videoCont {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+
+    iframe {
+      margin: 0 auto;
+      position: relative;
+    }
+  }
+
+  iframe {
+    position: relative;
+  }
+}
+
+.section-download {
+  .buttons-linear {
+    display: block;
+    margin-top: 4vh;
+  }
+  
+  .illustration.app {
+    right: 30vh;
+    top: -10vh;
+  }
+
+  .illustration.download {
+    right: auto;
+    left: 0;
+    top: 10vh;
+  }
+}
+
+/*
+ * Responsive Changes: 640px and under, meant to just make mobile a little cleaner
+ ************
+ *
+*/
+@media (max-width: 640px) {
+  
+  .page-section {
+    margin-bottom: 5vh;
+  }
+}
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+@media (min-width: 640px) {
+  // #site-navigation-mobile {
+  //   top: 36px;
+  //   padding: 20px 0; 
+  // } 
+}
+
+
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh;
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .page-section {
+    margin-bottom: 10vh;
+  }
+  .section-intro {
+    padding-bottom: 0;
+
+    
+  }
+}
+
+

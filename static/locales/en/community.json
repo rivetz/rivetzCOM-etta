@@ -1,0 +1,64 @@
+{
+  "hero": {
+    "announce": "Community Hub",
+    "header": "Welcome to the Community Hub",
+    "details": "We are here to help you learn more about Rivetz. Hop into any of our social communities or just click around to explore!",
+    "cta": "Join Telegram",
+    "cta2": "Join Discord"
+  },
+  "social": {
+    "header": "Keep Up with Us",
+    "details": "Join our Telegram or follow our other social media channels!"
+  },
+  "videos": {
+    "header": "Rivetz Demo Videos",
+    "details": "Here are some of our most recent demo videos!",
+    "items": [
+      {
+        "title": "How to setup Rivetz Authenticator with Binance",
+        "url": "kTDDFk5CQIg",
+        "target": "binance"
+      },
+      {
+        "title": "How to setup Rivetz Authenticator with Fortnite",
+        "url": "g4jRjnRgF7U",
+        "target": "fornite"
+      },
+      {
+        "title": "How to setup Rivetz Authenticator with Bittrex",
+        "url": "NXZ_QTlr28Y",
+        "target": "bittrex"
+      },
+      {
+        "title": "How to setup Rivetz Authenticator with BitMEX",
+        "url": "UBvq_mrKRl8",
+        "target": "bitmex"
+      },
+      {
+        "title": "How to setup Rivetz Authenticator with DigiFinex",
+        "url": "xE5mExTIuIM",
+        "target": "digifinex"
+      },
+      {
+        "title": "How to setup Rivetz Authenticator with Bibox",
+        "url": "jjiioibz8ow",
+        "target": "bibox"
+      },
+      {
+        "title": "How to setup Rivetz Authenticator with Kraken",
+        "url": "6jRUXKFtD1Y",
+        "target": "kraken"
+      }
+    ]
+  },
+  "papers": {
+    "header": "Rivetz White Papers",
+    "details": "We have written a collection of white papers on various topics. Click to access them below!"
+  },
+  "closing": {
+    "header": "Leave it to Rivetz!",
+    "details": "Ask us anything! We're going to be updating our Community Hub to include a lot more functionality, useful documentation, and more in the very near future - all with the purpose of better serving our awesome community members!",
+    "faq": "Browse our FAQ",
+    "contact": "Get in Touch"
+  }
+}

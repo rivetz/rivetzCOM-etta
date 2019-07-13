@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "announce": "Enterprise Authentication",
+    "header": "Simple & Safe Access Controls",
+    "details": "Employees don't always follow best practices. With 2FA, enhanced by our Measured Computing Technology, employees can have easy access while giving your IT department some peace of mind! ",
+    "partner": "Become a Partner",
+    "contact": "Contact Us for Details"
+  },
+  "enrollment": {
+    "header": "Easy Employee Enrollment",
+    "details": "Employees simply  scan the pairing QR in person or enter the special pairing code into their Rivet app to beautomatically enrolled at the policy group level that IT/HR have chosen for the employee group. Managers should have different policies around their account access than new hires, and our enterprise solution offers that level of control."
+  },
+  "transparency": {
+    "header": "Access Transparency",
+    "details": "Employees sign up for all kinds of services on your company cards. Today, it is very hard for the finance department to know why or who is responsible for a certain item on the bill. The dashboard will log every 2FA login event so that you can know who accesses what and where they access it from. You can also view the accessing device’s trust score."
+  },
+  "device": {
+    "header": "Device Trustworthiness",
+    "details": "Know every device that accesses your corporate services and which policies were enabled at the time of access. We give you an accurate picture of your account access health as a corporation, and ourhe dashboard will give you suggestions on how to improve your corporate access health score. "
+  },
+  "transition": {
+    "header": "The Transition",
+    "details": "We are moving the world to a system where you no longer have to trust individually offered cloud services to enable best access practices. Your company will have a way to control all policies and account access for every employee’s devices on one central dashboard, making BYOD flexibility safer for your organization."
+  },
+  "partner": {
+    "header": "Interested in Enterprise Authentication?",
+    "contact": "Contact us for more details:",
+    "learn": "To learn more about the Authentication industry, download our recent study!"
+  }
+}

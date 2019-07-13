@@ -1,0 +1,301 @@
+@charset "UTF-8";
+
+/*
+*****************
+* RivetzCOM Wallet Product Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 28.06.2019@11:15AM (1561734959)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+
+
+/*
+*
+* 1. Imports
+*
+*/
+@import 'variables'; // Custom Vars
+@import 'bourbon'; // Bourbon 
+
+.section-intro {
+
+  .illustration.key1 {
+    z-index: 1;
+    top: auto;
+    bottom: -30vh;
+    left: 0;
+    right: auto;
+  }
+
+  .illustration.app {
+    z-index: 2;
+    right: 10vw;
+  }
+}
+
+.section-intent {
+
+  .section-head h1, .section-details p {
+    text-align: center;
+  }
+
+  .illustration.intent {
+    top: auto;
+    left: 5vw;
+    bottom: 5vh;
+    right: auto;
+  }
+
+  .illustration.instruction {
+    position: relative;
+    margin: 0 auto;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+  }
+}
+
+.section-revenue {
+
+  .illustration {
+    top: 20vh;
+    
+    img {
+      transform: scale(1.2);
+    }
+  }
+
+  a {
+    position: relative;
+    color: c(1);
+    transition: all 0.1s linear;
+    
+    &:hover {
+      color: c(text);
+      text-decoration: none;
+    }
+  }
+}
+
+.section-form {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+
+  .illustration.form-key {
+    left: 0;
+    top: -20vh;
+    right: auto;
+    bottom: auto;
+
+    img {
+      transform: scale(0.6);
+    }
+  }
+
+  form {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+    @include box-shadow(normal);
+    padding: calc(30px + 4vh) calc(40px + 2vw);
+    background: c(highlight);
+    color: c(text);
+    box-sizing: border-box;
+
+    h1 {
+      color: c(text);
+      text-align: center;
+      width: 100%;
+      margin-bottom: 2vh;
+    }
+
+    p {
+      color: c(text);
+      @include font(2, 400);
+      font-size: 1.6rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .details {
+      margin-bottom: 2vh;
+    }
+
+    .uk-inline {
+      width: 100%;
+
+      &.marBot {
+        margin-bottom: 2vh;
+      }
+
+      .uk-form-icon {
+        text-align: left;
+        color: c(text);
+        width: 80px;
+
+        i, svg {
+          height: auto;
+          width: 24px;
+          left: -10px;
+          position: relative;
+        }
+      }
+
+      input {
+        text-align: left;
+        background: c(white, 0.4);
+        font-size: (1.2rem);
+        color: c(text);
+        @include font(p, 300);
+        padding: 30px 2vw;
+        padding-left: 60px $imp;
+        outline: 0;
+        border: none;
+        border-radius: $bRadius;
+        transition: all 0.1s ease-in-out;
+
+        &::placeholder {
+          color: c(text);
+          font-weight: normal $imp;
+          text-transform: none $imp;
+        }
+        &:-ms-input-placeholder {
+          color: c(text);
+          font-weight: normal $imp;
+          text-transform: none $imp;
+        }
+        &::-ms-input-placeholder {
+          color: c(text);
+          font-weight: normal $imp;
+          text-transform: none $imp;
+        }
+
+        &:focus, &:active {
+          font-weight: bold;
+          @include box-shadow(normal);
+        }
+      }
+
+      .uk-form-icon:not(.uk-form-icon-flip) ~ .uk-input {
+        padding-left: 60px $imp;
+      }
+    }
+
+    textarea {
+      width: 100%;
+      background: c(white, 0.4);
+      font-size: (1.2rem);
+      color: c(text);
+      @include font(p, 300);
+      padding: 15px 2vw;
+      outline: 0;
+      border: none;
+      box-sizing: border-box;
+      transition: all 0.1s linear;
+
+      &::placeholder {
+        color: c(text);
+        font-weight: normal $imp;
+        text-transform: none $imp;
+      }
+      &:-ms-input-placeholder {
+        color: c(text);
+        font-weight: normal $imp;
+        text-transform: none $imp;
+      }
+      &::-ms-input-placeholder {
+        color: c(text);
+        font-weight: normal $imp;
+        text-transform: none $imp;
+      }
+
+      &:focus, &:active {
+        font-weight: bold;
+        @include box-shadow(normal);
+      }
+    }
+
+    button.submit-btn {
+      position: relative;
+      position: relative;
+      @include font(2, bold);
+      font-size: 1.4rem;
+      background: c(white);
+      border: none;
+      outline: 0;
+      color: c(1);
+      text-align: center;
+      text-transform: uppercase;
+      padding: 12px 24px;
+      display: inline-block;
+      border-radius: 5px;
+      margin: 0 auto;
+      line-height: 1;
+      padding-top: 18px;
+      cursor: pointer;
+      transition: all 0.1s linear;
+
+      i, svg {
+        margin-right: 10px;
+        position: relative;
+        top: 1px;
+      }
+
+      &:hover {
+        @include box-shadow(button);
+      }
+    }
+  }
+}
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+@media (min-width: 640px) {
+  // #site-navigation-mobile {
+  //   top: 36px;
+  //   padding: 20px 0; 
+  // } 
+}
+
+
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh;
+    &.section-form {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .page-section {
+    margin-bottom: 10vh;
+  }
+  .section-intro {
+    padding-bottom: 0;
+
+    .illustration.app {
+      right: 0;
+    }
+  }
+}
+
+

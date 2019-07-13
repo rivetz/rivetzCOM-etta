@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "announce": "Solutions",
+    "header": "See What You Can Do with Rivetz!",
+    "details": "A simpler & safer digital experience for everyone!",
+    "partner": "Become a Partner"
+  },
+  "controls": {
+    "header": "Provable Controls",
+    "details": "As a customer’s digital assets, identity, and life become more valuable, user-set policies surrounding critical infrastructure will be essential in creating a simpler and safer digital experience.",
+    "cta": "Learn About the Rivetz Policy Engine"
+  },
+  "collections": {
+    "header": "No More Super Phone!",
+    "details": "The average household contains 5 connected devices, and because of this, security has to live on every device we own, not just our super phone.",
+     "cta": "Learn About Collections of Devices"
+  },
+  "authentication": {
+    "header": "Two Factor Authentication for Enterprise",
+    "details": "Prove that employees are in compliance with all the policies that HR sets with 2FA for enterprise. Our unique Measured Computing Environment makes it possible for companies to get the benefits of both the Trusted Execution Environment and the Rivetz Policy Engine.",
+    "cta": "Learn About Enterprise Authentication"
+  },
+  "drt": {
+    "header": "Double the Roots, Double the Trust",
+    "details": "Rivetz has partnered with ElevenPaths – the cybersecurity arm of Telefónica, one of the largest and most widely deployed carriers in Europe and Latin America, in order to develop enhanced cybersecurity capabilities for handsets in what we refer to as Dual Roots of Trust.",
+    "cta": "Learn About Dual Roots of Trust"
+  },
+  "services": {
+    "header": "Leave it to Rivetz!",
+    "details": "Are you are interested in building custom functionality within our Measured Compute Environment? Our professional services team would love to hear from you. Send us a message or click here to learn more.",
+    "cta": "Learn About Professional Services"
+  },
+  "papers": {
+    "header": "Rivetz White Papers",
+    "details": "We have written a collection of white papers on various topics. Click to access them below!"
+  }
+}

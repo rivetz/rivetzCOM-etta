@@ -1,0 +1,32 @@
+{
+  "libra": {
+    "quick-title": "Libra Security",
+    "title": "Libra & Calibra Security",
+    "image": "libra",
+    "url": "https://api.rivetz.com/pdf/libra_calibra_whitepaper.pdf"
+  },
+  "payments": {
+    "quick-title": "Payments",
+    "title": "Smart Security for Smart Devices",
+    "image": "payments",
+    "url": "https://api.rivetz.com/pdf/disc_whitepaper.pdf"
+  },
+  "drt": {
+    "quick-title": "Dual Roots",
+    "title": "Dual Roots of Trust: A Better Way to Protect Your Digital Assets",
+    "image": "drt",
+    "url": "https://api.rivetz.com/pdf/dualroots_whitepaper.pdf"
+  },
+  "rvt": {
+    "quick-title": "RvT Token",
+    "title": "RvT Token: Cybersecurity for Decentralized Systems",
+    "image": "rvt",
+    "url": "https://www.rivetzintl.com/rvt-white-paper-v1.02.pdf"
+  },
+  "auth": {
+    "quick-title": "2FA Study",
+    "title": "Two-Factor Authentication: Pains & Perks",
+    "image": "2fa",
+    "url": "https://api.rivetz.com/pdf/auth_graphic_report.pdf"
+  }
+}

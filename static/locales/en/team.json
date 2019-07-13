@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "announce": "Rivetz",
+    "header": "Meet the Team",
+    "details": "We're builders, adventurers, divers, skiiers, surfers, climbers, crypto, pet lovers, and all-around tech enthusiasts located throughout the globe.",
+    "cta": "Browse Team",
+    "work": "Work for Rivetz"
+  },
+  "types": [
+    "Product",
+    "Engineering",
+    "Business Development",
+    "Board & Advisors"
+  ]
+}

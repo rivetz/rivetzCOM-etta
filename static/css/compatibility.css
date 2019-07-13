@@ -1,0 +1,287 @@
+/*
+*****************
+* RivetzCOM Compatibility Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 02.07.2019@04:30PM (1562099438)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Imports
+*
+*/
+/*
+*****************
+* Theme Variables
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 06.05.2019@12:36PM (1557160602)
+*
+* [Table of contents]
+* 1. Font Imports
+* 2. Font Families
+* 2. Font Colors
+* 3. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Font Imports
+*
+*/
+@import url("https://fonts.googleapis.com/css?family=Catamaran:100,300,400,500,600,700|Comfortaa:700&subset=latin-ext");
+/*
+*
+* 2. Font Families
+*
+*   1 (Header): "Comfortaa" (@700), via Google Fonts. Used for primary headers and occasional emphasis.
+*   2 (Subheader): "Catamaran" (@700), via Google Fonts. uses for subtitles and emphasis
+*   3 (P): "Catamaran" (@400), via Google Fonts. Paragraphs and normal text.
+*
+*   Error for testing: "Times New Roman" red bold.
+*/
+/*
+*
+*   3. Font Colors
+*
+*   1 (Primary): #d66e4a, rgb(214, 110, 74) // Orange
+*   2 (Secondary): #060613, rgb(6, 6, 19), // Dark blue
+*   GM-Blue: #1a2933, rgb(26, 41, 51) // Old GameMule Blue
+*   White: #ffffff, rgb(255,255,255)
+*   Off-White: #f1f1f1, rgb(241,241,241)
+*   Grey: #a4b1b2, rgb(164,177,178)
+*   Dark: #0f171c, rgb(15,23,28)
+* 
+*/
+/*
+*
+* 4. Global Options
+*
+*/
+/*
+*
+* DEPRECATED: Old Theme Colors
+*
+*/
+.padTop2vh {
+  padding-top: 4vh; }
+
+.section-intro {
+  margin-bottom: 0;
+  padding-bottom: 2vh; }
+  .section-intro .illustration.key2 {
+    z-index: 2;
+    right: 5vw;
+    top: 12vh; }
+    .section-intro .illustration.key2 img {
+      -webkit-transform: scale(1.4);
+      -ms-transform: scale(1.4);
+      transform: scale(1.4); }
+  .section-intro .section-content .section-details p {
+    font-size: 1.4rem; }
+
+.section-compat {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  z-index: 4; }
+  .section-compat .illustration.form-key {
+    left: 0;
+    top: -20vh;
+    right: auto;
+    bottom: auto; }
+    .section-compat .illustration.form-key img {
+      -webkit-transform: scale(0.6);
+      -ms-transform: scale(0.6);
+      transform: scale(0.6); }
+  .section-compat .compat-filters {
+    background: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 2vh auto;
+    margin-top: 0vh;
+    font-size: 1.4rem;
+    -webkit-box-shadow: 3px 6px 19px rgba(0, 0, 0, 0.29);
+    box-shadow: 3px 6px 19px rgba(0, 0, 0, 0.29); }
+    .section-compat .compat-filters .rivetz-version {
+      padding: 10px 0;
+      cursor: help;
+      display: inline-block;
+      vertical-align: top; }
+      .section-compat .compat-filters .rivetz-version strong {
+        font-weight: bold;
+        color: #f47e3e; }
+    .section-compat .compat-filters .searchCont {
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+      vertical-align: top; }
+      .section-compat .compat-filters .searchCont .reset-search {
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        opacity: 0;
+        z-index: -1;
+        cursor: pointer; }
+        .section-compat .compat-filters .searchCont .reset-search i, .section-compat .compat-filters .searchCont .reset-search svg {
+          font-size: 1.8rem;
+          color: #f47e3e; }
+        .section-compat .compat-filters .searchCont .reset-search.is-visible {
+          z-index: 2;
+          opacity: 1; }
+        .section-compat .compat-filters .searchCont .reset-search:hover {
+          opacity: 0.8; }
+        .section-compat .compat-filters .searchCont .reset-search:focus, .section-compat .compat-filters .searchCont .reset-search:active {
+          outline: 0;
+          border: none; }
+    .section-compat .compat-filters .uk-search-input {
+      padding: 10px 15px;
+      -webkit-transition: all 0.1s linear;
+      -o-transition: all 0.1s linear;
+      transition: all 0.1s linear;
+      color: #f47e3e; }
+      .section-compat .compat-filters .uk-search-input:active, .section-compat .compat-filters .uk-search-input:focus {
+        font-weight: bold; }
+  .section-compat .device-list {
+    position: relative;
+    margin: 2vh auto;
+    font-size: 1.1rem; }
+  .section-compat ul {
+    list-style: none;
+    padding: 0; }
+  .section-compat .device-item, .section-compat ul li {
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    padding: 20px 0;
+    list-style: none; }
+    .section-compat .device-item.device-item-li, .section-compat ul li.device-item-li {
+      position: relative;
+      display: block;
+      text-align: center;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: normal; }
+      .section-compat .device-item.device-item-li > div, .section-compat ul li.device-item-li > div {
+        display: inline-block;
+        margin: 5px auto; }
+        .section-compat .device-item.device-item-li > div.device-name, .section-compat .device-item.device-item-li > div.device-oem, .section-compat ul li.device-item-li > div.device-name, .section-compat ul li.device-item-li > div.device-oem {
+          font-weight: bold;
+          font-size: 1.4rem; }
+        .section-compat .device-item.device-item-li > div.device-carrier, .section-compat .device-item.device-item-li > div.device-android, .section-compat .device-item.device-item-li > div.device-model, .section-compat ul li.device-item-li > div.device-carrier, .section-compat ul li.device-item-li > div.device-android, .section-compat ul li.device-item-li > div.device-model {
+          display: block;
+          font-weight: bold; }
+          .section-compat .device-item.device-item-li > div.device-carrier span, .section-compat .device-item.device-item-li > div.device-android span, .section-compat .device-item.device-item-li > div.device-model span, .section-compat ul li.device-item-li > div.device-carrier span, .section-compat ul li.device-item-li > div.device-android span, .section-compat ul li.device-item-li > div.device-model span {
+            font-weight: normal;
+            font-size: 0.9rem;
+            text-transform: uppercase; }
+        .section-compat .device-item.device-item-li > div.device-compat, .section-compat ul li.device-item-li > div.device-compat {
+          display: block; }
+    .section-compat .device-item:hover, .section-compat ul li:hover {
+      background: white;
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05); }
+    .section-compat .device-item .other-notes, .section-compat ul li .other-notes {
+      position: relative; }
+      .section-compat .device-item .other-notes span, .section-compat ul li .other-notes span {
+        position: relative;
+        display: inline-block;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 5px 8px; }
+    .section-compat .device-item span.tui, .section-compat ul li span.tui {
+      display: none;
+      background: white;
+      padding: 5px 8px;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      border-radius: 5px; }
+    .section-compat .device-item span.working i, .section-compat .device-item span.working svg, .section-compat ul li span.working i, .section-compat ul li span.working svg {
+      display: none; }
+    .section-compat .device-item.is-working span.working, .section-compat ul li.is-working span.working {
+      color: #5fba85;
+      font-weight: bold; }
+    .section-compat .device-item.is-working:hover, .section-compat ul li.is-working:hover {
+      background: rgba(95, 186, 133, 0.4); }
+    .section-compat .device-item.not-working span.working, .section-compat ul li.not-working span.working {
+      color: #972d2d;
+      font-weight: bold; }
+    .section-compat .device-item.not-working:hover, .section-compat ul li.not-working:hover {
+      background: rgba(151, 45, 45, 0.3); }
+    .section-compat .device-item.maybe-working span.working, .section-compat ul li.maybe-working span.working {
+      color: #8172f3;
+      font-weight: bold; }
+      .section-compat .device-item.maybe-working span.working i, .section-compat .device-item.maybe-working span.working svg, .section-compat ul li.maybe-working span.working i, .section-compat ul li.maybe-working span.working svg {
+        display: inline-block;
+        position: relative; }
+    .section-compat .device-item.maybe-working:hover, .section-compat ul li.maybe-working:hover {
+      background: rgba(129, 114, 243, 0.3); }
+    .section-compat .device-item.has-tui span.tui, .section-compat ul li.has-tui span.tui {
+      background: rgba(95, 186, 133, 0.8);
+      color: white;
+      font-weight: bold;
+      display: inline-block; }
+    .section-compat .device-item.no-tui span.tui, .section-compat ul li.no-tui span.tui {
+      background: rgba(123, 118, 118, 0.6);
+      color: white;
+      font-weight: bold;
+      display: inline-block; }
+  .section-compat .tabs {
+    margin-top: 4vh; }
+    .section-compat .tabs a {
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
+      .section-compat .tabs a:hover {
+        border-bottom-color: #f47e3e;
+        color: #f47e3e; }
+    .section-compat .tabs li.uk-active a {
+      border-bottom-color: #f47e3e;
+      color: #f47e3e;
+      font-weight: 500; }
+  .section-compat .uk-tab::before {
+    border-bottom: 1px solid rgba(79, 79, 79, 0.1); }
+  .section-compat .uk-tab > * > a {
+    color: black;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold !important;
+    color: red !important;
+    background: rgba(255, 192, 203, 0.6) !important;
+    font-size: 1.2rem; }
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh; }
+    .page-section.section-form {
+      margin-bottom: 0; } }
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .page-section {
+    margin-bottom: 10vh; }
+  .section-intro {
+    padding-bottom: 0; } }

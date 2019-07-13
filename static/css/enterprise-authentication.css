@@ -1,0 +1,141 @@
+/*
+*****************
+* RivetzCOM Enterprise Authentication Solution Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 30.06.2019@06:02PM (1561932138)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Imports
+*
+*/
+/*
+*****************
+* Theme Variables
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 06.05.2019@12:36PM (1557160602)
+*
+* [Table of contents]
+* 1. Font Imports
+* 2. Font Families
+* 2. Font Colors
+* 3. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Font Imports
+*
+*/
+@import url("https://fonts.googleapis.com/css?family=Catamaran:100,300,400,500,600,700|Comfortaa:700&subset=latin-ext");
+/*
+*
+* 2. Font Families
+*
+*   1 (Header): "Comfortaa" (@700), via Google Fonts. Used for primary headers and occasional emphasis.
+*   2 (Subheader): "Catamaran" (@700), via Google Fonts. uses for subtitles and emphasis
+*   3 (P): "Catamaran" (@400), via Google Fonts. Paragraphs and normal text.
+*
+*   Error for testing: "Times New Roman" red bold.
+*/
+/*
+*
+*   3. Font Colors
+*
+*   1 (Primary): #d66e4a, rgb(214, 110, 74) // Orange
+*   2 (Secondary): #060613, rgb(6, 6, 19), // Dark blue
+*   GM-Blue: #1a2933, rgb(26, 41, 51) // Old GameMule Blue
+*   White: #ffffff, rgb(255,255,255)
+*   Off-White: #f1f1f1, rgb(241,241,241)
+*   Grey: #a4b1b2, rgb(164,177,178)
+*   Dark: #0f171c, rgb(15,23,28)
+* 
+*/
+/*
+*
+* 4. Global Options
+*
+*/
+/*
+*
+* DEPRECATED: Old Theme Colors
+*
+*/
+.section-intro .illustration.app {
+  z-index: 2;
+  right: 8vw;
+  top: 0vh; }
+
+.section-winning {
+  margin-top: 0vh;
+  padding-top: 0; }
+  .section-winning .section-details {
+    margin: 0 auto; }
+  .section-winning .illustration.user {
+    left: 15vw;
+    top: 8vh; }
+
+.section-device {
+  margin-top: 0vh;
+  padding-top: 0; }
+  .section-device .section-details {
+    margin: 0 auto; }
+  .section-device .illustration.device {
+    left: 5vw;
+    top: -6vh; }
+
+.section-transparency {
+  padding-top: 0; }
+  .section-transparency .illustration {
+    top: -4vh;
+    right: 10vw; }
+    .section-transparency .illustration.device {
+      top: -17vh;
+      right: 12vw; }
+    .section-transparency .illustration img {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1); }
+  .section-transparency a {
+    position: relative;
+    color: #f47e3e;
+    -webkit-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear; }
+    .section-transparency a:hover {
+      color: #4f4f4f;
+      text-decoration: none; }
+  .section-transparency ul.reasons {
+    position: relative; }
+    .section-transparency ul.reasons li {
+      position: relative;
+      margin: 20px 0;
+      font-size: 1.2rem;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: normal;
+      padding-right: 50px; }
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh; }
+    .page-section.section-form {
+      margin-bottom: 0; } }

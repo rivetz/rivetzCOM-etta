@@ -1,0 +1,154 @@
+/*
+*****************
+* RivetzCOM Network Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 30.06.2019@08:01AM (1561896092)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Imports
+*
+*/
+/*
+*****************
+* Theme Variables
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 06.05.2019@12:36PM (1557160602)
+*
+* [Table of contents]
+* 1. Font Imports
+* 2. Font Families
+* 2. Font Colors
+* 3. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Font Imports
+*
+*/
+@import url("https://fonts.googleapis.com/css?family=Catamaran:100,300,400,500,600,700|Comfortaa:700&subset=latin-ext");
+/*
+*
+* 2. Font Families
+*
+*   1 (Header): "Comfortaa" (@700), via Google Fonts. Used for primary headers and occasional emphasis.
+*   2 (Subheader): "Catamaran" (@700), via Google Fonts. uses for subtitles and emphasis
+*   3 (P): "Catamaran" (@400), via Google Fonts. Paragraphs and normal text.
+*
+*   Error for testing: "Times New Roman" red bold.
+*/
+/*
+*
+*   3. Font Colors
+*
+*   1 (Primary): #d66e4a, rgb(214, 110, 74) // Orange
+*   2 (Secondary): #060613, rgb(6, 6, 19), // Dark blue
+*   GM-Blue: #1a2933, rgb(26, 41, 51) // Old GameMule Blue
+*   White: #ffffff, rgb(255,255,255)
+*   Off-White: #f1f1f1, rgb(241,241,241)
+*   Grey: #a4b1b2, rgb(164,177,178)
+*   Dark: #0f171c, rgb(15,23,28)
+* 
+*/
+/*
+*
+* 4. Global Options
+*
+*/
+/*
+*
+* DEPRECATED: Old Theme Colors
+*
+*/
+.section-intro {
+  position: relative;
+  z-index: 1; }
+  .section-intro .illustration.key1 {
+    z-index: 1;
+    top: 10vh; }
+  .section-intro .illustration.key2 {
+    z-index: 1;
+    bottom: -45vh;
+    left: -4vw;
+    top: auto; }
+  .section-intro .illustration.key3 {
+    z-index: 1;
+    bottom: -10vh;
+    left: 0;
+    top: auto; }
+  .section-intro .illustration.app {
+    z-index: 2;
+    right: 0vw;
+    top: -10vh; }
+  .section-intro .section-content {
+    padding-bottom: 10px;
+    padding-right: 20px; }
+  .section-intro .illustration.steven {
+    z-index: 2;
+    right: 0vw;
+    top: 5vh;
+    width: 60vw; }
+    .section-intro .illustration.steven .uk-overlay p {
+      font-family: 'Catamaran', sans-serif;
+      font-weight: normal; }
+
+.section-content {
+  padding-top: 0;
+  color: #4f4f4f;
+  font-size: 1.4rem;
+  z-index: 5;
+  position: relative; }
+  .section-content p {
+    margin-bottom: 4vh; }
+  .section-content h4 {
+    margin: 6vh 0;
+    color: #f47e3e;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 1.8rem; }
+  .section-content .section-buttons {
+    position: relative;
+    display: block; }
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh; }
+    .page-section.section-form {
+      margin-bottom: 0; } }
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .page-section {
+    margin-bottom: 10vh; }
+  .section-intro {
+    padding-bottom: 0; }
+    .section-intro .illustration.app {
+      right: -10vw;
+      top: -10vw; }
+      .section-intro .illustration.app img {
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8); }
+    .section-intro .illustration.key3 {
+      left: -7vw; }
+    .section-intro .illustration.key2 {
+      left: -7vw; } }

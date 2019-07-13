@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "announce": "Dual Roots of Trust",
+    "header": "Trust Built into Hardware",
+    "details": "Software-based security is no longer enough. Dual Roots of Trust would require an attacker to compromise two completely independent secure hardware domains to steal your complete key. Again, giving you a simpler & safer experience with every service you Rivet!",
+    "partner": "Become a Partner",
+    "whitepaper": "Read Our Whitepaper",
+    "sales": "Contact Sales"
+  },
+  "response": {
+    "header": "Our Response to an Evolving Digital Landscape",
+    "details": "Admit it – you’ve signed into work email from public wifi at least once. The bad guys now have many different ways to acquire your credentials and use them to compromise data belonging to both you and your company."
+  },
+  "spof": {
+    "header": "No More Single Points of Failure",
+    "details": "Even if the single point is difficult to break into, you might not notice it right away if you leave your phone at the office or even momentarily misplace it. The longer it’s out of your control, the greater the chance of compromise."
+  },
+  "solution": {
+    "header": "The Solution",
+    "details": "By distributing those assets across two or more security domains, an attacker would have to compromise both locations faster than you could call your carrier to freeze your digital assets."
+  },
+  "always": {
+    "header": "Your Keys, Always",
+    "details": "With Dual Roots of Trust, no single supplier or telco is responsible for your keys, and neither one of the portions of the key can sign a transaction without their counterpart’s approval. This way, you always own your full key and the recovery process. Keeping you in control is our focus."
+  },
+  "partner": {
+    "header": "Interested in Enabling Dual Roots of Trust?"
+  }
+}

@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+/*
+*****************
+* RivetzCOM Network Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 30.06.2019@08:01AM (1561896092)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+
+
+/*
+*
+* 1. Imports
+*
+*/
+@import 'variables'; // Custom Vars
+@import 'bourbon'; // Bourbon 
+
+ 
+.section-intro {
+  position: relative;
+  z-index: 1; 
+
+  .illustration.key1 {
+    z-index: 1;
+    top: 10vh;
+  }
+
+  .illustration.key2 {
+    z-index: 1;
+    bottom: -45vh;
+    left: -4vw;
+    top: auto;
+  }
+
+  .illustration.key3 {
+    z-index: 1;
+    bottom: -10vh;
+    left: 0;
+    top: auto;
+  }
+
+  .illustration.app {
+    z-index: 2;
+    right: 0vw;
+    top: -10vh;
+  }
+
+  .section-content {
+    padding-bottom: 10px;
+    padding-right: 20px;
+  }
+
+  .illustration.steven {
+    z-index: 2;
+    right: 0vw;
+    top: 5vh;
+    width: 60vw;
+
+    .uk-overlay p {
+      @include font(2, normal);
+
+    }
+  }
+}
+
+.section-content {
+  padding-top: 0;
+  color: c(text);
+  font-size: 1.4rem;
+  z-index: 5;
+  position: relative;
+
+  p {
+    margin-bottom: 4vh;
+  }
+
+  h4 {
+    margin: 6vh 0;
+    color: c(1);
+    @include font(1, bold);
+    font-size: 1.8rem;
+  }
+
+  .section-buttons {
+    position: relative;
+    display: block;
+  }
+}
+
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+@media (min-width: 640px) {
+  // #site-navigation-mobile {
+  //   top: 36px;
+  //   padding: 20px 0; 
+  // } 
+}
+
+
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh;
+    &.section-form {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .page-section {
+    margin-bottom: 10vh;
+  }
+  .section-intro {
+    padding-bottom: 0;
+
+    .illustration.app {
+      right: -10vw;
+      top: -10vw;
+
+      img {
+        transform: scale(0.8);
+      }
+    }
+    .illustration.key3 {
+      left: -7vw;
+    }
+    .illustration.key2 {
+      left: -7vw;
+    }
+  }
+}
+

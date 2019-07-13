@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "announce": "Partner Program",
+    "header": "Let's Make the Internet a Simpler & Safer Place Together!",
+    "details": "Our partners use our tools to deliver simpler & safer experiences to their customers while generating revenue from the Rivetz Policy Engine.",
+    "cta": "Become a Partner",
+    "view": "See Our Current Partners"
+  },
+  "types": {
+    "header": "Why Partner with Rivetz?",
+    "details": "We strive to create great experiences both for your team and your customers, we are always available to help you launch faster and provide a simpler and safer experience to your customers!",
+    "developers": {
+      "title": "Developer Partners",
+      "header": "Add the Power of Rivetz to Your App!",
+      "details": "Developer Partners can access our tools for free, bringing a simpler & safer experience to their customers, too.",
+      "details2": "If you require a more complex solution with custom calls in our toolkit, please read more about our professional services offering here."
+    },
+    "policy": {
+      "title": "Policy Developers",
+      "header": "Sell Your Solutions to Customers Throughout the Rivetz Network!",
+      "details": "If you are interested in offering your services to customers as a policy that they can enable to protect their keys, please reach out to us at sales@rivetz.com"
+    },
+    "corporate": {
+      "title": "Corporate Partners",
+      "header": "Deploy Rivetz as an Access Control Solution within Your Organization",
+      "details": "Reach out to our sales team if you are interested in signing up for our closed Enterprise Authentication Beta."
+    }
+  },
+  "current": {
+    "header": "Current Partners"
+  }
+}

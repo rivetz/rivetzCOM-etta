@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+/*
+*****************
+* Theme Variables
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 06.05.2019@12:36PM (1557160602)
+*
+* [Table of contents]
+* 1. Font Imports
+* 2. Font Families
+* 2. Font Colors
+* 3. Global Settings 
+*
+*****************
+*/
+
+
+/*
+*
+* 1. Font Imports
+*
+*/
+// Remote Font Imports (Adobe TypeKit, Google Fonts, etc)
+@import url('https://fonts.googleapis.com/css?family=Catamaran:100,300,400,500,600,700|Comfortaa:700&subset=latin-ext');
+
+
+
+
+/*
+*
+* 2. Font Families
+*
+*   1 (Header): "Comfortaa" (@700), via Google Fonts. Used for primary headers and occasional emphasis.
+*   2 (Subheader): "Catamaran" (@700), via Google Fonts. uses for subtitles and emphasis
+*   3 (P): "Catamaran" (@400), via Google Fonts. Paragraphs and normal text.
+*
+*   Error for testing: "Times New Roman" red bold.
+*/
+@mixin font($fontFamily: 1, $fontWeight: '') {
+
+  @if $fontFamily == 1 or $fontFamily == header {
+    font-family: 'Comfortaa', cursive;
+    @if $fontWeight != '' { font-weight: $fontWeight; } @else { font-weight: bold; }
+  } @else if $fontFamily == 2 or $fontFamily == subheader {
+    font-family: 'Catamaran', sans-serif;
+    @if $fontWeight != '' { font-weight: $fontWeight; } @else { font-weight: bold; }
+  } @else if $fontFamily == 3 or $fontFamily == p {
+    font-family: 'Catamaran', sans-serif;
+    @if $fontWeight != '' { font-weight: $fontWeight; } @else { font-weight: 400; }
+  } @else if $fontFamily == fa {
+    font-family: 'FontAwesome';
+  } @else { // Make unsupported styles stand out
+    font-family: 'Times New Roman', serif;
+    font-weight: bold !important;
+    color: red !important;
+    background: rgba(255, 192, 203, 0.6) !important;
+  }
+}
+
+
+/*
+*
+*   3. Font Colors
+*
+*   1 (Primary): #F47E3E, rgb(244, 126, 62) // Orange
+*   2 (Secondary): #6C5BD9, rgb(108, 91, 217), // Dark blue
+* 
+*/
+$themeColors-map: (
+  1: #F47E3E, // Primary Orange
+  2: #6C5BD9, // Primary Blue
+  shadow-orange: #F26922,
+  wallet: #F6AB52, // eww, puke
+  highlight: #FBE4CE,
+  authentication: #5670AB, // Enterprise Authentication
+  collection: #5FBA85, // Collection of Devices
+  drt: #5F98C3, // Dual Roots of Trust
+  services: #F4B186, // Pro Services (lighter orange)
+  white: #FFFFFF,
+  bg: #FBFCFF, // Previously #F7F8FC
+  text: #4F4F4F,
+  text-light: #7B7676,
+  black: #000000,
+  authenticator: #972D2D,
+  disc: #972D2D,
+  chadder: #8172F3
+);
+
+@function c($key:1, $transparency:1) {
+  @if map-has-key($themeColors-map, $key) {
+    @return rgba(map-get($themeColors-map, $key), $transparency);
+  } @else {
+    @return #FF1493;
+  }
+}
+
+
+/*
+*
+* 4. Global Options
+*
+*/
+
+// Globals
+$imp: !important;
+
+// Border Radius
+$bRadius: 5px;
+
+
+// Box Shadows
+// Mixin instead of mapped function because advanced box-shadow syntax doesn't always play nice with SASS maps
+@mixin box-shadow($key: theme) {
+  @if $key == 'button' {
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  } @else {
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+  }
+}
+
+// Transitions
+$themeTransitions-map: (
+  normal: all 0.2s linear,
+  ease: all 0.2s ease-in-out,
+);
+@mixin trans($key:normal) {
+  transition: map-get($themeTransitions-map, $key)
+}
+
+
+
+
+
+/*
+*
+* DEPRECATED: Old Theme Colors
+*
+*/
+@function tc-old($colorTier: 1, $transparency:1) {
+
+  @if $colorTier == 1 or $colorTier == orange {
+    // Theme orange
+    // rgba(214, 110, 74, 1), hex #d66e4a
+    @return rgba(214,110,74,$transparency);
+  } @else if $colorTier == 2 or $colorTier == blue {
+    // Theme dark blue
+    // rgba(26, 41, 51, 1), hex #1a2933 
+    @return rgba(26,41,51,$transparency);
+  } @else if $colorTier == 3 or $colorTier == grey {
+    // Theme grey (lighter)
+    // rgba(101, 106, 109, 1), hex #656a6d
+    @return rgba(101,106,109,$transparency);
+  } @else if $colorTier == 3 or $colorTier == white {
+    // Generic White
+    // rgba(255, 255, 255, 1)
+    @return rgba(255,255,255,$transparency);
+  } @else if $colorTier == 4 or $colorTier == dark {
+    // Theme UI dark blue (darker, shale)
+    // rgba(15, 23, 28, 1)
+    @return rgba(15,23,28,$transparency);
+  } @else if $colorTier == 5 or $colorTier == bg {
+    // Theme dark blue/violet
+    // rgba(7, 10, 20, 1), hex #070a14
+    @return rgba(6,6,19,$transparency);
+  } @else if $colorTier == red {
+    // Theme red (for alerts, etc)
+    // rgba(214, 74, 74, 1), hex #d64a4a
+    @return rgba(214,74,74,$transparency);
+  } @else if $colorTier == green {
+    // Theme green (alt. notifications)
+    // rgba(43, 148, 119, 1), hex #2b8a77
+    @return rgba(43,148,119,$transparency);
+  } @else {
+    // When in doubt, return white
+    @return rgba(255,255,255,1);
+  }
+
+}

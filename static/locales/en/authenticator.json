@@ -1,0 +1,67 @@
+{
+  "hero": {
+    "announce": "Rivetz Authenticator",
+    "header": "You Should Be In Charge!",
+    "details": "Usernames and passwords are no longer enough to keep your accounts safe, and many cybersecurity experts suggest enabling a second factor of authentication. Rivetz Authenticator is a simpler & safer 2FA app for the modern consumer.",
+    "download": "Download",
+    "compatibility": "Check Device Compatibility"
+  },
+  "protect": {
+    "header": "Protect Your Digital Life",
+    "details": "Your accounts are constantly under attack; Instead of giving up on the internet, protect yourself with Rivetz Authenticator. Using our cutting edge secure hardware to protect your codes, Rivetz Authenticator allows you to set policies around accessing your accounts, with easy backup and recovery if your phone is lost or damaged."
+  },
+  "simpler": {
+    "header": "Simpler & Safer 2FA",
+    "details": "Rivetz Authenticator is quick and easy to set up. To get started, simply download the Rivet first and Rivetz Authenticator second. Here are some short videos on how to set up Rivetz Authenticator with many popular services.",
+    "videos": [
+      {
+        "title": "How to setup Rivetz Authenticator with Binance",
+        "url": "kTDDFk5CQIg",
+        "target": "binance"
+      },
+      {
+        "title": "How to setup Rivetz Authenticator with Fortnite",
+        "url": "g4jRjnRgF7U",
+        "target": "fornite"
+      },
+      {
+        "title": "How to setup Rivetz Authenticator with Bittrex",
+        "url": "NXZ_QTlr28Y",
+        "target": "bittrex"
+      },
+      {
+        "title": "How to setup Rivetz Authenticator with BitMEX",
+        "url": "UBvq_mrKRl8",
+        "target": "bitmex"
+      },
+      {
+        "title": "How to setup Rivetz Authenticator with DigiFinex",
+        "url": "xE5mExTIuIM",
+        "target": "digifinex"
+      },
+      {
+        "title": "How to setup Rivetz Authenticator with Bibox",
+        "url": "jjiioibz8ow",
+        "target": "bibox"
+      },
+      {
+        "title": "How to setup Rivetz Authenticator with Kraken",
+        "url": "6jRUXKFtD1Y",
+        "target": "kraken"
+      }
+    ]
+  },
+  "policies": {
+    "header": "Policies You Choose",
+    "details": "Our team of engineers are hard at work to bring you policies that you can set within the Rivet app to control when, where, and who can access your 2FA codes. To learn more about our plan for RvT-enabled policies, click here!"
+  },
+  "backup": {
+    "header": "Encrypted Backup You Control",
+    "details": "With Rivetz Authenticator, it only takes seconds to backup your 2FA codes with industry standard encryption and restore them to a new device.  You maintain full control of your backup and 24-word recovery phrase at all times. Enjoy backup that is as simple and safeas all your digital experiences should be."
+  },
+  "download": {
+    "header": "Download Now",
+    "details": "Click here to download Rivetz Authenticator and take your first step toward a safer and simpler digital life.",
+    "download": "Download"
+  }
+}

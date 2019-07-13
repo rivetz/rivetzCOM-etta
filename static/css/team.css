@@ -1,0 +1,325 @@
+/*
+*****************
+* RivetzCOM Team Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 30.06.2019@08:01AM (1561896092)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Imports
+*
+*/
+/*
+*****************
+* Theme Variables
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 06.05.2019@12:36PM (1557160602)
+*
+* [Table of contents]
+* 1. Font Imports
+* 2. Font Families
+* 2. Font Colors
+* 3. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Font Imports
+*
+*/
+@import url("https://fonts.googleapis.com/css?family=Catamaran:100,300,400,500,600,700|Comfortaa:700&subset=latin-ext");
+/*
+*
+* 2. Font Families
+*
+*   1 (Header): "Comfortaa" (@700), via Google Fonts. Used for primary headers and occasional emphasis.
+*   2 (Subheader): "Catamaran" (@700), via Google Fonts. uses for subtitles and emphasis
+*   3 (P): "Catamaran" (@400), via Google Fonts. Paragraphs and normal text.
+*
+*   Error for testing: "Times New Roman" red bold.
+*/
+/*
+*
+*   3. Font Colors
+*
+*   1 (Primary): #d66e4a, rgb(214, 110, 74) // Orange
+*   2 (Secondary): #060613, rgb(6, 6, 19), // Dark blue
+*   GM-Blue: #1a2933, rgb(26, 41, 51) // Old GameMule Blue
+*   White: #ffffff, rgb(255,255,255)
+*   Off-White: #f1f1f1, rgb(241,241,241)
+*   Grey: #a4b1b2, rgb(164,177,178)
+*   Dark: #0f171c, rgb(15,23,28)
+* 
+*/
+/*
+*
+* 4. Global Options
+*
+*/
+/*
+*
+* DEPRECATED: Old Theme Colors
+*
+*/
+.section-intro .section-content {
+  background: #fbfcff;
+  padding-bottom: 10px;
+  padding-right: 20px; }
+
+.section-intro .illustration.steven {
+  z-index: 2;
+  right: 0vw;
+  top: 5vh;
+  width: 60vw; }
+  .section-intro .illustration.steven .uk-overlay p {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: normal; }
+
+.section-team-list {
+  position: relative;
+  padding-top: 8vh; }
+  .section-team-list .tabs a {
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear; }
+    .section-team-list .tabs a:hover {
+      border-bottom-color: #f47e3e;
+      color: #f47e3e; }
+  .section-team-list .tabs li.uk-active a {
+    border-bottom-color: #f47e3e;
+    color: #f47e3e;
+    font-weight: 500; }
+  .section-team-list .uk-tab::before {
+    border-bottom: 1px solid rgba(79, 79, 79, 0.1); }
+  .section-team-list .uk-tab > * > a {
+    color: #4f4f4f;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: normal;
+    font-size: 1.2rem; }
+  .section-team-list #board-advisors > hr {
+    position: relative;
+    margin: 4vh auto;
+    max-width: 60%;
+    border-color: rgba(0, 0, 0, 0.2); }
+  .section-team-list #board-advisors > h3 {
+    margin-top: 7vh;
+    margin-bottom: 1vh;
+    font-size: 2.4rem; }
+  .section-team-list .team-members {
+    position: relative;
+    margin: 0;
+    padding: 4vh 0;
+    text-align: center; }
+    .section-team-list .team-members .team-member {
+      position: relative;
+      text-align: center;
+      display: inline-block;
+      vertical-align: top;
+      margin: 0;
+      margin-bottom: 2vh;
+      padding-left: 0;
+      padding: 10px 20px; }
+    .section-team-list .team-members .team-member-inner {
+      position: relative;
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      display: inline-block;
+      width: 100%;
+      min-height: 260px;
+      padding: 15px 10px;
+      border-radius: 2px;
+      background: white;
+      -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+      cursor: pointer;
+      font-size: 1rem;
+      border-bottom: 4px solid rgba(244, 126, 62, 0); }
+      .section-team-list .team-members .team-member-inner:hover {
+        -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+        box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+        border-bottom: 4px solid #f47e3e; }
+      .section-team-list .team-members .team-member-inner .member-image {
+        position: relative; }
+        .section-team-list .team-members .team-member-inner .member-image img {
+          width: 140px;
+          height: 140px;
+          border-radius: 50%;
+          -webkit-transition: all 0.2s linear;
+          -o-transition: all 0.2s linear;
+          transition: all 0.2s linear; }
+      .section-team-list .team-members .team-member-inner .member-info {
+        position: relative;
+        margin-top: 2vh;
+        padding: 0 15px; }
+        .section-team-list .team-members .team-member-inner .member-info h3.name {
+          color: #f47e3e;
+          margin-bottom: 1.6vh;
+          font-size: 1.2rem;
+          font-family: 'Comfortaa', cursive;
+          font-weight: 300; }
+        .section-team-list .team-members .team-member-inner .member-info h4.jobTitle {
+          color: #4f4f4f;
+          font-size: 0.9rem;
+          margin: 0;
+          font-family: 'Catamaran', sans-serif;
+          font-weight: normal; }
+
+#teamModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.99);
+  color: black;
+  z-index: 500;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300;
+  overflow: auto; }
+  #teamModal .memberInner {
+    position: relative;
+    max-height: 70vh;
+    margin-top: 15vh; }
+    #teamModal .memberInner hr {
+      margin: 2vh auto;
+      max-width: 40%; }
+    #teamModal .memberInner > .uk-container {
+      margin: 0 auto; }
+    #teamModal .memberInner .memberPhoto {
+      position: relative;
+      width: 100%;
+      margin-bottom: 2vh;
+      text-align: center;
+      border-radius: 5px; }
+      #teamModal .memberInner .memberPhoto img {
+        position: relative;
+        margin: 0 auto;
+        width: 80%;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 10px 19px rgba(0, 0, 0, 0.29);
+        box-shadow: 0px 10px 19px rgba(0, 0, 0, 0.29); }
+    #teamModal .memberInner .socialLinks {
+      position: relative;
+      width: 100%;
+      text-align: center; }
+      #teamModal .memberInner .socialLinks li {
+        position: relative;
+        display: inline-block;
+        margin: 5px; }
+      #teamModal .memberInner .socialLinks a {
+        display: inline-block;
+        font-size: 1.4rem;
+        border-radius: 5px;
+        color: #f47e3e;
+        padding: 5px 8px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear; }
+        #teamModal .memberInner .socialLinks a i, #teamModal .memberInner .socialLinks a svg {
+          margin: 0;
+          top: 1px;
+          position: relative; }
+        #teamModal .memberInner .socialLinks a:hover {
+          background: #f47e3e;
+          color: white; }
+    #teamModal .memberInner .memberBio h2 {
+      color: #f47e3e;
+      font-family: 'Comfortaa', cursive;
+      font-weight: bold;
+      font-size: 1.8rem;
+      margin-bottom: 10px; }
+    #teamModal .memberInner .memberBio .bioDesc {
+      font-family: 'Catamaran', sans-serif;
+      font-weight: normal;
+      position: relative;
+      font-size: 1.2rem;
+      color: #7b7676; }
+    #teamModal .memberInner .memberBio h4 {
+      position: relative;
+      margin: 0;
+      margin-bottom: 1.2vh;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 300; }
+    #teamModal .memberInner .navOptions {
+      position: relative;
+      text-align: center;
+      margin-top: 4vh; }
+      #teamModal .memberInner .navOptions .navOption {
+        cursor: pointer;
+        position: relative;
+        color: black;
+        font-family: 'Comfortaa', cursive;
+        font-weight: 300;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        border-radius: 3px;
+        margin: 10px 1vw;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        display: inline-block; }
+        #teamModal .memberInner .navOptions .navOption i, #teamModal .memberInner .navOptions .navOption svg {
+          margin: 0 10px; }
+        #teamModal .memberInner .navOptions .navOption.is-close {
+          background: #f47e3e;
+          color: white;
+          font-size: 1.4em;
+          top: 2px; }
+        #teamModal .memberInner .navOptions .navOption.is-left i, #teamModal .memberInner .navOptions .navOption.is-left svg {
+          margin-left: auto; }
+        #teamModal .memberInner .navOptions .navOption.is-right i, #teamModal .memberInner .navOptions .navOption.is-right svg {
+          margin-right: auto; }
+        #teamModal .memberInner .navOptions .navOption:hover {
+          -webkit-box-shadow: 3px 6px 19px rgba(0, 0, 0, 0.29);
+          box-shadow: 3px 6px 19px rgba(0, 0, 0, 0.29);
+          background: #f47e3e;
+          color: white; }
+
+/*
+ * Responsive Changes: 640px and under, meant to just make mobile a little cleaner
+ ************
+ *
+*/
+@media (max-width: 640px) {
+  #teamModal .memberInner > div > div {
+    padding-left: 0;
+    padding: 0 20px; }
+  #teamModal .memberInner .socialLinks {
+    text-align: center; }
+    #teamModal .memberInner .socialLinks a {
+      margin: 5px; } }
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh; }
+    .page-section.section-form {
+      margin-bottom: 0; } }
+
+/*
+ * Responsive Changes: 1200px - 1700px (range of non-1080p laptops and some Macbook effective res's)
+ ************
+ *
+*/
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .section-intro .illustration.steven {
+    right: -5vw; } }

@@ -1,0 +1,366 @@
+@charset "UTF-8";
+
+/*
+*****************
+* RivetzCOM Team Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 30.06.2019@08:01AM (1561896092)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+
+
+/*
+*
+* 1. Imports
+*
+*/
+@import 'variables'; // Custom Vars
+@import 'bourbon'; // Bourbon 
+
+
+.section-intro {
+
+  .section-content {
+    background: c(bg);
+    padding-bottom: 10px;
+    padding-right: 20px;
+  }
+
+  .illustration.steven {
+    z-index: 2;
+    right: 0vw;
+    top: 5vh;
+    width: 60vw;
+
+    .uk-overlay p {
+      @include font(2, normal);
+
+    }
+  }
+}
+
+.section-team-list {
+  position: relative;
+  //@include box-shadow();
+  padding-top: 8vh;
+
+  .tabs {
+    a { 
+      transition: all 0.2s linear; 
+      //@include font(1);
+      &:hover { border-bottom-color: c(1); color: c(1);}
+    }
+    li.uk-active a { border-bottom-color: c(1); color: c(1); font-weight: 500; }
+  }
+
+  .uk-tab::before { border-bottom: 1px solid c(text, 0.1); }
+  .uk-tab > * > a {
+    color: c(text);
+    @include font(2, normal);
+    font-size: 1.2rem;
+  }
+
+  //#teamFilter { display: none; }
+
+
+  #board-advisors {
+
+    & > hr {
+      position: relative;
+      margin: 4vh auto;
+      max-width: 60%;
+      border-color: c(black, 0.2);
+    }
+
+    & > h3 {
+      margin-top: 7vh;
+      margin-bottom: 1vh;
+      font-size: 2.4rem;
+    }
+  }
+
+  .team-members {
+    position: relative;
+    margin: 0;
+    padding: 4vh 0;
+    text-align: center;
+
+    .team-member {
+      position: relative;
+      text-align: center;
+      display: inline-block;
+      vertical-align: top;
+      margin: 0;
+      margin-bottom: 2vh;
+      padding-left: 0;
+      padding: 10px 20px;
+    }
+
+    .team-member-inner {
+      position: relative;
+      transition: all 0.2s linear;
+      display: inline-block;
+      width: 100%;
+      min-height: 260px;
+      padding: 15px 10px;
+      border-radius: 2px;
+      background: c(white);
+      @include box-shadow(button);
+      cursor: pointer;
+      font-size: 1rem;
+      border-bottom: 4px solid c(1, 0);
+
+
+      &:hover {
+        @include box-shadow(normal);
+        border-bottom: 4px solid c(1);
+      }
+
+      .member-image {
+        position: relative;
+
+        img {
+          width: 140px;
+          height: 140px;
+          border-radius: 50%;
+          transition: all 0.2s linear;
+        }
+      }
+
+      .member-info {
+        position: relative;
+        margin-top: 2vh;
+        padding: 0 15px;
+
+        h3.name {
+          color: c(1);
+          margin-bottom: 1.6vh;
+          font-size: 1.2rem;
+          @include font(header, 300);
+        }
+
+        h4.jobTitle {
+          color: c(text);
+          font-size: 0.9rem;
+          margin: 0;
+          @include font(subheader, normal);
+        }
+      }
+    }
+  }
+}
+
+
+#teamModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: c(white, 0.99);
+  color: c(black);
+  z-index: 500;
+  @include font(header, 300);
+  overflow: auto;
+
+  .memberInner {
+    position: relative;
+    max-height: 70vh;
+    margin-top: 15vh;
+
+    hr {
+      margin: 2vh auto;
+      max-width: 40%;
+    }
+    
+    & > .uk-container { margin: 0 auto; }
+
+    .memberPhoto {
+      position: relative;
+      width: 100%;
+      margin-bottom: 2vh;
+      text-align: center;
+      border-radius: $bRadius;
+
+      img {
+        position: relative;
+        margin: 0 auto;
+        width: 80%;
+        border-radius: $bRadius;
+        box-shadow: 0px 10px 19px rgba(0, 0, 0, 0.29);
+      }
+    }
+
+    .socialLinks {
+      position: relative;
+      width: 100%;
+      text-align: center;
+
+      li {
+        position: relative;
+        display: inline-block;
+        margin: 5px;
+      }
+
+      a {
+        display: inline-block;
+        font-size: 1.4rem;
+        border-radius: $bRadius;
+        color: c(1);
+        padding: 5px 8px;
+        transition: all 0.2s linear;
+
+        i, svg {
+          margin: 0;
+          top: 1px;
+          position: relative;
+        }
+
+        &:hover {
+          background: c(1);
+          color: c(white);
+        }
+      }
+    }
+
+    .memberBio {
+      h2 {
+        color: c(1);
+        @include font(header, bold);
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+      }
+
+      .bioDesc {
+        @include font(p, normal);
+        position: relative;
+        font-size: 1.2rem;
+        color: c(text-light);
+      }
+
+      h4 {
+        position: relative;
+        margin: 0;
+        margin-bottom: 1.2vh;
+        @include font(subheader, 300);
+      }
+    }
+
+    .navOptions {
+      position: relative;
+      text-align: center;
+      margin-top: 4vh;
+
+      .navOption {
+        cursor: pointer;
+        position: relative;
+        color: c(black);
+        @include font(header, 300);
+        text-transform: uppercase;
+        padding: 10px 15px;
+        border-radius: 3px;
+        margin: 10px 1vw;
+        transition: all 0.2s linear;
+        display: inline-block;
+
+        i, svg { 
+          margin: 0 10px;
+        }
+
+        &.is-close {
+          background: c(1);
+          color: c(white);
+          font-size: 1.4em;
+          top: 2px;
+        }
+
+        &.is-left {
+          i, svg { margin-left: auto; }
+        }
+
+        &.is-right {
+          i, svg { margin-right: auto; }
+        }
+
+        &:hover {
+          box-shadow: 3px 6px 19px rgba(0, 0, 0, 0.29);
+          background: c(1);
+          color: c(white);
+        }
+      }
+    }
+  }
+}
+
+/*
+ * Responsive Changes: 640px and under, meant to just make mobile a little cleaner
+ ************
+ *
+*/
+@media (max-width: 640px) {
+  
+  #teamModal .memberInner > div > div {
+    padding-left: 0; // Counter the weird padding put in place by uikit
+    padding: 0 20px;
+  }
+
+  #teamModal .memberInner .socialLinks {
+    text-align: center;
+    
+    a {
+      margin: 5px;
+    }
+  }
+  
+}
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+@media (min-width: 640px) {
+  // #site-navigation-mobile {
+  //   top: 36px;
+  //   padding: 20px 0; 
+  // } 
+}
+
+
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh;
+    &.section-form {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+/*
+ * Responsive Changes: 1200px - 1700px (range of non-1080p laptops and some Macbook effective res's)
+ ************
+ *
+*/
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .section-intro {
+
+    .illustration.steven {
+      right: -5vw;
+    }
+  }
+}
+
+
+

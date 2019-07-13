@@ -1,0 +1,26 @@
+{
+  "hero": {
+    "announce": "Collection of Devices",
+    "header": "Meet the Social Network for Devices",
+    "details": "Every device within the Rivetz Network will have the ability to friend and group with other devices. This way, your team can all have one shared and controlled RvT balance, enabling certain staff to have less policy budget allowance than team leads, for example.",
+    "details2": "Collection of Devices will allow for a user’s device to be a member of multiple collections, such as your workplace collection, your hobby group, and your family, all connected to different policies and different sources of funding. With this much control, customization possibilities are endless. During the workday, show and manage all the keys that have been enabled on The Rivet for your job; When you go home, automatically switch over to your family collection. Complete customization with ease!",
+    "partner": "Become a Partner",
+    "contact": "Contact Us for Details"
+  },
+  "trust-score": {
+    "header": "Trust Score? What’s That?",
+    "details": "Every device in your collection is unique and has its own trust score. Trust scores help you set unique policies for each device. For instance, some devices may not have secure hardware, or some may show signs of malicious tampering. Distribute trust scores to moderate the level of connectivity and control that each device has over your collection. As an example, you may want your phone to have different access to your main balance of RvT for policy purchases than your connected fridge or TV."
+  },
+  "collection": {
+    "header": "Collection Account Recovery",
+    "details": "The next step for account recovery is to distribute your backup files and keys to all the devices in your collection. That way, if one device is lost, you can use all of your other devices to restore that one lost device; Or, you can even give your mother’s device a portion of the recovery key so that a trusted person has the final piece to recovering all your crucial accounts and keys."
+  },
+  "messaging": {
+    "header": "A Secure Messaging Layer",
+    "details": "We want your devices to serve you and make your life easier. These days, unfortunately, every device talks to your super phone and your super phone is then responsible for relaying messages between devices. With the Rivetz collections, any devices with Rivetz Device ID keys will be able to communicate commands along with a secure messaging layer. So, when your smart car parks in the driveway, your coffee starts brewing and your PC instantly turns on."
+  },
+  "partner": {
+    "header": "Join Our Partner Program!",
+    "contact": "Rivetz will be working with a select group of partners to beta test collections within organizations. By allowing an enterprise to manage their employee’s 2FA application and account policies from one device dashboard. Click to learn more. "
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "announce": "Confirm",
+    "header": "Digitally Confirm Transactions,",
+    "details": "without foregoing the security of a traditional brick and mortar payments system.",
+    "partner": "Become a Partner"
+  },
+  "intent": {
+    "header": "Record the Intent of a Digital Transaction",
+    "details": "Know that your customer actually intended to purchase 900 bags of pretzels. Save yourself the headache of credit card chargebacks or refunds when everyone realizes a bot was purchasing with a stolen card.",
+    "partner": "Become a Partner"
+  },
+  "wysiwys": {
+    "header": "What You See is What You Sign",
+    "details": "Using the Trusted User Interface, Rivetz can draw a confirm screen on your customer's phone through the Trusted Execution Environment instead of the normal OS. This way, real human consent can be part of the transaction, providing a simple and safe model to assure e-commerce and IoT transactions are intended."
+  },
+  "actionable": {
+    "header": "Partner with Rivetz",
+    "details": "We want to talk to you about building Confirm into your service, so customers can have peace of mind when they complete large transactions on your site."
+  }
+}

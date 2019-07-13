@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/*
+*****************
+* RivetzCOM Policy Engine Solution Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 28.06.2019@11:15AM (1561734959)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+
+
+/*
+*
+* 1. Imports
+*
+*/
+@import 'variables'; // Custom Vars
+@import 'bourbon'; // Bourbon 
+ 
+.section-intro {
+
+  .illustration.app {
+    z-index: 2;
+    right: 0vw;
+    top: 10vh;
+  }
+}
+
+.section-winning {
+  margin-top: 0vh;
+  padding-top: 0;
+
+  .section-details {
+    margin: 0 auto;
+  }
+
+  .illustration.phone {
+    left: 5vw;
+    top: 8vh;
+  }
+
+  .illustration.key {
+    top: auto;
+    bottom: -10vh;
+    left: 4vw;
+  }
+
+}
+
+.section-developers {
+  padding-top: 0;
+
+  .illustration {
+    top: -15vh;
+    right: 1vw;
+    
+    img {
+      transform: scale(1) rotate(28deg);
+    }
+  }
+
+  a {
+    position: relative;
+    color: c(1);
+    transition: all 0.1s linear;
+    
+    &:hover {
+      color: c(text);
+      text-decoration: none;
+    }
+  }
+
+  ul.reasons {
+    position: relative;
+
+    li {
+      position: relative;
+      margin: 20px 0;
+      font-size: 1.2rem;
+      @include font(p, normal);
+      padding-right: 50px;
+    }
+  }
+}
+
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+@media (min-width: 640px) {
+  // #site-navigation-mobile {
+  //   top: 36px;
+  //   padding: 20px 0; 
+  // } 
+}
+
+
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh;
+    &.section-form {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .page-section {
+    margin-bottom: 10vh;
+  }
+  .section-intro {
+    padding-bottom: 0;
+
+    // .illustration.app {
+    //   right: -10vw;
+    //   top: -10vw;
+
+    //   img {
+    //     transform: scale(0.8);
+    //   }
+    // }
+  }
+
+  .section-developers .illustration {
+    right: -8vw;
+
+    img {
+      transform: scale(0.9) rotate(28deg);
+    }
+  }
+}
+
+

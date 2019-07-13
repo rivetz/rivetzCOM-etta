@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "announce": "Download",
+    "header": "Download",
+    "details": "Congrats on taking the first step towards a simpler & safer digital life! "
+  },
+  "compat": {
+    "header": "Device Compatibility",
+    "details": "Rivetz' technology is available on a growing number of devices (we're adding more all the time)! In order to use Rivetz, you'll need to have a compatible device. So, before you begin downloading, make sure to check the device compatibility list for your phone model.",
+    "cta": "Check Device Compatibility",
+    "continue": "I did that, continue!"
+  },
+  "rivet": {
+    "header": "Download the Rivet",
+    "details": "The Rivetz App enables you to use hardware-level security to protect the secrets, keys, and other private data your other apps need to use. The app is the gateway to the Trusted Execution Environment (TEE), a secure hardware enclave that is hidden from the Android OS, making it immune to malware that can infect your handset. The Rivet allows your device to fully utilize these hardware-level features in conjunction with third-party apps and services that are Riveted.",
+    "cta": "Download the Rivet",
+    "continue": "Got it, what's next?"
+  },
+  "auth": {
+    "header": "Get Riveted Apps!",
+    "details": "That's it - download any partner or Riveted app. Rivetz technology is available on an growing number of devices, and we're continuously working to make it simpler for partners and developers to integrate Rivetz in their apps and services. One such example of a Riveted app is Rivetz Authenticator. Try it out yourself, or check out our developer docs to learn more about integrating Rivetz in your next app!",
+    "cta": "Learn About Authenticator",
+    "continue": "Developer Tools"
+  }
+}

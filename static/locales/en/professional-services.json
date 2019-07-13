@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "announce": "Professional Services",
+    "header": "We’re Here to Help!",
+    "details": "Sometimes, companies seek more advanced functionality than our public toolkit can provide alone. Through our professional services, we’re here to help you with your specialized needs.",
+    "partner": "Become a Partner",
+    "contact": "Contact Sales"
+  },
+  "planning": {
+    "header": "Planning",
+    "details": "Initial conversations will always involve our sales team and a solution architect from our toolkit team to ensure that the functionality you are seeking can be achieved with the Rivetz Network. If it is determined that you require professional services from Rivetz to achieve the features you would like, we will then move on to a more in-depth scoping process. "
+  },
+  "execution": {
+    "header": "Execution",
+    "details": "The Rivetz team includes some of the leading experts in Trusted Execution, Blockchain, and pioneers of security policies. When executing a project with us, you will have a main point of contact, as well as hourly engineering work completed in weekly sprints."
+  },
+  "pricing": {
+    "header": "Pricing",
+    "details": "We work hard to keep our services accessible to all types of companies. For this reason, pricing is determined on a project by project basis."
+  },
+  "partner": {
+    "header": "Contact Us to Get Started!",
+    "contact": "Rivetz will be working with a select group of partners to beta test collections within organizations. By allowing an enterprise to manage their employee’s 2FA application and account policies from one device dashboard. Click to learn more. "
+  }
+}

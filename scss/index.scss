@@ -1,0 +1,354 @@
+@charset "UTF-8";
+
+/*
+*****************
+* RivetzCOM Index Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 18.06.2019@04:24AM (1560846254)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+
+
+/*
+*
+* 1. Imports
+*
+*/
+@import 'variables'; // Custom Vars
+@import 'bourbon'; // Bourbon 
+
+
+
+.section-slider {
+  position: relative;
+
+  ul {
+    position: relative;
+    padding: 0;
+    width: calc(400px * 10);
+    overflow: hidden;
+    padding-bottom: 2vw $imp;
+    transition: all 0.2s ease-in-out;
+    margin-top: 8vh $imp;
+
+    li {
+      position: relative;
+      display: inline-block;
+      top: 0;
+      margin: 0 calc(20px + 1vw);
+      z-index: 2;
+      background: c(white);
+      padding: 50px 40px;
+      border-radius: 2px;
+      width: 280px;
+      transition: all 0.1s ease-in-out;
+      box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      div.indice {
+        position: absolute;
+        top: 28px;
+        left: 35px;
+        z-index: 2;
+        color: c(1);
+        @include font(1, 700);
+        font-size: 3rem;
+      }
+
+      h5 {
+        color: c(1);
+        @include font(2, 700);
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        margin: 6px 0;
+        padding-left: 35px;
+        margin-bottom: 25px;
+        line-height: 1;
+
+        &.is-0 {
+          padding-left: 25px;
+        }
+      }
+
+      p {
+        position: relative;
+        margin: 0;
+        font-size: 1.2rem;
+        color: c(text-light);
+
+        a {
+          position: relative;
+          margin-left: 8px;
+          font-weight: bold;
+          color: c(1);
+          transition: all 0.1s ease-in-out;
+
+          &:hover {
+            text-decoration: none;
+            color: c(text);
+          }
+        }
+      }
+
+      &:hover {
+        box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.15);
+        background: c(1);
+        color: c(white);
+        cursor: help;
+
+        h5, div.indice, a, p {
+          color: c(white);
+        }
+      }
+
+    }
+  }
+
+  .slider-nav {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: right;
+
+    .slider-increment {
+      position: relative;
+      border-radius: 50%;
+      width: 60px;
+      display: inline-block;
+      line-height: 1;
+      margin: 0;
+      cursor: pointer;
+      transition: all 0.1s ease-in-out;
+      top: 0;
+
+      .eclipse {
+        transition: all 0.1s ease-in-out;
+      }
+
+      &:hover {
+
+        .eclipse {
+          fill: #FFFFFF;
+          //opacity: 1;
+        }
+
+        top: -2px;
+        @include box-shadow(button);
+      }
+    }
+  }
+}
+
+.section-devs {
+  margin-bottom: 0;
+  margin-top: 10vh;
+
+  .illustration.dev-down {
+    position: absolute;
+    top: auto;
+    bottom: -16vh;
+    right: 0;
+    width: 75px;
+    z-index: 1;
+  }
+}
+
+.section-slider-cont {
+  margin-top: 5vh;
+  padding-top: 20px
+}
+
+.section-get {
+  margin-top: -4vh; 
+
+  .illustration.get-top {
+    top: -46vh;
+    z-index: 1;
+    left: 0;
+    width: 300px;
+  }
+
+  .illustration.get-bottom {
+    top: auto;
+    bottom: -20vh;
+    z-index: 1;
+    right: 10vw;
+    width: 300px;
+  }
+
+  .get-details {
+    position: relative;
+    font-size: 1.1rem;
+    margin-bottom: 8vh;
+  }
+
+  .section-get-item {
+    position: relative;
+    font-size: 1.2rem;
+    background: c(white);
+    border-radius: $bRadius;
+    padding: 35px 50px;
+    max-width: 374px;
+    margin: 0 auto;
+    z-index: 2;
+    box-sizing: border-box;
+    @include box-shadow(normal);
+    margin-bottom: 2vh;
+
+    h1 {
+      font-size: 1.4rem;
+      margin-bottom: 3vh;
+      color: c(1);
+      @include font(2, 700);
+      text-transform: uppercase;
+    }
+
+    .section-details p {
+      font-size: 1.8rem;
+      color: c(text);
+    }
+
+    .get-item-icon {
+      position: relative;
+      margin-bottom: 4vh;
+
+      img, svg {
+        height: 110px;
+      }
+    }
+
+    .get-item-button {
+      position: relative;
+      display: block;
+      margin-top: 6vh;
+      width: 100%;
+      background: c(1);
+      color: c(white);
+      @include font(2, 600);
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      text-align: center;
+      padding: 10px 8px;
+      transition: all 0.1s ease-in-out;
+      top: 0;
+
+      &:hover {
+        @include box-shadow(button);
+        top: -2px;
+        text-decoration: none;
+      }
+    }
+
+    &.is-first {
+      background: c(1);
+      color: c(white);
+      box-shadow: none;
+
+      h1, p {
+        color: c(white);
+      }
+
+      .get-item-button {
+        background: c(white);
+        color: c(1);
+      }
+    }
+
+    &.is-devs {
+      h1 {
+        color: c(wallet);
+      }
+      .get-item-button {
+        background: c(wallet);
+      }
+    }
+
+  }
+}
+
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+@media (min-width: 640px) {
+  // #site-navigation-mobile {
+  //   top: 36px;
+  //   padding: 20px 0; 
+  // } 
+}
+
+
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh;
+  }
+  .section-devs {
+    margin-top: 20vh;
+  }
+  .section-get {
+    padding-top: 0;
+  }
+}
+
+
+/*
+ * Responsive Changes: 1200px - 1700px (range of non-1080p laptops and some Macbook effective res's)
+ ************
+ *
+*/
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .page-section {
+    margin-bottom: 15vh;
+  }
+  .section-devs {
+    margin-top: 20vh;
+
+    .illustration.is-devs {
+      left: -10vw;
+      top: 3vw;
+      img {
+        transform: scale(0.9);
+      }
+    }
+  }
+  .section-get {
+    padding-top: 0;
+
+    .section-get-item {
+      max-width: 90%;
+    }
+  }
+}
+
+
+
+
+

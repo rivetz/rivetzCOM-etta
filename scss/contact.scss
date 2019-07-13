@@ -1,0 +1,468 @@
+@charset "UTF-8";
+
+/*
+*****************
+* RivetzCOM Contact Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 02.07.2019@04:30PM (1562099438)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+
+
+/*
+*
+* 1. Imports
+*
+*/
+@import 'variables'; // Custom Vars
+@import 'bourbon'; // Bourbon 
+
+.padTop2vh {
+  padding-top: 4vh;
+}
+
+.page-section {
+  position: relative;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: calc(150px);
+  background: none;
+  margin-bottom: 10vh;
+
+  .announce {
+    position: relative;
+    display: inline-block;
+    background: c(1, 0.10);
+    color: c(text);
+    margin-bottom: 6vh;
+    padding: 0px 10px;
+    padding-right: 15px;
+    border-radius: $bRadius;
+    border: 2px solid c(1, 0);
+    transition: all 0.1s ease-in-out;
+
+    .uk-badge {
+      background: c(1);
+      color: c(white);
+      @include font(2, bold);
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      border-radius: $bRadius;
+      padding: 13px 12px;
+      padding-top: 16px;
+    }
+
+    .badge-details {
+      padding: 15px 5px;
+      font-size: 1rem;
+      line-height: 1;
+      position: relative;
+      display: inline-block;
+      top: 2px;
+      margin-left: 5px;
+      font-weight: 500;
+    }
+
+    &:hover {
+      text-decoration: none;
+      //box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+      @include box-shadow(normal);
+      border: 2px solid c(1, 1);
+      background: c(white);
+      margin-left: 5px;
+    }
+  }
+
+  .section-announce h3 {
+    position: relative;
+    @include font(2, 700);
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: c(1);
+  }
+
+  .section-head h1 {
+    position: relative;
+    @include font(1, bold);
+    font-size: 4rem;
+  }
+
+  .section-details {
+    position: relative;
+
+    p {
+      position: relative;
+      font-size: 1.8rem;
+      @include font(2, normal);
+
+      a {
+        color: c(1);
+        transition: all 0.1s linear;
+
+        &:hover {
+          text-decoration: none;
+          color: c(text);
+        }
+      }
+    }
+  }
+
+  hr {
+    margin: 6vh auto;
+    max-width: 30%;
+    opacity: 0.6;
+  }
+
+  .illustration {
+    position: absolute;
+    top: 0;
+    right: 3vw;
+    z-index: 0;
+    display: block;
+    max-width: 80%;
+
+    &.is-left {
+      right: auto;
+      left: 1vw;
+    }
+
+    &.is-devs {
+      z-index: 1;
+    }
+
+    &.keys {
+      top: -6vh;
+      left: 0;
+      right: auto;
+      z-index: 0;
+    }
+
+    i, svg {
+      position: relative;
+    }
+  }
+
+  .section-content {
+    position: relative;
+    z-index: 5;
+  }
+
+  .section-buttons {
+    position: relative;
+    margin-top: 6vh;
+    z-index: 5;
+    
+    a {
+      position: relative;
+      color: c(white);
+      background: c(1);
+      @include font(2, 500);
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      padding: 10px 24px;
+      transition: all 0.1s ease-in-out;
+      margin: 10px 1vw;
+      border-radius: 2px;
+      top: 0;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:hover {
+        text-decoration: none;
+        @include box-shadow(button);
+        top: -2px;
+        text-shadow: 0 1px 2px c(1, 0.4);
+        color: c(white);
+      }
+
+      &.off-color {
+        background: c(wallet);
+        &:hover {
+          text-shadow: 0 1px 3px c(wallet, 0.4);
+        }
+      }
+    }
+
+  }
+}
+ 
+.section-intro {
+  margin-bottom: 0;
+  padding-bottom: 4vh;
+
+  .illustration.key2 {
+    z-index: 2;
+    right: 5vw;
+    top: 12vh;
+
+    img {
+      transform: scale(1.4);
+    }
+  }
+}
+
+.section-form {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+
+  .illustration.form-key {
+    left: 0;
+    top: -20vh;
+    right: auto;
+    bottom: auto;
+
+    img {
+      transform: scale(0.6);
+    }
+  }
+
+  .section-content {
+    padding: 0 2vw;
+    box-sizing: border-box;
+  }
+
+  .section-icon {
+    display: inline-block;
+    position: relative;
+    font-size: 3rem;
+    color: #293758;
+    text-align: center;
+    line-height: 60px;
+    width: 100px;
+    vertical-align: top;
+    top: 10px;
+  }
+
+  .contact-section {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: calc(100% - 120px);
+    margin-bottom: 4vh;
+
+    h4 {
+      font-size: 1.5rem;
+      line-height: 1.4;
+      color: c(1);
+      margin: 0;
+      margin-bottom: 0;
+      padding: 0;
+    }
+
+    p {
+      @include font(p, 300);
+      font-size: 1.2rem;
+      margin-top: 5px;
+
+      a {
+        color: c(1);
+        font-weight: normal;
+        transition: all 0.1s linear;
+        &:hover {
+          color: c(text);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  form {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+    @include box-shadow(normal);
+    padding: calc(30px + 4vh) calc(40px + 2vw);
+    background: c(highlight);
+    color: c(text);
+    box-sizing: border-box;
+
+    h1 {
+      color: c(text);
+      text-align: center;
+      width: 100%;
+      margin-bottom: 2vh;
+    }
+
+    p {
+      color: c(text);
+      @include font(2, 400);
+      font-size: 1.6rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .details {
+      margin-bottom: 2vh;
+    }
+
+    .uk-inline {
+      width: 100%;
+
+      &.marBot {
+        margin-bottom: 2vh;
+      }
+
+      .uk-form-icon {
+        text-align: left;
+        color: c(text);
+        width: 80px;
+
+        i, svg {
+          height: auto;
+          width: 24px;
+          left: -10px;
+          position: relative;
+        }
+      }
+
+      input {
+        text-align: left;
+        background: c(white, 0.4);
+        font-size: (1.2rem);
+        color: c(text);
+        @include font(p, 300);
+        padding: 30px 2vw;
+        padding-left: 60px $imp;
+        outline: 0;
+        border: none;
+        border-radius: $bRadius;
+        transition: all 0.1s ease-in-out;
+
+        &::placeholder {
+          color: c(text);
+          font-weight: normal $imp;
+          text-transform: none $imp;
+        }
+        &:-ms-input-placeholder {
+          color: c(text);
+          font-weight: normal $imp;
+          text-transform: none $imp;
+        }
+        &::-ms-input-placeholder {
+          color: c(text);
+          font-weight: normal $imp;
+          text-transform: none $imp;
+        }
+
+        &:focus, &:active {
+          font-weight: bold;
+          @include box-shadow(normal);
+        }
+      }
+
+      .uk-form-icon:not(.uk-form-icon-flip) ~ .uk-input {
+        padding-left: 60px $imp;
+      }
+    }
+
+    textarea {
+      width: 100%;
+      background: c(white, 0.4);
+      font-size: (1.2rem);
+      color: c(text);
+      @include font(p, 300);
+      padding: 15px 2vw;
+      outline: 0;
+      border: none;
+      box-sizing: border-box;
+      transition: all 0.1s linear;
+
+      &::placeholder {
+        color: c(text);
+        font-weight: normal $imp;
+        text-transform: none $imp;
+      }
+      &:-ms-input-placeholder {
+        color: c(text);
+        font-weight: normal $imp;
+        text-transform: none $imp;
+      }
+      &::-ms-input-placeholder {
+        color: c(text);
+        font-weight: normal $imp;
+        text-transform: none $imp;
+      }
+
+      &:focus, &:active {
+        font-weight: bold;
+        @include box-shadow(normal);
+      }
+    }
+
+    button.submit-btn {
+      position: relative;
+      position: relative;
+      @include font(2, bold);
+      font-size: 1.4rem;
+      background: c(white);
+      border: none;
+      outline: 0;
+      color: c(1);
+      text-align: center;
+      text-transform: uppercase;
+      padding: 12px 24px;
+      display: inline-block;
+      border-radius: 5px;
+      margin: 0 auto;
+      line-height: 1;
+      padding-top: 18px;
+      cursor: pointer;
+      transition: all 0.1s linear;
+
+      i, svg {
+        margin-right: 10px;
+        position: relative;
+        top: 1px;
+      }
+
+      &:hover {
+        @include box-shadow(button);
+      }
+    }
+  }
+}
+
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+@media (min-width: 640px) {
+  // #site-navigation-mobile {
+  //   top: 36px;
+  //   padding: 20px 0; 
+  // } 
+}
+
+
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh;
+    &.section-form {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+
+
+

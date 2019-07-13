@@ -1,0 +1,261 @@
+@charset "UTF-8";
+
+/*
+*****************
+* RivetzCOM Careers Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 30.06.2019@08:01AM (1561896092)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+
+
+/*
+*
+* 1. Imports
+*
+*/
+@import 'variables'; // Custom Vars
+@import 'bourbon'; // Bourbon 
+
+
+.page-section {
+  position: relative;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: calc(150px);
+  background: none;
+  margin-bottom: 10vh;
+
+  .announce {
+    position: relative;
+    display: inline-block;
+    background: c(1, 0.10);
+    color: c(text);
+    margin-bottom: 6vh;
+    padding: 0px 10px;
+    padding-right: 15px;
+    border-radius: $bRadius;
+    border: 2px solid c(1, 0);
+    transition: all 0.1s ease-in-out;
+
+    .uk-badge {
+      background: c(1);
+      color: c(white);
+      @include font(2, bold);
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      border-radius: $bRadius;
+      padding: 13px 12px;
+      padding-top: 16px;
+    }
+
+    .badge-details {
+      padding: 15px 5px;
+      font-size: 1rem;
+      line-height: 1;
+      position: relative;
+      display: inline-block;
+      top: 2px;
+      margin-left: 5px;
+      font-weight: 500;
+    }
+
+    &:hover {
+      text-decoration: none;
+      //box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+      @include box-shadow(normal);
+      border: 2px solid c(1, 1);
+      background: c(white);
+      margin-left: 5px;
+    }
+  }
+
+  .section-announce h3 {
+    position: relative;
+    @include font(2, 700);
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: c(1);
+  }
+
+  .section-head h1 {
+    position: relative;
+    @include font(1, bold);
+    font-size: 4rem;
+  }
+
+  .section-details {
+    position: relative;
+
+    p {
+      position: relative;
+      font-size: 1.8rem;
+      @include font(2, normal);
+    }
+  }
+
+  .illustration {
+    position: absolute;
+    top: 0;
+    right: 3vw;
+    z-index: 0;
+    display: block;
+    max-width: 80%;
+
+    &.is-left {
+      right: auto;
+      left: 1vw;
+    }
+
+    &.is-devs {
+      z-index: 1;
+    }
+
+    &.keys {
+      top: -6vh;
+      left: 0;
+      right: auto;
+      z-index: 0;
+    }
+
+    i, svg {
+      position: relative;
+    }
+  }
+
+  .section-content {
+    position: relative;
+    z-index: 5;
+  }
+
+  .section-buttons {
+    position: relative;
+    margin-top: 6vh;
+    z-index: 5;
+    
+    a {
+      position: relative;
+      color: c(white);
+      background: c(1);
+      @include font(2, 500);
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      padding: 10px 24px;
+      transition: all 0.1s ease-in-out;
+      margin: 10px 1vw;
+      border-radius: 2px;
+      top: 0;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:hover {
+        text-decoration: none;
+        @include box-shadow(button);
+        top: -2px;
+        text-shadow: 0 1px 2px c(1, 0.4);
+        color: c(white);
+      }
+
+      &.off-color {
+        background: c(wallet);
+        &:hover {
+          text-shadow: 0 1px 3px c(wallet, 0.4);
+        }
+      }
+    }
+
+  }
+}
+ 
+.section-intro {
+
+  .illustration.key1 {
+    z-index: 1;
+    top: 10vh;
+  }
+
+  .illustration.key2 {
+    z-index: 1;
+    bottom: 5vh;
+    right: 20vw;
+    top: auto;
+  }
+
+  .illustration.key3 {
+    z-index: 1;
+    bottom: -5vh;
+    right: 16vw;
+    top: auto;
+  }
+
+  .section-content {
+    padding-bottom: 10px;
+    padding-right: 20px;
+  }
+
+  .illustration.steven {
+    z-index: 2;
+    right: 0vw;
+    top: 5vh;
+    width: 60vw;
+
+    .uk-overlay p {
+      @include font(2, normal);
+
+    }
+  }
+}
+
+.section-jobs {
+  padding-top: 0;
+
+  .no-jobs {
+    @include font(2, bold);
+
+    h2 {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+  }
+}
+
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+@media (min-width: 640px) {
+  // #site-navigation-mobile {
+  //   top: 36px;
+  //   padding: 20px 0; 
+  // } 
+}
+
+
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh;
+    &.section-form {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+
+
+

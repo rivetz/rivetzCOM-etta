@@ -1,0 +1,225 @@
+/*
+*****************
+* RivetzCOM Community Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 02.07.2019@04:30PM (1562099438)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Imports
+*
+*/
+/*
+*****************
+* Theme Variables
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 06.05.2019@12:36PM (1557160602)
+*
+* [Table of contents]
+* 1. Font Imports
+* 2. Font Families
+* 2. Font Colors
+* 3. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Font Imports
+*
+*/
+@import url("https://fonts.googleapis.com/css?family=Catamaran:100,300,400,500,600,700|Comfortaa:700&subset=latin-ext");
+/*
+*
+* 2. Font Families
+*
+*   1 (Header): "Comfortaa" (@700), via Google Fonts. Used for primary headers and occasional emphasis.
+*   2 (Subheader): "Catamaran" (@700), via Google Fonts. uses for subtitles and emphasis
+*   3 (P): "Catamaran" (@400), via Google Fonts. Paragraphs and normal text.
+*
+*   Error for testing: "Times New Roman" red bold.
+*/
+/*
+*
+*   3. Font Colors
+*
+*   1 (Primary): #d66e4a, rgb(214, 110, 74) // Orange
+*   2 (Secondary): #060613, rgb(6, 6, 19), // Dark blue
+*   GM-Blue: #1a2933, rgb(26, 41, 51) // Old GameMule Blue
+*   White: #ffffff, rgb(255,255,255)
+*   Off-White: #f1f1f1, rgb(241,241,241)
+*   Grey: #a4b1b2, rgb(164,177,178)
+*   Dark: #0f171c, rgb(15,23,28)
+* 
+*/
+/*
+*
+* 4. Global Options
+*
+*/
+/*
+*
+* DEPRECATED: Old Theme Colors
+*
+*/
+.padTop2vh {
+  padding-top: 4vh; }
+
+.section-intro {
+  margin-bottom: 0; }
+  .section-intro .illustration.app {
+    z-index: 2;
+    right: 0vw;
+    top: -10vh; }
+
+.section-slider-cont {
+  margin-top: 5vh;
+  padding-top: 20px; }
+
+.section-slider {
+  position: relative; }
+  .section-slider ul {
+    position: relative;
+    padding: 0;
+    width: calc(400px * 10);
+    overflow: hidden;
+    padding-bottom: 2vw !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    margin-top: 12vh !important; }
+    .section-slider ul li {
+      position: relative;
+      display: inline-block;
+      top: 0;
+      margin: 0 calc(40px);
+      z-index: 2;
+      background: white;
+      padding: 5px;
+      border-radius: 2px;
+      width: 360px;
+      -webkit-transition: all 0.1s ease-in-out;
+      -o-transition: all 0.1s ease-in-out;
+      transition: all 0.1s ease-in-out;
+      -webkit-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
+      box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15); }
+      .section-slider ul li img {
+        border-radius: 2px; }
+      .section-slider ul li:first-child {
+        margin-left: 0; }
+      .section-slider ul li:last-child {
+        margin-right: 0; }
+      .section-slider ul li:hover {
+        -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.15);
+        box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.15);
+        background: #f47e3e;
+        color: white;
+        cursor: pointer; }
+        .section-slider ul li:hover h5, .section-slider ul li:hover div.indice, .section-slider ul li:hover a, .section-slider ul li:hover p {
+          color: white; }
+  .section-slider .slider-nav {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: right; }
+    .section-slider .slider-nav .slider-increment {
+      position: relative;
+      border-radius: 50%;
+      width: 60px;
+      display: inline-block;
+      line-height: 1;
+      margin: 0;
+      cursor: pointer;
+      -webkit-transition: all 0.1s ease-in-out;
+      -o-transition: all 0.1s ease-in-out;
+      transition: all 0.1s ease-in-out;
+      top: 0; }
+      .section-slider .slider-nav .slider-increment .eclipse {
+        -webkit-transition: all 0.1s ease-in-out;
+        -o-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out; }
+      .section-slider .slider-nav .slider-increment:hover {
+        top: -2px;
+        -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); }
+        .section-slider .slider-nav .slider-increment:hover .eclipse {
+          fill: #FFFFFF; }
+
+.section-videos {
+  margin-bottom: 0vh; }
+  .section-videos .section-head h1 {
+    font-size: 3rem; }
+  .section-videos .section-details {
+    font-size: 1.4rem;
+    max-width: 960px;
+    margin-bottom: 4vh; }
+  .section-videos .illustration.keys {
+    top: auto;
+    bottom: -8vh; }
+
+.section-closing, .section-social {
+  text-align: center; }
+  .section-closing hr, .section-social hr {
+    margin: 6vh auto;
+    max-width: 40%;
+    opacity: 0.6; }
+  .section-closing .section-details p, .section-social .section-details p {
+    max-width: 1100px;
+    margin: 0 auto; }
+  .section-closing .illustration.key1, .section-social .illustration.key1 {
+    top: -10vh;
+    left: 0;
+    right: auto;
+    bottom: auto; }
+  .section-closing .illustration.key2, .section-social .illustration.key2 {
+    top: auto;
+    left: auto;
+    right: 0;
+    bottom: -20vh; }
+  .section-closing.section-social ul.social-nav, .section-social.section-social ul.social-nav {
+    margin-top: 2vh; }
+    .section-closing.section-social ul.social-nav li, .section-social.section-social ul.social-nav li {
+      margin: 15px; }
+      .section-closing.section-social ul.social-nav li a, .section-social.section-social ul.social-nav li a {
+        font-size: 3rem;
+        padding: 10px 8px; }
+
+.section-papers {
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0 !important; }
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh; }
+    .page-section.section-form {
+      margin-bottom: 0; } }
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .section-intro {
+    margin-bottom: 30vh; }
+    .section-intro .illustration.app {
+      right: -5vw;
+      top: -15vh; }
+      .section-intro .illustration.app img {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9); } }

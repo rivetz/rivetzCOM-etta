@@ -1,0 +1,319 @@
+/*
+*****************
+* RivetzCOM Chadder Product Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 28.06.2019@11:15AM (1561734959)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Imports
+*
+*/
+/*
+*****************
+* Theme Variables
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 06.05.2019@12:36PM (1557160602)
+*
+* [Table of contents]
+* 1. Font Imports
+* 2. Font Families
+* 2. Font Colors
+* 3. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Font Imports
+*
+*/
+@import url("https://fonts.googleapis.com/css?family=Catamaran:100,300,400,500,600,700|Comfortaa:700&subset=latin-ext");
+/*
+*
+* 2. Font Families
+*
+*   1 (Header): "Comfortaa" (@700), via Google Fonts. Used for primary headers and occasional emphasis.
+*   2 (Subheader): "Catamaran" (@700), via Google Fonts. uses for subtitles and emphasis
+*   3 (P): "Catamaran" (@400), via Google Fonts. Paragraphs and normal text.
+*
+*   Error for testing: "Times New Roman" red bold.
+*/
+/*
+*
+*   3. Font Colors
+*
+*   1 (Primary): #d66e4a, rgb(214, 110, 74) // Orange
+*   2 (Secondary): #060613, rgb(6, 6, 19), // Dark blue
+*   GM-Blue: #1a2933, rgb(26, 41, 51) // Old GameMule Blue
+*   White: #ffffff, rgb(255,255,255)
+*   Off-White: #f1f1f1, rgb(241,241,241)
+*   Grey: #a4b1b2, rgb(164,177,178)
+*   Dark: #0f171c, rgb(15,23,28)
+* 
+*/
+/*
+*
+* 4. Global Options
+*
+*/
+/*
+*
+* DEPRECATED: Old Theme Colors
+*
+*/
+.section-intro .illustration.key1 {
+  z-index: 1;
+  top: auto;
+  bottom: -30vh;
+  left: 0;
+  right: auto; }
+
+.section-intro .illustration.app {
+  z-index: 2;
+  right: -15vw;
+  top: -8vh; }
+
+.section-devices {
+  margin-top: 20vh; }
+  .section-devices .illustration.phone {
+    left: 8vw;
+    z-index: 2; }
+  .section-devices .illustration.key {
+    top: auto;
+    bottom: -10vh;
+    left: 4vw; }
+
+.section-powered .illustration {
+  top: 10vh; }
+  .section-powered .illustration img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
+
+.section-powered .section-head h1 {
+  font-size: 3rem; }
+
+.section-powered .section-head p {
+  font-size: 1.4rem; }
+
+.section-powered a {
+  position: relative;
+  color: #f47e3e;
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear; }
+  .section-powered a:hover {
+    color: #4f4f4f;
+    text-decoration: none; }
+
+.section-form {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0; }
+  .section-form .illustration.form-key {
+    left: 0;
+    top: -20vh;
+    right: auto;
+    bottom: auto; }
+    .section-form .illustration.form-key img {
+      -webkit-transform: scale(0.6);
+      -ms-transform: scale(0.6);
+      transform: scale(0.6); }
+  .section-form form {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+    -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+    padding: calc(30px + 4vh) calc(40px + 2vw);
+    background: rgba(129, 114, 243, 0.1);
+    color: #4f4f4f;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    .section-form form h1 {
+      color: #4f4f4f;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 2vh; }
+    .section-form form p {
+      color: #4f4f4f;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 400;
+      font-size: 1.6rem;
+      max-width: 960px;
+      margin: 0 auto; }
+    .section-form form .details {
+      margin-bottom: 2vh; }
+    .section-form form .uk-inline {
+      width: 100%; }
+      .section-form form .uk-inline.marBot {
+        margin-bottom: 2vh; }
+      .section-form form .uk-inline .uk-form-icon {
+        text-align: left;
+        color: #4f4f4f;
+        width: 80px; }
+        .section-form form .uk-inline .uk-form-icon i, .section-form form .uk-inline .uk-form-icon svg {
+          height: auto;
+          width: 24px;
+          left: -10px;
+          position: relative; }
+      .section-form form .uk-inline input {
+        text-align: left;
+        background: rgba(255, 255, 255, 0.4);
+        font-size: 1.2rem;
+        color: #4f4f4f;
+        font-family: 'Catamaran', sans-serif;
+        font-weight: 300;
+        padding: 30px 2vw;
+        padding-left: 60px !important;
+        outline: 0;
+        border: none;
+        border-radius: 5px;
+        -webkit-transition: all 0.1s ease-in-out;
+        -o-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out; }
+        .section-form form .uk-inline input::-webkit-input-placeholder {
+          color: #4f4f4f;
+          font-weight: normal !important;
+          text-transform: none !important; }
+        .section-form form .uk-inline input:-ms-input-placeholder {
+          color: #4f4f4f;
+          font-weight: normal !important;
+          text-transform: none !important; }
+        .section-form form .uk-inline input::-ms-input-placeholder {
+          color: #4f4f4f;
+          font-weight: normal !important;
+          text-transform: none !important; }
+        .section-form form .uk-inline input::placeholder {
+          color: #4f4f4f;
+          font-weight: normal !important;
+          text-transform: none !important; }
+        .section-form form .uk-inline input:-ms-input-placeholder {
+          color: #4f4f4f;
+          font-weight: normal !important;
+          text-transform: none !important; }
+        .section-form form .uk-inline input::-ms-input-placeholder {
+          color: #4f4f4f;
+          font-weight: normal !important;
+          text-transform: none !important; }
+        .section-form form .uk-inline input:focus, .section-form form .uk-inline input:active {
+          font-weight: bold;
+          -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24); }
+      .section-form form .uk-inline .uk-form-icon:not(.uk-form-icon-flip) ~ .uk-input {
+        padding-left: 60px !important; }
+    .section-form form textarea {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.4);
+      font-size: 1.2rem;
+      color: #4f4f4f;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 300;
+      padding: 15px 2vw;
+      outline: 0;
+      border: none;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: all 0.1s linear;
+      -o-transition: all 0.1s linear;
+      transition: all 0.1s linear; }
+      .section-form form textarea::-webkit-input-placeholder {
+        color: #4f4f4f;
+        font-weight: normal !important;
+        text-transform: none !important; }
+      .section-form form textarea:-ms-input-placeholder {
+        color: #4f4f4f;
+        font-weight: normal !important;
+        text-transform: none !important; }
+      .section-form form textarea::-ms-input-placeholder {
+        color: #4f4f4f;
+        font-weight: normal !important;
+        text-transform: none !important; }
+      .section-form form textarea::placeholder {
+        color: #4f4f4f;
+        font-weight: normal !important;
+        text-transform: none !important; }
+      .section-form form textarea:-ms-input-placeholder {
+        color: #4f4f4f;
+        font-weight: normal !important;
+        text-transform: none !important; }
+      .section-form form textarea::-ms-input-placeholder {
+        color: #4f4f4f;
+        font-weight: normal !important;
+        text-transform: none !important; }
+      .section-form form textarea:focus, .section-form form textarea:active {
+        font-weight: bold;
+        -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+        box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24); }
+    .section-form form button.submit-btn {
+      position: relative;
+      position: relative;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: bold;
+      font-size: 1.4rem;
+      background: white;
+      border: none;
+      outline: 0;
+      color: #f47e3e;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 12px 24px;
+      display: inline-block;
+      border-radius: 5px;
+      margin: 0 auto;
+      line-height: 1;
+      padding-top: 18px;
+      cursor: pointer;
+      -webkit-transition: all 0.1s linear;
+      -o-transition: all 0.1s linear;
+      transition: all 0.1s linear; }
+      .section-form form button.submit-btn i, .section-form form button.submit-btn svg {
+        margin-right: 10px;
+        position: relative;
+        top: 1px; }
+      .section-form form button.submit-btn:hover {
+        -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); }
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh; }
+    .page-section.section-form {
+      margin-bottom: 0; } }
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .page-section {
+    margin-bottom: 10vh; }
+  .section-intro {
+    padding-bottom: 0; }
+    .section-intro .illustration.app {
+      right: -30vw; }
+  .section-devices .illustration.phone {
+    top: 5vh; }
+  .section-powered .illustration {
+    right: 0; }
+    .section-powered .illustration img {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9); } }

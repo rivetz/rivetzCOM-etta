@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+/*
+*****************
+* RivetzCOM Rivet Product Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 27.06.2019@02:00PM (1561658436)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+
+
+/*
+*
+* 1. Imports
+*
+*/
+@import 'variables'; // Custom Vars
+@import 'bourbon'; // Bourbon 
+
+
+.section-intro {
+
+  .illustration.key1 {
+    z-index: 1;
+    top: 10vh;
+  }
+
+  .illustration.key2 {
+    z-index: 1;
+    bottom: 5vh;
+    right: 20vw;
+    top: auto;
+  }
+
+  .illustration.key3 {
+    z-index: 1;
+    bottom: -5vh;
+    right: 16vw;
+    top: auto;
+  }
+
+  .illustration.app {
+    z-index: 2;
+  }
+}
+
+.section-safe {
+
+  .illustration.safe {
+    left: 10vw;
+  }
+}
+
+.section-decision {
+  position: relative;
+
+  .woman {
+    top: 0;
+    z-index: 1;
+  }
+
+  .grass {
+    top: auto;
+    bottom: 65px;
+    z-index: 0;
+  }
+}
+
+.section-security {
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.section-more {
+
+  .illustration.learn-keys {
+    left: 10vw;
+  }
+
+  .buttons-linear {
+    display: block;
+    margin-top: 4vh;
+  }
+}
+
+
+@media (max-width: 640px) {
+  .page-section {
+    margin-bottom: 5vh;
+    padding-bottom: 0;
+  }
+}
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+@media (min-width: 640px) {
+  // #site-navigation-mobile {
+  //   top: 36px;
+  //   padding: 20px 0; 
+  // } 
+}
+
+
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh;
+  }
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .section-safe {
+    
+    .illustration.safe {
+      top: 10vh;
+    }
+  }
+
+  .section-decision .woman {
+    top: 10vh;
+  }
+
+  .section-decision .grass {
+    top: 20vh;
+  }
+}
+

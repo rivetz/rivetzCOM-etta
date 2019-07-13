@@ -1,0 +1,531 @@
+/*
+*****************
+* RivetzCOM Partners Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 28.06.2019@11:15AM (1561734959)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Imports
+*
+*/
+/*
+*****************
+* Theme Variables
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 06.05.2019@12:36PM (1557160602)
+*
+* [Table of contents]
+* 1. Font Imports
+* 2. Font Families
+* 2. Font Colors
+* 3. Global Settings 
+*
+*****************
+*/
+/*
+*
+* 1. Font Imports
+*
+*/
+@import url("https://fonts.googleapis.com/css?family=Catamaran:100,300,400,500,600,700|Comfortaa:700&subset=latin-ext");
+/*
+*
+* 2. Font Families
+*
+*   1 (Header): "Comfortaa" (@700), via Google Fonts. Used for primary headers and occasional emphasis.
+*   2 (Subheader): "Catamaran" (@700), via Google Fonts. uses for subtitles and emphasis
+*   3 (P): "Catamaran" (@400), via Google Fonts. Paragraphs and normal text.
+*
+*   Error for testing: "Times New Roman" red bold.
+*/
+/*
+*
+*   3. Font Colors
+*
+*   1 (Primary): #d66e4a, rgb(214, 110, 74) // Orange
+*   2 (Secondary): #060613, rgb(6, 6, 19), // Dark blue
+*   GM-Blue: #1a2933, rgb(26, 41, 51) // Old GameMule Blue
+*   White: #ffffff, rgb(255,255,255)
+*   Off-White: #f1f1f1, rgb(241,241,241)
+*   Grey: #a4b1b2, rgb(164,177,178)
+*   Dark: #0f171c, rgb(15,23,28)
+* 
+*/
+/*
+*
+* 4. Global Options
+*
+*/
+/*
+*
+* DEPRECATED: Old Theme Colors
+*
+*/
+.section-intro .illustration.app {
+  z-index: 2;
+  right: 0vw;
+  top: -10vh; }
+
+.section-types {
+  text-align: center; }
+  .section-types .section-card {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    padding-bottom: 40px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    background: white;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    -webkit-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear; }
+    .section-types .section-card h2 {
+      color: #f47e3e;
+      text-align: center; }
+    .section-types .section-card h3 {
+      font-size: 1.2rem; }
+    .section-types .section-card a {
+      margin-right: 0; }
+    .section-types .section-card:hover {
+      -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+      box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24); }
+    .section-types .section-card p {
+      position: relative;
+      font-size: 1rem; }
+
+.section-partners {
+  padding-top: 0; }
+  .section-partners .section-head h1 {
+    margin-bottom: 12vh; }
+
+.partners-list {
+  position: relative;
+  text-align: center; }
+  .partners-list.is-disc {
+    padding: 6vh 4vw;
+    font-size: 1.2rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300; }
+    .partners-list.is-disc a {
+      color: #6c5bd9;
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
+      .partners-list.is-disc a:hover {
+        color: #f47e3e;
+        text-decoration: none; }
+
+.partner-thumb {
+  position: relative;
+  padding: 2vw 3vw;
+  background: white;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  font-weight: normal;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 2vh !important; }
+  .partner-thumb:hover {
+    -webkit-box-shadow: 3px 6px 19px rgba(0, 0, 0, 0.29);
+    box-shadow: 3px 6px 19px rgba(0, 0, 0, 0.29);
+    -webkit-filter: grayscale(0);
+    /* Safari Legacy */
+    filter: grayscale(0); }
+
+.partner {
+  position: relative;
+  margin-bottom: 2rem;
+  padding: 4vh 3vw;
+  border-radius: 2px;
+  background: white;
+  font-weight: normal;
+  -webkit-transition: all 0.2s linear, -webkit-box-shadow 0.1s ease-in-out;
+  transition: all 0.2s linear, -webkit-box-shadow 0.1s ease-in-out;
+  -o-transition: all 0.2s linear, box-shadow 0.1s ease-in-out;
+  transition: all 0.2s linear, box-shadow 0.1s ease-in-out;
+  transition: all 0.2s linear, box-shadow 0.1s ease-in-out, -webkit-box-shadow 0.1s ease-in-out;
+  -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); }
+  .partner:first-child {
+    margin-top: -10vh; }
+  .partner:hover {
+    -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+    top: -2px; }
+  .partner .partnerLogo {
+    text-align: center; }
+    .partner .partnerLogo img {
+      width: 90%;
+      margin: 0 auto; }
+  .partner .partnerInfo h2 {
+    position: relative;
+    color: #f47e3e;
+    font-size: 2.4em;
+    margin-bottom: 5px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: normal; }
+  .partner .partnerInfo p {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: normal;
+    font-size: 1rem; }
+
+#partnerModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.99);
+  color: black;
+  z-index: 500;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300;
+  overflow: auto; }
+  #partnerModal .partnerInner {
+    position: relative;
+    max-height: 70vh;
+    margin-top: 15vh; }
+    #partnerModal .partnerInner hr {
+      margin: 2vh auto;
+      max-width: 40%; }
+    #partnerModal .partnerInner > .uk-container {
+      margin: 0 auto; }
+    #partnerModal .partnerInner .partnerLogo {
+      position: relative;
+      width: 100%;
+      margin-bottom: 2vh;
+      text-align: center; }
+      #partnerModal .partnerInner .partnerLogo img {
+        position: relative;
+        margin: 0 auto;
+        width: 90%; }
+    #partnerModal .partnerInner .partnerLinks {
+      position: relative;
+      width: 100%;
+      text-align: right; }
+      #partnerModal .partnerInner .partnerLinks a {
+        display: inline-block;
+        margin-bottom: 10px;
+        color: #f47e3e;
+        -webkit-transition: all 0.1s linear;
+        -o-transition: all 0.1s linear;
+        transition: all 0.1s linear; }
+        #partnerModal .partnerInner .partnerLinks a i, #partnerModal .partnerInner .partnerLinks a svg {
+          margin-right: 10px;
+          position: relative; }
+        #partnerModal .partnerInner .partnerLinks a:hover {
+          color: #4f4f4f;
+          text-decoration: none; }
+    #partnerModal .partnerInner .partnerBio h2 {
+      color: #f47e3e;
+      font-family: 'Comfortaa', cursive;
+      font-weight: bold;
+      font-size: 1.8rem; }
+    #partnerModal .partnerInner .partnerBio .bioDesc {
+      font-family: 'Catamaran', sans-serif;
+      font-weight: normal;
+      position: relative;
+      font-size: 1.2rem;
+      color: #7b7676; }
+    #partnerModal .partnerInner .navOptions {
+      position: relative;
+      text-align: center;
+      margin-top: 4vh; }
+      #partnerModal .partnerInner .navOptions .navOption {
+        cursor: pointer;
+        position: relative;
+        color: black;
+        font-family: 'Comfortaa', cursive;
+        font-weight: 300;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        border-radius: 3px;
+        margin: 10px 1vw;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        display: inline-block; }
+        #partnerModal .partnerInner .navOptions .navOption i, #partnerModal .partnerInner .navOptions .navOption svg {
+          margin: 0 10px; }
+        #partnerModal .partnerInner .navOptions .navOption.is-close {
+          background: #f47e3e;
+          color: white;
+          font-size: 1.4em;
+          top: 2px; }
+        #partnerModal .partnerInner .navOptions .navOption.is-left i, #partnerModal .partnerInner .navOptions .navOption.is-left svg {
+          margin-left: auto; }
+        #partnerModal .partnerInner .navOptions .navOption.is-right i, #partnerModal .partnerInner .navOptions .navOption.is-right svg {
+          margin-right: auto; }
+        #partnerModal .partnerInner .navOptions .navOption:hover {
+          -webkit-box-shadow: 3px 6px 19px rgba(0, 0, 0, 0.29);
+          box-shadow: 3px 6px 19px rgba(0, 0, 0, 0.29);
+          background: #f47e3e;
+          color: white; }
+
+.section-form {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0; }
+  .section-form .illustration.form-key {
+    left: 0;
+    top: -20vh;
+    right: auto;
+    bottom: auto; }
+    .section-form .illustration.form-key img {
+      -webkit-transform: scale(0.6);
+      -ms-transform: scale(0.6);
+      transform: scale(0.6); }
+  .section-form .section-content {
+    padding: 0 2vw;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .section-form .section-icon {
+    display: inline-block;
+    position: relative;
+    font-size: 3rem;
+    color: #293758;
+    text-align: center;
+    line-height: 60px;
+    width: 100px;
+    vertical-align: top;
+    top: 10px; }
+  .section-form .contact-section {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: calc(100% - 120px);
+    margin-bottom: 4vh; }
+    .section-form .contact-section h4 {
+      font-size: 1.5rem;
+      line-height: 1.4;
+      color: #f47e3e;
+      margin: 0;
+      margin-bottom: 0;
+      padding: 0; }
+    .section-form .contact-section p {
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 300;
+      font-size: 1.2rem;
+      margin-top: 5px; }
+      .section-form .contact-section p a {
+        color: #f47e3e;
+        font-weight: normal;
+        -webkit-transition: all 0.1s linear;
+        -o-transition: all 0.1s linear;
+        transition: all 0.1s linear; }
+        .section-form .contact-section p a:hover {
+          color: #4f4f4f;
+          text-decoration: none; }
+  .section-form form {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+    -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+    padding: calc(30px + 4vh) calc(40px + 2vw);
+    background: #fbe4ce;
+    color: #4f4f4f;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    .section-form form h1 {
+      color: #4f4f4f;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 2vh; }
+    .section-form form p {
+      color: #4f4f4f;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 400;
+      font-size: 1.6rem;
+      max-width: 960px;
+      margin: 0 auto; }
+    .section-form form .details {
+      margin-bottom: 2vh; }
+    .section-form form .uk-inline {
+      width: 100%; }
+      .section-form form .uk-inline.marBot {
+        margin-bottom: 2vh; }
+      .section-form form .uk-inline .uk-form-icon {
+        text-align: left;
+        color: #4f4f4f;
+        width: 80px; }
+        .section-form form .uk-inline .uk-form-icon i, .section-form form .uk-inline .uk-form-icon svg {
+          height: auto;
+          width: 24px;
+          left: -10px;
+          position: relative; }
+      .section-form form .uk-inline input {
+        text-align: left;
+        background: rgba(255, 255, 255, 0.4);
+        font-size: 1.2rem;
+        color: #4f4f4f;
+        font-family: 'Catamaran', sans-serif;
+        font-weight: 300;
+        padding: 30px 2vw;
+        padding-left: 60px !important;
+        outline: 0;
+        border: none;
+        border-radius: 5px;
+        -webkit-transition: all 0.1s ease-in-out;
+        -o-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out; }
+        .section-form form .uk-inline input::-webkit-input-placeholder {
+          color: #4f4f4f;
+          font-weight: normal !important;
+          text-transform: none !important; }
+        .section-form form .uk-inline input:-ms-input-placeholder {
+          color: #4f4f4f;
+          font-weight: normal !important;
+          text-transform: none !important; }
+        .section-form form .uk-inline input::-ms-input-placeholder {
+          color: #4f4f4f;
+          font-weight: normal !important;
+          text-transform: none !important; }
+        .section-form form .uk-inline input::placeholder {
+          color: #4f4f4f;
+          font-weight: normal !important;
+          text-transform: none !important; }
+        .section-form form .uk-inline input:-ms-input-placeholder {
+          color: #4f4f4f;
+          font-weight: normal !important;
+          text-transform: none !important; }
+        .section-form form .uk-inline input::-ms-input-placeholder {
+          color: #4f4f4f;
+          font-weight: normal !important;
+          text-transform: none !important; }
+        .section-form form .uk-inline input:focus, .section-form form .uk-inline input:active {
+          font-weight: bold;
+          -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24); }
+      .section-form form .uk-inline .uk-form-icon:not(.uk-form-icon-flip) ~ .uk-input {
+        padding-left: 60px !important; }
+    .section-form form textarea {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.4);
+      font-size: 1.2rem;
+      color: #4f4f4f;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 300;
+      padding: 15px 2vw;
+      outline: 0;
+      border: none;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: all 0.1s linear;
+      -o-transition: all 0.1s linear;
+      transition: all 0.1s linear; }
+      .section-form form textarea::-webkit-input-placeholder {
+        color: #4f4f4f;
+        font-weight: normal !important;
+        text-transform: none !important; }
+      .section-form form textarea:-ms-input-placeholder {
+        color: #4f4f4f;
+        font-weight: normal !important;
+        text-transform: none !important; }
+      .section-form form textarea::-ms-input-placeholder {
+        color: #4f4f4f;
+        font-weight: normal !important;
+        text-transform: none !important; }
+      .section-form form textarea::placeholder {
+        color: #4f4f4f;
+        font-weight: normal !important;
+        text-transform: none !important; }
+      .section-form form textarea:-ms-input-placeholder {
+        color: #4f4f4f;
+        font-weight: normal !important;
+        text-transform: none !important; }
+      .section-form form textarea::-ms-input-placeholder {
+        color: #4f4f4f;
+        font-weight: normal !important;
+        text-transform: none !important; }
+      .section-form form textarea:focus, .section-form form textarea:active {
+        font-weight: bold;
+        -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24);
+        box-shadow: 0 5px 30px rgba(0, 0, 0, 0.24); }
+    .section-form form button.submit-btn {
+      position: relative;
+      position: relative;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: bold;
+      font-size: 1.4rem;
+      background: white;
+      border: none;
+      outline: 0;
+      color: #f47e3e;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 12px 24px;
+      display: inline-block;
+      border-radius: 5px;
+      margin: 0 auto;
+      line-height: 1;
+      padding-top: 18px;
+      cursor: pointer;
+      -webkit-transition: all 0.1s linear;
+      -o-transition: all 0.1s linear;
+      transition: all 0.1s linear; }
+      .section-form form button.submit-btn i, .section-form form button.submit-btn svg {
+        margin-right: 10px;
+        position: relative;
+        top: 1px; }
+      .section-form form button.submit-btn:hover {
+        -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); }
+
+/*
+ * Responsive Changes: 640px and under, meant to just make mobile a little cleaner
+ ************
+ *
+*/
+@media (max-width: 640px) {
+  #partnerModal .partnerInner > div > div {
+    padding-left: 0;
+    padding: 0 20px; }
+  #partnerModal .partnerInner .partnerLinks {
+    text-align: center; }
+    #partnerModal .partnerInner .partnerLinks a {
+      margin: 5px; } }
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh; }
+    .page-section.section-form {
+      margin-bottom: 0; } }
+
+/*
+ * Responsive Changes: 1200px - 1700px (range of non-1080p laptops and some Macbook effective res's)
+ ************
+ *
+*/
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .section-types {
+    margin-bottom: 0; } }

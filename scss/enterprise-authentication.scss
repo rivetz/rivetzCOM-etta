@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/*
+*****************
+* RivetzCOM Enterprise Authentication Solution Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 30.06.2019@06:02PM (1561932138)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+
+
+/*
+*
+* 1. Imports
+*
+*/
+@import 'variables'; // Custom Vars
+@import 'bourbon'; // Bourbon 
+
+
+
+.section-intro {
+
+  .illustration.app {
+    z-index: 2;
+    right: 8vw;
+    top: 0vh;
+  }
+}
+
+.section-winning {
+  margin-top: 0vh;
+  padding-top: 0;
+
+  .section-details {
+    margin: 0 auto;
+  }
+
+  .illustration.user {
+    left: 15vw;
+    top: 8vh;
+  }
+}
+
+.section-device {
+  margin-top: 0vh;
+  padding-top: 0;
+
+  .section-details {
+    margin: 0 auto;
+  }
+
+  .illustration.device {
+    left: 5vw;
+    top: -6vh;
+  }
+
+}
+
+.section-transparency {
+  padding-top: 0;
+
+  .illustration {
+    top: -4vh;
+    right: 10vw;
+
+    &.device {
+      top: -17vh;
+      right: 12vw;
+    }
+    
+    img {
+      transform: scale(1);
+    }
+  }
+
+  a {
+    position: relative;
+    color: c(1);
+    transition: all 0.1s linear;
+    
+    &:hover {
+      color: c(text);
+      text-decoration: none;
+    }
+  }
+
+  ul.reasons {
+    position: relative;
+
+    li {
+      position: relative;
+      margin: 20px 0;
+      font-size: 1.2rem;
+      @include font(p, normal);
+      padding-right: 50px;
+    }
+  }
+}
+
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+@media (min-width: 640px) {
+  // #site-navigation-mobile {
+  //   top: 36px;
+  //   padding: 20px 0; 
+  // } 
+}
+
+
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh;
+    &.section-form {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+
+
+

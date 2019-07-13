@@ -1,0 +1,579 @@
+@charset "UTF-8";
+
+/*
+*****************
+* RivetzCOM Partners Page Styles
+* by Andrew Defee [@adefee]
+* for Rivetz, v: Etta
+* Last Updated 28.06.2019@11:15AM (1561734959)
+*
+* [Table of contents]
+* 1. Imports
+* 2. Global Settings 
+*
+*****************
+*/
+
+
+/*
+*
+* 1. Imports
+*
+*/
+@import 'variables'; // Custom Vars
+@import 'bourbon'; // Bourbon 
+
+
+.section-intro {
+
+  .illustration.app {
+    z-index: 2;
+    right: 0vw;
+    top: -10vh;
+  }
+}
+
+.section-types {
+  text-align: center;
+
+  .section-card {
+    position: relative;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    padding-bottom: 40px;
+    @include font(2, normal);
+    font-size: 1rem;
+    background: c(white);
+    border-radius: 2px;
+    @include box-shadow(button);
+    transition: all 0.1s linear;
+
+    h2 {
+      color: c(1);
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+    }
+
+    a {
+      margin-right: 0;
+    }
+
+    &:hover {
+      @include box-shadow(normal);
+    }
+
+    p {
+      position: relative;
+      font-size: 1rem;
+    }
+  }
+}
+
+.section-partners {
+  padding-top: 0;
+
+  .section-head h1 {
+    margin-bottom: 12vh;
+  }
+}
+
+.partners-list {
+  position: relative;
+  text-align: center;
+
+  // We copied style for DISC page, add some quick hacks for DISC only
+  &.is-disc {
+    padding: 6vh 4vw;
+    font-size: 1.2rem; 
+    @include font(header, 300);
+
+    a {
+      color: c(2);
+      transition: all 0.2s linear;
+
+      &:hover {
+        color: c(1);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.partner-thumb {
+  position: relative;
+  padding: 2vw 3vw;
+  background: rgba(255, 255, 255, 1);
+  //border: 1px solid #dcd9d991;
+  //border-bottom: 2px solid #dcd9d9;
+  transition: all 0.2s linear;
+  font-weight: normal;
+  border-radius: $bRadius;
+  cursor: pointer;
+  // -webkit-filter: grayscale(100%); /* Safari Legacy */
+  // filter: grayscale(100%);
+  margin-bottom: 2vh $imp;
+
+  &:hover {
+    box-shadow: 3px 6px 19px rgba(0, 0, 0, 0.29);
+    -webkit-filter: grayscale(0); /* Safari Legacy */
+    filter: grayscale(0);
+  }
+}
+
+.partner {
+  position: relative;
+  margin-bottom: 2rem;
+  padding: 4vh 3vw;
+  border-radius: 2px;
+  background: c(white);
+  font-weight: normal;
+  transition: all 0.2s linear, box-shadow 0.1s ease-in-out;
+  @include box-shadow(button);
+
+  &:first-child {
+    margin-top: -10vh;
+  }
+
+  &:hover {
+    @include box-shadow(normal);
+    top: -2px;
+  }
+
+  .partnerLogo {
+    text-align: center;
+    img {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+
+  .partnerInfo {
+    
+    h2 {
+      position: relative;
+      color: c(1);
+      font-size: 2.4em;
+      margin-bottom: 5px;
+      @include font(header, normal);
+    }
+
+    p {
+      @include font(p, normal);
+      font-size: 1rem;
+    }
+  }
+}
+
+#partnerModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: c(white, 0.99);
+  color: c(black);
+  z-index: 500;
+  @include font(header, 300);
+  overflow: auto;
+
+  .partnerInner {
+    position: relative;
+    max-height: 70vh;
+    margin-top: 15vh;
+
+    hr {
+      margin: 2vh auto;
+      max-width: 40%;
+    }
+    
+    & > .uk-container { margin: 0 auto; }
+
+    .partnerLogo {
+      position: relative;
+      width: 100%;
+      margin-bottom: 2vh;
+      text-align: center;
+
+      img {
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+      }
+    }
+
+    .partnerLinks {
+      position: relative;
+      width: 100%;
+      text-align: right;
+
+      a {
+        display: inline-block;
+        margin-bottom: 10px; 
+        color: c(1);
+        transition: all 0.1s linear;
+
+        i, svg {
+          //top: 1px;
+          margin-right: 10px;
+          position: relative;
+        }
+
+        &:hover {
+          color: c(text);
+          text-decoration: none;
+        }
+      }
+    }
+
+    .partnerBio {
+      h2 {
+        color: c(1);
+        @include font(header, bold);
+        font-size: 1.8rem;
+      }
+
+      .bioDesc {
+        @include font(p, normal);
+        position: relative;
+        font-size: 1.2rem;
+        color: c(text-light);
+      }
+    }
+
+    .navOptions {
+      position: relative;
+      text-align: center;
+      margin-top: 4vh;
+
+      .navOption {
+        cursor: pointer;
+        position: relative;
+        color: c(black);
+        @include font(header, 300);
+        text-transform: uppercase;
+        padding: 10px 15px;
+        border-radius: 3px;
+        margin: 10px 1vw;
+        transition: all 0.2s linear;
+        display: inline-block;
+
+        i, svg { 
+          margin: 0 10px;
+        }
+
+        &.is-close {
+          background: c(1);
+          color: c(white);
+          font-size: 1.4em;
+          top: 2px;
+        }
+
+        &.is-left {
+          i, svg { margin-left: auto; }
+        }
+
+        &.is-right {
+          i, svg { margin-right: auto; }
+        }
+
+        &:hover {
+          box-shadow: 3px 6px 19px rgba(0, 0, 0, 0.29);
+          background: c(1);
+          color: c(white);
+        }
+      }
+    }
+  }
+}
+
+.section-form {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+
+  .illustration.form-key {
+    left: 0;
+    top: -20vh;
+    right: auto;
+    bottom: auto;
+
+    img {
+      transform: scale(0.6);
+    }
+  }
+
+  .section-content {
+    padding: 0 2vw;
+    box-sizing: border-box;
+  }
+
+  .section-icon {
+    display: inline-block;
+    position: relative;
+    font-size: 3rem;
+    color: #293758;
+    text-align: center;
+    line-height: 60px;
+    width: 100px;
+    vertical-align: top;
+    top: 10px;
+  }
+
+  .contact-section {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: calc(100% - 120px);
+    margin-bottom: 4vh;
+
+    h4 {
+      font-size: 1.5rem;
+      line-height: 1.4;
+      color: c(1);
+      margin: 0;
+      margin-bottom: 0;
+      padding: 0;
+    }
+
+    p {
+      @include font(p, 300);
+      font-size: 1.2rem;
+      margin-top: 5px;
+
+      a {
+        color: c(1);
+        font-weight: normal;
+        transition: all 0.1s linear;
+        &:hover {
+          color: c(text);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  form {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+    @include box-shadow(normal);
+    padding: calc(30px + 4vh) calc(40px + 2vw);
+    background: c(highlight);
+    color: c(text);
+    box-sizing: border-box;
+
+    h1 {
+      color: c(text);
+      text-align: center;
+      width: 100%;
+      margin-bottom: 2vh;
+    }
+
+    p {
+      color: c(text);
+      @include font(2, 400);
+      font-size: 1.6rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .details {
+      margin-bottom: 2vh;
+    }
+
+    .uk-inline {
+      width: 100%;
+
+      &.marBot {
+        margin-bottom: 2vh;
+      }
+
+      .uk-form-icon {
+        text-align: left;
+        color: c(text);
+        width: 80px;
+
+        i, svg {
+          height: auto;
+          width: 24px;
+          left: -10px;
+          position: relative;
+        }
+      }
+
+      input {
+        text-align: left;
+        background: c(white, 0.4);
+        font-size: (1.2rem);
+        color: c(text);
+        @include font(p, 300);
+        padding: 30px 2vw;
+        padding-left: 60px $imp;
+        outline: 0;
+        border: none;
+        border-radius: $bRadius;
+        transition: all 0.1s ease-in-out;
+
+        &::placeholder {
+          color: c(text);
+          font-weight: normal $imp;
+          text-transform: none $imp;
+        }
+        &:-ms-input-placeholder {
+          color: c(text);
+          font-weight: normal $imp;
+          text-transform: none $imp;
+        }
+        &::-ms-input-placeholder {
+          color: c(text);
+          font-weight: normal $imp;
+          text-transform: none $imp;
+        }
+
+        &:focus, &:active {
+          font-weight: bold;
+          @include box-shadow(normal);
+        }
+      }
+
+      .uk-form-icon:not(.uk-form-icon-flip) ~ .uk-input {
+        padding-left: 60px $imp;
+      }
+    }
+
+    textarea {
+      width: 100%;
+      background: c(white, 0.4);
+      font-size: (1.2rem);
+      color: c(text);
+      @include font(p, 300);
+      padding: 15px 2vw;
+      outline: 0;
+      border: none;
+      box-sizing: border-box;
+      transition: all 0.1s linear;
+
+      &::placeholder {
+        color: c(text);
+        font-weight: normal $imp;
+        text-transform: none $imp;
+      }
+      &:-ms-input-placeholder {
+        color: c(text);
+        font-weight: normal $imp;
+        text-transform: none $imp;
+      }
+      &::-ms-input-placeholder {
+        color: c(text);
+        font-weight: normal $imp;
+        text-transform: none $imp;
+      }
+
+      &:focus, &:active {
+        font-weight: bold;
+        @include box-shadow(normal);
+      }
+    }
+
+    button.submit-btn {
+      position: relative;
+      position: relative;
+      @include font(2, bold);
+      font-size: 1.4rem;
+      background: c(white);
+      border: none;
+      outline: 0;
+      color: c(1);
+      text-align: center;
+      text-transform: uppercase;
+      padding: 12px 24px;
+      display: inline-block;
+      border-radius: 5px;
+      margin: 0 auto;
+      line-height: 1;
+      padding-top: 18px;
+      cursor: pointer;
+      transition: all 0.1s linear;
+
+      i, svg {
+        margin-right: 10px;
+        position: relative;
+        top: 1px;
+      }
+
+      &:hover {
+        @include box-shadow(button);
+      }
+    }
+  }
+}
+
+/*
+ * Responsive Changes: 640px and under, meant to just make mobile a little cleaner
+ ************
+ *
+*/
+@media (max-width: 640px) {
+  
+  #partnerModal .partnerInner > div > div {
+    padding-left: 0; // Counter the weird padding put in place by uikit
+    padding: 0 20px;
+  }
+
+  #partnerModal .partnerInner .partnerLinks {
+    text-align: center;
+    
+    a {
+      margin: 5px;
+    }
+  }
+  
+}
+
+/*
+ * Responsive Changes: 640px (@s) and up
+ ************
+ *
+*/
+@media (min-width: 640px) {
+  // #site-navigation-mobile {
+  //   top: 36px;
+  //   padding: 20px 0; 
+  // } 
+}
+
+
+/*
+ * Responsive Changes: 960px (@m) and up
+ ************
+ *
+*/
+@media (min-width: 960px) {
+  .page-section {
+    margin-bottom: 15vh;
+    &.section-form {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+/*
+ * Responsive Changes: 1200px - 1700px (range of non-1080p laptops and some Macbook effective res's)
+ ************
+ *
+*/
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .section-types {
+    margin-bottom: 0;
+    
+  }
+}
+
+
