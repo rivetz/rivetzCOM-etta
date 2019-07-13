@@ -4,9 +4,9 @@
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![Website https://developer.rivetz.com](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://rivetz.com)
+[![Website https://rivetz.com](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://rivetz.com)
 
-> SSR UWA for Rivetz Developer Site (https://developer.rivetz.com), built on Node.js, Express, Next.js, React, and SCSS as part of the &#39;Etta&#39; dynasty of updates across Rivetz web properties.
+> SSR UWA for Rivetz Primary Website (https://rivetz.com), built on Node.js, Express, Next.js, React, and SCSS as part of the &#39;Etta&#39; dynasty of updates across Rivetz web properties.
 
 > Primary & production source control is handled via AWS CodeCommit. This Github repository is here in response as a public-facing reference, as requested by our Telegram and Discord communities. As such, this repo is only updated periodically and may be a few versions behind production.
 
@@ -17,8 +17,6 @@
 - [Prerequisites](#prerequisites)
 - [Install](#install)
 - [Deploy](#deploy)
-- [Add Translations](#add-translations)
-- [Versioning and Update History](#versioning-and-update-history)
 - [Maintainers](#maintainers)
 - [Contributing](#contributing)
 - [License](#license)
@@ -75,8 +73,12 @@ eb deploy
 ```
 This zips core project files, uploads to S3, then attempts to deploy onto the live EB application. After upload, you can access this and previous deploys via the AWS Web Portal > EB > Applications > rivetzCOM > Application Versions or via the AWS CLI.
 
-## Update Roadmap
+## Contributing
 Tracking is handled internally via Zenhub, but community members are welcome to submit PR's to this repo for consideration.
+
+**Discord**: [https://discord.gg/VNrDBUV](https://discord.gg/VNrDBUV)
+
+**Telegram**: [https://t.me/rivetz_official](https://t.me/rivetz_official)
 
 ## Maintainers
 
